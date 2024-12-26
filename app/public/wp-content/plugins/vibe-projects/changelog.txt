@@ -1,0 +1,597 @@
+* 1.2.3.2
+* board progress
+* 1.2.3.1
+* board progress fixed
+* project progress fixed
+* 1.2.3
+* track activity in projects
+* checklists fixes
+* project create args filter
+* 1.2.2
+* Helpdesk & Drive fixes
+* Pagination & admin menu in Projects
+* some more css fixes
+* include css file 1.2.1
+* 1.2
+* Custom checklist item fields
+* project progress bug fix
+* project capabilities not working fix
+* 1.1
+* checklists now support date and person to assign sub task
+* due date fx fix
+* fullwith template enforecer
+* php err fix
+* public boards
+* border radius
+* svg start color
+* change list title
+* php err fix
+* find round fixes
+* trash card remove
+* css fixes
+* posts_in parameter to open project
+* my tasks show all by date ssort
+* meta value check
+* check if card is complete
+* empty check on capabilities
+* card dependency fix
+* filter on project settings
+* 0.9.1
+* on drop
+* fixes
+* fixes
+* card automations
+* card filters
+* shortcard esc quit
+* fixes
+* gantt fixes
+* fixes
+* fixes
+* fixes
+* php error fix
+* reports fixes
+* all bug fixes
+* fixes userCan create project
+* php error fix
+* delete project complete
+* site data shortcodes added
+* new project first issue fixed
+* taxnomy terms fixed
+* date resetting fixed
+* Editor issue
+* project custom fields & list display
+* touch points completion
+* bug fixes
+* card drag drop fixes
+* Drag shadow issue resolved
+* notifications
+* no data popup fix
+* member_project_data shortcode
+* minor fixes
+* minify
+* re-adding submenu pages
+* duedate bug fix
+* build files and widgets api
+* projects by status widget
+* project status fixes
+* incomplete cards by projects widget
+* my simple stats widget fix
+* card action bug fixes
+* duedate fix
+* Save settings correctly
+* update projects icon
+* remove preloader unnecessary
+* Lists and bug fixes
+* event on project members updation to handle chat members
+* project member fx not working fix
+* fixes for project disucssions
+* fixes
+* widgets projects
+* funciton fix
+* some fixes
+* function fixes
+* filter on reports
+* member reports
+* fixes
+* build files
+* finishing 1
+* fixed bugs
+* styling fixes
+* project_id in reports
+* gantt inbuilt
+* list sort issue fixed
+* labels saving
+* query update
+* fixes gantt & calendar
+* gantt
+* completed check and filters
+* reports finished
+* dnd fix
+* reports init
+* php error fixed
+* restructured
+* board restructure
+* automations saving
+* cards activty track bug
+* fixes
+* missing lists fix
+* create lists bug fix
+* bulk actions & stats
+* card_tab custom tab
+* fixes
+* Card filtering complete
+* filters into a new class
+* task board & member invites
+* boards & reports
+* reports
+* capabilities
+* updates
+* commit
+* sup
+* pph error fix
+* php error fix
+* fatal error fix
+* php error fix
+* php error fix
+* project status and duedate fixes
+* delete project ui fix
+* labels right there in card , milestone issue fix
+* delete board fix
+* delete board
+* card link fixes and copy card link button
+* card burndown widget complete
+* widgets my items done card burndown chart left
+* card move do_action and card drag list change to top bug fix
+* card link
+* card touchpoints done except move card to list
+* card touchpoints upto archived
+* redefine touchpoints updated to added and removed
+* context path update and card link saved in card meta
+* touchpoints emails init
+* card_actions fixed
+* touchpoints init for card actions and comments
+* list move cards
+* php error fix
+* boards and list-> cards api hits separated
+* title edit and delete
+* show archived card button added
+* new board bug fix
+* archive card
+* board edit not working fix
+* board progress and project progress
+* milestone and complete card
+* add members fixes and checklist fixes,due date regex
+* delete and edit comments
+* checklist css fixes
+* move card bug fixes
+* move card completed
+* checklist completed
+* checklists
+* attachment fixes comment delete
+* attachmebt css
+* attachment ui fix
+* delete label added
+* edit create label done
+* labels flow added
+* label assign
+* member search and add to card
+* add comment fix
+* card css full
+* erro fix for attachments
+* check if list order changed on logic
+* save list orders
+* card list drag drop issue fix
+* drag drop card list completed
+* card dragging working
+* card dragging with some bug in interdragging in lists
+* architectural changes we need lists and cards in one data to create context to move cards in lists
+* drag drop works in desktop mobile will try
+* show due date in full card
+* due date fixes and cards api merged
+* label searching text field fix with some css
+* duedate fix on card popup
+* move list card initialization
+* sort by due date added
+* sort list  by provision added
+* list delete finalised
+* edit list title finalised
+* list functionalities added
+* some fixes
+* edit list title provision
+* edit list title
+* drag list provisions
+* list creation fix, delete list added
+* taxonomy fixes, drag and drop provision added
+* drag functionality
+* changes for draggable lists
+* add delete button in board
+* fix for undefined list in card
+* double scrollbar and CSS in card fix
+* some fixes
+* project categories fixes
+* register taxonomy board and CSS fixes
+* CSS fixes for cards and lists
+* fix for token authorization
+* create project, boards and list fixes
+* fetch project to show after creation
+* some css fix
+* create board and project handling
+* show saved details of created project in PWA
+* show the saved custom field settings
+* add custom field in project general setting
+* added meta box for team in extended profile section
+* Update class.settings.php
+* custom taxonomy added to create Team
+* show + project icon
+* projects full project
+* vibe projects reinit
+* project updates
+* card list should be object
+* activity should order by reverse date
+* card movement activity recorded
+* list and card movement saved
+* front end drag drop complete
+* card drag drop
+* bug fixes
+* list drag drop final
+* for card row, card editor styling fix
+* is-loading removed
+* is loading removed not added conditionally
+* props.list depdendency
+* update project button alignment
+* instead of allcaps replace it with caps to show edit projects
+* board creation fix
+* create project fix
+* empty project image should not be considered
+* for easier debugging
+* newlist
+* new board creation loading
+* caps update
+* settings
+* css for search member
+* visibility in args, filters
+* rearrange search
+* consistency in args
+* permissions fix
+* multiple create project caps
+* settings
+* double border styling removed from projects uploader
+* project import/export menu page removed
+* add new project type option styling
+* condition to add new project type in api call, translations
+* add new project type option from frontend
+* uploader border fix
+* edit label popup styling for grid view
+* open full card in grid view on click
+* In grid view show background color for due date
+* meta value instead of meta label while fetching card meta
+* detect new line in project description
+* startdate format in grid view
+* grid and row styling, translations
+* Grid and List View Added
+* switch view option where Lists fetched
+* changes
+* list name below card title
+* fetch only published cards
+* projects search and sort styling
+* sort project option
+* vibe_projects_share token passed in search member api call
+* removed favourites tab
+* styling
+* card activity should record only checklist name
+* sanitize_text_field in card checklist
+* close popup after setting due date
+* state variable not in use
+* card due date activity record value corrected
+* set background color for duedate on shortcard
+* translation for due date changed
+* watch card option removed because it requires notification option
+* create project capabilities
+* isloading fix
+* card comments delete functionality commented out
+* sanitize_text_field
+* styling
+* avatar_url index value not in use
+* redundant edit_board api call handling within create board call
+* board edit should open full board
+* project Import/export submenu added
+* Styling
+* styling
+* project context for lists
+* card comment permission callback
+* debugging message
+* delete comment activity on deleting comments
+* no need to pass user id in activity
+* activity recorded for checklist, card comment, duedate, attachment, delete attachment
+* show edit and delet card comments according to activity type
+* removed activity recording  for adding label in card, show username in the recorded activity
+* close checklist popup after adding checklist
+* styling
+* data-more attribute in board description
+* vicon instead of dashicons
+* variable declaration
+* project_types passed in api call
+* bug fix, click on a project then go back and click on add new, pre-filled values will be visible
+* action hook on move_card api call
+* show card attachments icon in shortcard if set
+* styling
+* project_members_permission function changed
+* tooltip
+* board visibility passed while fetching boards
+* board visibility passed in api call data
+* create project capability added
+* fetch api call for delete project
+* tooltip on span for card icons
+* when board images not set show default images
+* show edit project icon to administrators only
+* archive card should delete the meta content of card as well
+* Hide All Boards and All Cards Section from Backend
+* setAttachments Api call
+* open attachments in new tab
+* card attachment name passed in api call
+* alignment of multiple card attachments
+* z index css fix for shortcard editor
+* move card api call corrected
+* text styling of projects create button
+* restructuring
+* is-loading class added on buttons
+* set timeout function for dispatching event
+* if body token is vibe_projects_share
+* fetch full project in single project post
+* boards and cards should not be accessible from post links
+* changes to show full project styling on single project page
+* fetch all lists in movecard
+* update card description on submit
+* update props passed in cards description
+* movecard select box styling
+* card attachment actions styling
+* show checklist icon in shortcard
+* card attachments fixes
+* adding lists text color
+* board input type and select colors added
+* card description overflow hidden
+* card save description onfocus button fix
+* show duedate and card labels in card detail header only when the values set
+* translations
+* while creating cards the content was set as garbage value fixed
+* cards text styling
+* timestamp value in due date corrected
+* add new members call in cards
+* card details header
+* card actions styling
+* move card structure
+* card actions close button working
+* move card popup styling
+* label popup close
+* projects search and sorter styling
+* type should not be predefined for project members
+* projects date was returning null
+* only one project type will be set at a time
+* show a default image when no image uploaded in project
+* update_project visibility and type function was not setting the values properly
+* project visibility dropdown was not changing fixed
+* fetch project members in edit project
+* get_project_member permission check
+* Edit Project Form was not fetching the correct project_visibility value fix
+* action and filter hooks added
+* debugging messages removed
+* vibebp_upload_attachment action hook
+* upload card attachments api call
+* vibebp path fixes
+* allow dom to render then initialize component.
+* translations added
+* uploader change
+* card attachment popup wrapper styling
+* show add tasks form only when checklist is set
+* lists styling mistake
+* delete path when id not match
+* short card label on short card, check added to show labels even when the label text is not added
+* url path update
+* open board and project directly
+* when duedate is set only then show the structure
+* styling
+* show due date only when it is set
+* list drag and drop not working
+* card styling
+* changed card comments list position
+* shortcard icons alignment styling
+* fetch post meta when due date is set
+* add due date api call
+* add card description api call corrected
+* show save comments button when click on textarea
+* api call for card comment
+* Limit added to fetch only 10 activities
+* activity related styling
+* activity content modified by adding username
+* card activity listing with username, date
+* fetch card activity api call
+* action hook added while creating label for a card to record activity
+* create new label activity recorded
+* due date component, flatpickr not working
+* created card activity recording
+* due date component added
+* sanitize user input for checklist
+* library vanilla picker
+* add checklist api call
+* addchecklist popup
+* fetch call for checklist labels and tasks
+* label buttons styling
+* close popup condition
+* styling
+* pass label parameter in shortcard component so that it can be handled
+* shortcard edit label not working
+* shortcard styling and structure
+* search labels styling
+* searchmember is not defined
+* vibebp constraints to detect changes in BP Nav
+* full card fixes
+* shortcard for member options
+* changes in user caps for vibebp
+* css fixes
+* show card labels fetched in label popup
+* create label working and labels are fetching without selected colors
+* fetching labels of colors according to defined array
+* fetch api for adding members in card
+* If admin is added in the project then only he can add the new board
+* board type removed
+* short card wrapper icon styling
+* typo error
+* replaced dashicons with vicons
+* edit_posts index is not found in caps
+* project-board-list-card-creation fnialised
+* create new card label api call
+* styling
+* show meta in small card according to set values
+* card create label structure
+* create label structure
+* card labels component
+* permission check and token passed in card fetch api call
+* args token setting up as a list name
+* comment count is called two times
+* labels, checklist and due date styling
+* do_action while creating cards
+* checklist and watch api call
+* show card icons dynamically
+* creating a card error fix
+* list and card styling
+* font size styling
+* typo mistake
+* package updated
+* checklist component created
+* fetch api call for due date
+* flatpickr library
+* card added to watch list api call
+* card watch call
+* vibe editor file added
+* search member api call corrected
+* typo mistake and meta_key vibe_project instead of project
+* post_tag removed
+* board visibility and board type
+* project form styling
+* check in projects if image is set then show
+* board visibility field added
+* copy and share removed
+* add new list api call
+* copy and share condition removed from cards api
+* projects button text case
+* handle board button creation and updating board, if image is set condition
+* board and list styling
+* show edit board form
+* create board permissions check fix
+* full card styling
+* api to archive card done but card is not closing
+* card actions api
+* styling
+* debug messages
+* delete card and list functionality
+* card styling
+* structure for full card
+* translations added
+* card add description component
+* card actions added
+* fullcard styling
+* arguments in cards api passed
+* full card structure
+* card styling
+* full card
+* context provider update
+* permissions check in api
+* styling
+* list related api in list file
+* placeholder added for card
+* styling
+* fetch api for newcards
+* changes in create project and create board api
+* post_parent set for create board
+* fetch api of create new list working
+* removed redundant api
+* file to handle all general api calls
+* search members api call
+* styling
+* add new member show members list
+* add new member styling
+* image cropper is working without wordpress crop image function
+* set_post_terms not working
+* setBoard instead of setProject
+* status value passed in add members api call
+* wrong value passed
+* while editing project, the project description was setting to null without updating
+* image attachment in boards working
+* image attachment with post in projects working
+* changes in edit projects api
+* full project add new member styling
+* variable name changes
+* functions defined
+* fetch api project types
+* project types api
+* styling
+* missing div
+* edit board api call
+* wrong message passed in projects api
+* added add new members in project api call
+* add new member button styling in projects
+* touchpoints file
+* edit icon styling
+* styling for edit board
+* new board form, api call, styling added
+* pass author id in project image
+* textarea value is prefilled while clicking edit form
+* api separated
+* Edit Project working with values post title
+* variable name changed for projects, fetch api for edit projects
+* setting for edit project
+* styling
+* Project Types added
+* new project creation
+* button css
+* usecontext defined
+* createcontext added
+* css added for create projects form
+* translations, form changes
+* wp data not defined error
+* new projects form structure
+* added uploader file, newproject started
+* list.js removed
+* drag and drop complete
+* transform
+* message with vibebp class
+* mobile drag and drop part(not completed)
+* desktop dragdrop complete.
+* styling and other changes
+* api call corrected
+* cards
+* projects caps error
+* working on lists
+* board short description
+* css added
+* search call working
+* typo
+* full board
+* order by meta value
+* lists are fetching of the boards in api
+* new board
+* show boards list
+* not empty check in api
+* search, sort option added, show users, and api call for board
+* show project manager on single project page
+* corrected api call of get_members
+* get_member api call
+* project members
+* languages folder
+* capability check added
+* css
+* icon css
+* Typo errors
+* new project
+* On clicking of project opens a new page to show project related information
+* mark favourite icon
+* project fetched and visible in frontend
+* css and a new projects file to list all the projects
+* class name changed
+* translations and localizescript added
+* BP connect / vibebp connect
+* custom taxonomy registered
+* text domain
+* book and card registered as post type
+* Adding custom post type
+* init

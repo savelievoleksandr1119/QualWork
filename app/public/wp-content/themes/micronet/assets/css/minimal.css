@@ -1,0 +1,80 @@
+body.minimal{
+	--max-container-width: 1140px;
+	--bodybg:  #fff;
+	--contentbg: transparent;
+	--bg-primary: #f62b89;
+	--post-content-border:  transparent;
+	--post-content-space: 0;
+	--bg-content: #fff;
+	--sidebbar-widget-padding: 0;
+}
+
+
+
+.single-product .wp-block-group__inner-container{
+	max-width: var(----max-container-width);
+}
+body.minimal{
+	.entry-content .member_types ul a:after{
+		bottom: 0;
+	}
+	.login_popup.medium .login_popup_content .button:hover span.vicon,
+	.login_popup.medium .login_popup_content .button:hover span.vicon+span, 
+	.login_popup.elegance .login_popup_content .button:hover span.vicon+span{
+		color: var(--bg-primary) !important;
+	}
+	.post_content_wrapper{
+		background:var(--bodybg);
+	}
+	.vibebp_members_directory_filter{
+		background: var(--bg-content);
+	}
+	.woocommerce,.woocommerce-page{
+		&.columns-4,&.columns-3,&.columns-2{
+			columns: unset;
+		}
+		ul.products{
+			&:before,&:after{display: none;}
+			display: flex;
+			flex-wrap: wrap;
+			gap: 1rem;
+			li.product{
+				border: 1px solid var(--border);
+			    padding: 0.875rem;
+			    flex: 1 0 240px;
+			    max-width: 320px;
+			    margin: 0 !important;
+			    background: var(--bg-content);
+			}
+		}
+		.button{
+			text-align: center;
+			background: var(--bg-primary);
+			color: var(--color-primary);
+			bordeR: 1px solid transparent;
+		    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+		    &:hover{
+			    transform: translateY(-2px);
+			    color: var(--bg-primary);
+			    bordeR: 1px solid var(--bg-primary);
+			    &::after{
+					display: none;
+				}
+		    }
+			
+		}
+	}
+	#comments ol.comment-list{
+		margin-bottom: 1.5rem;
+		& > li {
+		   	border-color: var(--border);
+		    background: rgb(249 250 251 / var(--tw-bg-opacity));
+		    article footer{margin-bottom: 0;}
+		    & > li:before{
+		    	content: '-';
+		    }
+
+		}
+	}
+}
+

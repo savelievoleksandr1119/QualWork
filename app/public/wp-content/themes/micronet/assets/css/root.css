@@ -1,0 +1,74 @@
+body{
+	--max-container-width: 1140px;
+	--bodybg:  #fff;
+	--contentbg: #fff;
+	--content-color: #232;
+	--bg-primary: #f62b89;
+	--secondary-color: #14B8A6;
+	--light-color: #f1f7f8;
+	--color-primary: #fff;
+	--siteMenuSpacing:  32px;
+	--header-background-color: #fff;
+	--root-menu-font-weight:  400;
+	--root-menu-main-margin:  0 0.75rem;
+	--root-menu-main-padding: 0.6125rem 0.35rem;
+	--root-menu-main-size:  1rem;
+	--root-menu-main-color:  #42474c;
+	--root-menu-sub-font-weight: 400;
+	--root-menu-main-border-color:  rgba(0,0,0,0.08);
+	--root-menu-main-active-color: #f62b89;
+	--sub-menu-background-color: #fff;
+	--sub-menu-font-size: 1rem;
+	--sub-menu-border: none;
+	--sub-menu-border-radius:  0;
+	--sub-menu-padding: 0.125rem 1.2rem;
+	--sub-menu-hover-background: #f5f4f8;
+	--sub-menu-hover-color:  #f62b89;
+	--sub-menu-box-shadow:  0 10px 30px 0 rgb(31 45 61 / 26%);
+	--sub-menu-border-radius: .5rem;
+	--sub-menu-min-width: 19.5rem;
+	--post-content-border:  none;
+	--post-element-border:  none;
+	--post-content-space: 0;
+	--sidebbar-widget-padding: 1.5rem;
+	--primary: #f62b89;
+	--header-bg: #fafafa;
+	--header-color: #333;
+	--highlight-bg: #fafafa;
+	--highlight-color: #222;
+	--border:  rgba(0,0,0,0.08);
+	--swiper-navigation-size:1.2rem;
+    --swiper-navigation-color:#222;
+    --swiper-theme-color:#f62b89;
+    --wp--style--block-gap: 1em;
+    --body_font_family:"Roboto Slab" -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --heading_font_family:"Roboto Slab";
+    /* -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
+    --footer-bg: #fafafa;
+    --footer-color: #333;
+}
+
+
+.container{
+	max-width: var(--max-container-width);
+	margin: 0 auto !important;
+}
+.swiper-button-next, .swiper-button-prev{
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    background: #fff !important;
+    font-weight:800;
+    border-radius:50%;
+    box-shadow:0 1px 1rem rgba(0,0,0,0.2);
+}
+
+@media (max-width: 1000px){
+	body{
+		--post-content-space: 1rem;
+		--sidebbar-widget-padding: 1rem;
+	}
+	.post_content_wrapper{
+		margin: 0 0.5rem;
+	}
+}
+
