@@ -1,0 +1,3152 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vibe Projects\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-02 06:38+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Loco-Version: 2.3.0; wp-5.2.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;_ex\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/api/class-boards-api.php:470
+msgid "Board details missing"
+msgstr ""
+
+#: includes/api/class-boards-api.php:472
+msgid "Board and its data deleted"
+msgstr ""
+
+#: includes/api/class-boards-api.php:549
+msgid "Unable to create board"
+msgstr ""
+
+#: includes/api/class-boards-api.php:583
+msgid "List order saved"
+msgstr ""
+
+#: includes/api/class-boards-api.php:602
+msgid "Card order saved"
+msgstr ""
+
+#: includes/api/class-boards-api.php:701
+msgid "User can not perform bulk actions"
+msgstr ""
+
+#: includes/api/class-boards-api.php:710 includes/api/class-boards-api.php:723
+msgid "Milestone added to Cards."
+msgstr ""
+
+#: includes/api/class-boards-api.php:738
+msgid "Labels added to Cards."
+msgstr ""
+
+#: includes/api/class-boards-api.php:746
+msgid "Labels removed from Cards."
+msgstr ""
+
+#: includes/api/class-boards-api.php:759
+msgid "Member added to Cards."
+msgstr ""
+
+#: includes/api/class-boards-api.php:767
+msgid "Due date set for Cards."
+msgstr ""
+
+#: includes/api/class-boards-api.php:788
+msgid "Automations Saved."
+msgstr ""
+
+#: includes/api/class-cards-api.php:458
+msgid "No tasks assigned to the user"
+msgstr ""
+
+#: includes/api/class-cards-api.php:549
+msgid "Missing board."
+msgstr ""
+
+#: includes/api/class-cards-api.php:567 includes/api/class-cards-api.php:629
+msgid "Label edited!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:569
+msgid "Label not found."
+msgstr ""
+
+#: includes/api/class-cards-api.php:587
+msgid "Label created!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:609
+msgid "Label deleted!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:613 includes/api/class-cards-api.php:632
+#: includes/api/class-general-api.php:135
+#: includes/api/class-general-api.php:161
+msgid "Something went wrong"
+msgstr ""
+
+#: includes/api/class-cards-api.php:725 includes/api/class-cards-api.php:746
+msgid "Unable to add milestone"
+msgstr ""
+
+#: includes/api/class-cards-api.php:759
+msgid "Milestone removed"
+msgstr ""
+
+#: includes/api/class-cards-api.php:763
+msgid "Unable to remove Milestone."
+msgstr ""
+
+#: includes/api/class-cards-api.php:1089
+msgid "Attachment removed"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1094
+msgid "Card sent to board!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1096
+msgid "Card archived!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1112 includes/api/class-cards-api.php:1118
+#: includes/api/class-cards-api.php:1131
+msgid "Watching card!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1115
+msgid "Un-Watching card!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1127
+msgid "Un Watching card!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1139
+msgid "Label removed"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1149
+msgid "Card Labels updated"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1221 includes/api/class-cards-api.php:1272
+msgid "Card marked completed!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1229 includes/api/class-cards-api.php:1270
+msgid "Card marked incomplete!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1245
+msgid "Card removed as milestone!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1247
+msgid "Card added as milestone for project!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1350
+msgid "List updated!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1395
+msgid "No Activity Recorded"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1421
+msgid "Card dates set"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1460
+msgid "Something went wrong!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1562
+msgid "comment deleted!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1578
+msgid "comment updated!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1606
+#, php-format
+msgid "%s members added to card!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1627
+msgid "Member removed from card!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1640
+msgid "Card status not changed!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1642
+msgid "Card status changed!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1654
+msgid "Card title not changed!"
+msgstr ""
+
+#: includes/api/class-cards-api.php:1656
+msgid "Card title changed!"
+msgstr ""
+
+#: includes/api/class-general-api.php:133
+msgid "Members added"
+msgstr ""
+
+#: includes/api/class-general-api.php:159
+msgid "Members removed"
+msgstr ""
+
+#: includes/api/class-general-api.php:191
+msgid "Found Searched Users"
+msgstr ""
+
+#: includes/api/class-general-api.php:217
+msgid "No Users Found"
+msgstr ""
+
+#: includes/api/class-list-api.php:101
+msgid "Could not create list."
+msgstr ""
+
+#: includes/api/class-list-api.php:283
+msgid "List Deleted"
+msgstr ""
+
+#: includes/api/class-list-api.php:293
+msgid "List name changed"
+msgstr ""
+
+#: includes/api/class-projects-api.php:315
+msgid "No favourite projects found"
+msgstr ""
+
+#: includes/api/class-projects-api.php:331
+msgid "Project marked in favourites."
+msgstr ""
+
+#: includes/api/class-projects-api.php:373
+msgid "No Projects Found..!!"
+msgstr ""
+
+#: includes/api/class-projects-api.php:379
+msgid "Projects Found..!!"
+msgstr ""
+
+#: includes/api/class-projects-api.php:414
+msgid "Members in project"
+msgstr ""
+
+#: includes/api/class-projects-api.php:420
+msgid "Milestones in project"
+msgstr ""
+
+#: includes/api/class-projects-api.php:426
+msgid "Project Start"
+msgstr ""
+
+#: includes/api/class-projects-api.php:432
+msgid "Project Ends"
+msgstr ""
+
+#: includes/api/class-projects-api.php:499
+msgid "Notice added"
+msgstr ""
+
+#: includes/api/class-projects-api.php:502
+#: includes/api/class-projects-api.php:515
+msgid "User does not have permissions to add a notice"
+msgstr ""
+
+#: includes/api/class-projects-api.php:522 includes/class.profile.php:396
+msgid "Description"
+msgstr ""
+
+#: includes/api/class-projects-api.php:523 includes/class.profile.php:205
+#: includes/class.profile.php:238 includes/class.profile.php:266
+#: includes/class.profile.php:318 includes/class.profile.php:400
+#: includes/class.profile.php:447
+msgid "Members"
+msgstr ""
+
+#: includes/api/class-projects-api.php:524 includes/class.profile.php:194
+#: includes/class.profile.php:401
+msgid "Activity"
+msgstr ""
+
+#: includes/api/class-projects-api.php:528 includes/class.profile.php:58
+#: includes/class.profile.php:265 includes/class.profile.php:515
+msgid "Tasks"
+msgstr ""
+
+#: includes/api/class-projects-api.php:529
+msgid "Gantt"
+msgstr ""
+
+#: includes/api/class-projects-api.php:540 includes/class.init.php:37
+#: includes/class.profile.php:74
+msgid "Reports"
+msgstr ""
+
+#: includes/api/class-projects-api.php:714
+msgid "Project members updated"
+msgstr ""
+
+#: includes/api/class-projects-api.php:803
+msgid "Unable to create project"
+msgstr ""
+
+#: includes/api/class-projects-api.php:890
+msgid "Project deleted!"
+msgstr ""
+
+#: includes/api/class-projects-api.php:954
+msgid "Accept Invite"
+msgstr ""
+
+#: includes/api/class-projects-api.php:960
+msgid "Unable to add users"
+msgstr ""
+
+#: includes/api/class-projects-api.php:963
+msgid "Invite emails sent to users"
+msgstr ""
+
+#: includes/api/class-projects-api.php:985
+msgid "User already registered"
+msgstr ""
+
+#: includes/api/class-projects-api.php:991
+msgid "Registration linked expired !"
+msgstr ""
+
+#: includes/api/class-projects-api.php:995
+msgid "Unauthorised registration attempt!"
+msgstr ""
+
+#: includes/api/class-projects-api.php:1037
+msgid "Something went wrong. Contact site administrator"
+msgstr ""
+
+#: includes/api/class-projects-api.php:1049
+msgid "% Progress"
+msgstr ""
+
+#: includes/api/class-projects-api.php:1051
+msgid "Project completed."
+msgstr ""
+
+#: includes/api/class-projects-api.php:1055
+msgid "% Time"
+msgstr ""
+
+#: includes/api/class-projects-api.php:1057
+msgid "Time remaining"
+msgstr ""
+
+#: includes/api/class-projects-api.php:1061
+msgid "# members"
+msgstr ""
+
+#: includes/api/class-projects-api.php:1063
+msgid "Member Count"
+msgstr ""
+
+#: includes/api/class-projects-api.php:1067
+msgid "# milestones"
+msgstr ""
+
+#: includes/api/class-projects-api.php:1069
+msgid "Number of Milestones"
+msgstr ""
+
+#: includes/api/class-projects-api.php:1073
+msgid "# boards"
+msgstr ""
+
+#: includes/api/class-projects-api.php:1075
+msgid "Number of Boards"
+msgstr ""
+
+#: includes/api/class-projects-api.php:1079
+msgid "# tasks"
+msgstr ""
+
+#: includes/api/class-projects-api.php:1081
+msgid "Number of Tasks"
+msgstr ""
+
+#: includes/api/class-projects-api.php:1085
+msgid "Most active member"
+msgstr ""
+
+#: includes/api/class-projects-api.php:1089
+msgid "Most active task"
+msgstr ""
+
+#: includes/api/class-projects-api.php:1093
+msgid "Miletstones"
+msgstr ""
+
+#: includes/api/class-reports-api.php:85 includes/api/class-reports-api.php:103
+msgid "Burndown"
+msgstr ""
+
+#: includes/api/class-reports-api.php:91 includes/class.profile.php:487
+msgid "Tasks by Status"
+msgstr ""
+
+#: includes/api/class-reports-api.php:97
+msgid "Tasks by progress"
+msgstr ""
+
+#: includes/api/class-reports-api.php:225 includes/class.functions.php:816
+msgid "Not started"
+msgstr ""
+
+#: includes/api/class-reports-api.php:225
+#: includes/api/class-reports-api.php:387 includes/class.profile.php:315
+msgid "Complete"
+msgstr ""
+
+#: includes/api/class-reports-api.php:320
+#: includes/api/class-reports-api.php:438
+msgid "On Time"
+msgstr ""
+
+#: includes/api/class-reports-api.php:320
+#: includes/api/class-reports-api.php:438
+msgid "OverDue"
+msgstr ""
+
+#: includes/api/class-reports-api.php:320
+#: includes/api/class-reports-api.php:438
+msgid "Untracked"
+msgstr ""
+
+#: includes/api/class-reports-api.php:387 includes/class.profile.php:311
+msgid "Not Done"
+msgstr ""
+
+#: includes/api/class-reports-api.php:437
+msgid "Timeliness"
+msgstr ""
+
+#: includes/api/class-widgets-api.php:195
+msgid "Select dates"
+msgstr ""
+
+#: includes/api/class-widgets-api.php:259
+#: includes/api/class-widgets-api.php:317
+msgid "No data!"
+msgstr ""
+
+#: includes/class.activity.php:28
+msgid "Member added to Project"
+msgstr ""
+
+#: includes/class.activity.php:29
+msgid "Member removed to Project"
+msgstr ""
+
+#: includes/class.activity.php:30
+msgid "Milestone added to project."
+msgstr ""
+
+#: includes/class.activity.php:31
+msgid "Milestone removed from Project"
+msgstr ""
+
+#: includes/class.activity.php:32 includes/class.profile.php:334
+msgid "New Project"
+msgstr ""
+
+#: includes/class.activity.php:33
+msgid "Project updated"
+msgstr ""
+
+#: includes/class.activity.php:34
+msgid "A New Card Created"
+msgstr ""
+
+#: includes/class.activity.php:35
+msgid "Card Comment Added"
+msgstr ""
+
+#: includes/class.activity.php:36
+msgid "Checklist Added in Card"
+msgstr ""
+
+#: includes/class.activity.php:37
+msgid "Card Attachment Added"
+msgstr ""
+
+#: includes/class.activity.php:38
+msgid "Card Attachment Deleted"
+msgstr ""
+
+#: includes/class.activity.php:39 includes/class.activity.php:394
+msgid "Card Moved"
+msgstr ""
+
+#: includes/class.activity.php:40
+msgid "Card member removed"
+msgstr ""
+
+#: includes/class.activity.php:41
+msgid "Card member added"
+msgstr ""
+
+#: includes/class.activity.php:42
+msgid "Card completed"
+msgstr ""
+
+#: includes/class.activity.php:43
+msgid "Attachment deleted from card"
+msgstr ""
+
+#: includes/class.activity.php:44
+msgid "Attachment added to Card"
+msgstr ""
+
+#: includes/class.activity.php:45
+msgid "Checklist added to card"
+msgstr ""
+
+#: includes/class.activity.php:46
+msgid "Card status updated"
+msgstr ""
+
+#: includes/class.activity.php:47
+msgid "Card start & due dates updated"
+msgstr ""
+
+#: includes/class.activity.php:48
+msgid "Card label updated"
+msgstr ""
+
+#: includes/class.activity.php:49
+msgid "Card watchers updated"
+msgstr ""
+
+#: includes/class.activity.php:116
+#, php-format
+msgid "Checklist was added in Card %s"
+msgstr ""
+
+#: includes/class.activity.php:126
+#, php-format
+msgid "DueDate updated in Card %s"
+msgstr ""
+
+#: includes/class.activity.php:136
+#, php-format
+msgid "Labels updated in Card %s"
+msgstr ""
+
+#: includes/class.activity.php:146
+#, php-format
+msgid "Added as a Watcher to Card %s"
+msgstr ""
+
+#: includes/class.activity.php:154 includes/class.functions.php:827
+#: includes/class.profile.php:274
+msgid "Active"
+msgstr ""
+
+#: includes/class.activity.php:166
+#, php-format
+msgid "Task %s status was updated %s"
+msgstr ""
+
+#: includes/class.activity.php:172
+#, php-format
+msgid "Milestone %s was added to project %s"
+msgstr ""
+
+#: includes/class.activity.php:180
+#, php-format
+msgid "Milestone %s was removed from the project %s"
+msgstr ""
+
+#: includes/class.activity.php:188
+msgid "Member added to project."
+msgstr ""
+
+#: includes/class.activity.php:189
+#, php-format
+msgid "Member %s was added to project %s"
+msgstr ""
+
+#: includes/class.activity.php:198
+msgid "Member removed from project."
+msgstr ""
+
+#: includes/class.activity.php:199
+#, php-format
+msgid "Member %s was removed from project %s"
+msgstr ""
+
+#: includes/class.activity.php:210
+msgid "Project details updated."
+msgstr ""
+
+#: includes/class.activity.php:211
+#, php-format
+msgid "Project %s details was updated by %s"
+msgstr ""
+
+#: includes/class.activity.php:219
+msgid "Project created."
+msgstr ""
+
+#: includes/class.activity.php:220
+#, php-format
+msgid "A new project %s was created by %s"
+msgstr ""
+
+#: includes/class.activity.php:231
+msgid "Card marked complete."
+msgstr ""
+
+#: includes/class.activity.php:232 includes/class.mails.php:117
+#: includes/class.mails.php:118 includes/class.notifications.php:104
+#, php-format
+msgid "Card %s marked complete by %s"
+msgstr ""
+
+#: includes/class.activity.php:242
+msgid "Member added to card"
+msgstr ""
+
+#: includes/class.activity.php:243
+#, php-format
+msgid "%s added to card %s"
+msgstr ""
+
+#: includes/class.activity.php:253
+msgid "Member removed from card"
+msgstr ""
+
+#: includes/class.activity.php:254
+#, php-format
+msgid "%s removed from card %s"
+msgstr ""
+
+#: includes/class.activity.php:317
+msgid "New card created "
+msgstr ""
+
+#: includes/class.activity.php:318
+#, php-format
+msgid "%s Created Card %s"
+msgstr ""
+
+#: includes/class.activity.php:338
+#, php-format
+msgid "Due Date updated in Card %s to %s"
+msgstr ""
+
+#: includes/class.activity.php:349
+#, php-format
+msgid "Start Date updated in Card %s to %s"
+msgstr ""
+
+#: includes/class.activity.php:356
+msgid "card_add_checklist"
+msgstr ""
+
+#: includes/class.activity.php:357
+#, php-format
+msgid "Added %s to this Card"
+msgstr ""
+
+#: includes/class.activity.php:369
+msgid "card_attachment_added"
+msgstr ""
+
+#: includes/class.activity.php:370
+#, php-format
+msgid "Attached %s to this Card"
+msgstr ""
+
+#: includes/class.activity.php:382
+msgid "Card attachment deleted"
+msgstr ""
+
+#: includes/class.activity.php:383
+#, php-format
+msgid "%s Deleted %s to this Card"
+msgstr ""
+
+#: includes/class.activity.php:395
+#, php-format
+msgid "%s moved card %s from %s to %s "
+msgstr ""
+
+#: includes/class.admin.php:50
+msgid "Projects Dashboard"
+msgstr ""
+
+#: includes/class.admin.php:54 includes/class.admin.php:55
+#: includes/class.admin.php:131
+msgid "Project Types"
+msgstr ""
+
+#: includes/class.admin.php:61 includes/class.admin.php:62
+#: includes/class.admin.php:172
+msgid "Board Types"
+msgstr ""
+
+#: includes/class.admin.php:67 includes/class.admin.php:68
+#: includes/class.admin.php:231 includes/class.admin.php:233
+#: includes/class.admin.php:289 includes/class.profile.php:321
+msgid "Teams"
+msgstr ""
+
+#: includes/class.admin.php:108 includes/class.admin.php:109
+#: includes/class.profile.php:39 includes/class.profile.php:50
+#: includes/class.profile.php:178 includes/class.profile.php:547
+#: includes/class.settings.php:32 includes/class.settings.php:53
+#: includes/projects.component.php:9 includes/widgets/cardmemberinfo.php:49
+#: includes/widgets/myitems.php:39 includes/widgets/project_by_status.php:45
+msgid "Projects"
+msgstr ""
+
+#: includes/class.admin.php:110 includes/widgets/upcomingtasks.php:48
+msgid "Project"
+msgstr ""
+
+#: includes/class.admin.php:111
+msgid "Add New Project"
+msgstr ""
+
+#: includes/class.admin.php:112
+msgid "All Projects"
+msgstr ""
+
+#: includes/class.admin.php:130 includes/class.admin.php:132
+#: includes/class.profile.php:374
+msgid "Project Type"
+msgstr ""
+
+#: includes/class.admin.php:133 includes/class.admin.php:174
+msgid "Add New Type"
+msgstr ""
+
+#: includes/class.admin.php:134
+msgid "All Project Types"
+msgstr ""
+
+#: includes/class.admin.php:149 includes/class.admin.php:150
+#: includes/class.settings.php:54
+msgid "Boards"
+msgstr ""
+
+#: includes/class.admin.php:151
+msgid "Board"
+msgstr ""
+
+#: includes/class.admin.php:152 includes/class.profile.php:343
+msgid "Add New Board"
+msgstr ""
+
+#: includes/class.admin.php:153
+msgid "All Boards"
+msgstr ""
+
+#: includes/class.admin.php:171 includes/class.admin.php:173
+#: includes/class.profile.php:391
+msgid "Board Type"
+msgstr ""
+
+#: includes/class.admin.php:175
+msgid "All Board Types"
+msgstr ""
+
+#: includes/class.admin.php:190 includes/class.admin.php:191
+#: includes/class.profile.php:323 includes/class.settings.php:55
+#: includes/widgets/cardburndown.php:45 includes/widgets/myitems.php:40
+msgid "Cards"
+msgstr ""
+
+#: includes/class.admin.php:192
+msgid "card"
+msgstr ""
+
+#: includes/class.admin.php:193 includes/class.profile.php:394
+msgid "Add New Card"
+msgstr ""
+
+#: includes/class.admin.php:194
+msgid "All Cards"
+msgstr ""
+
+#: includes/class.admin.php:213 includes/class.admin.php:215
+#: includes/class.functions.php:482 includes/class.profile.php:233
+#: includes/class.profile.php:324 includes/class.profile.php:443
+msgid "List"
+msgstr ""
+
+#: includes/class.admin.php:214
+msgid "Lists"
+msgstr ""
+
+#: includes/class.admin.php:216 includes/class.profile.php:354
+msgid "Add New List"
+msgstr ""
+
+#: includes/class.admin.php:217
+msgid "All Lists"
+msgstr ""
+
+#: includes/class.admin.php:232
+msgid "Team"
+msgstr ""
+
+#: includes/class.admin.php:234
+msgid "All Teams"
+msgstr ""
+
+#: includes/class.admin.php:235
+msgid "Parent Team"
+msgstr ""
+
+#: includes/class.admin.php:236
+msgid "Parent Team:"
+msgstr ""
+
+#: includes/class.admin.php:237
+msgid "New Team Name"
+msgstr ""
+
+#: includes/class.admin.php:238
+msgid "Add Team"
+msgstr ""
+
+#: includes/class.admin.php:239
+msgid "Edit Team"
+msgstr ""
+
+#: includes/class.admin.php:240
+msgid "Update Team"
+msgstr ""
+
+#: includes/class.admin.php:241
+msgid "View Team"
+msgstr ""
+
+#: includes/class.admin.php:242
+msgid "Separate team with commas"
+msgstr ""
+
+#: includes/class.admin.php:243
+msgid "Add or remove team"
+msgstr ""
+
+#: includes/class.admin.php:244
+msgid "Choose from the most used"
+msgstr ""
+
+#: includes/class.admin.php:245
+msgid "Popular Teams"
+msgstr ""
+
+#: includes/class.admin.php:246
+msgid "Search Teams"
+msgstr ""
+
+#: includes/class.admin.php:247
+msgid "Not Found"
+msgstr ""
+
+#: includes/class.admin.php:248
+msgid "No team"
+msgstr ""
+
+#: includes/class.admin.php:249
+msgid "Teams list"
+msgstr ""
+
+#: includes/class.admin.php:250
+msgid "Teams list navigation"
+msgstr ""
+
+#: includes/class.admin.php:275
+msgid "Users"
+msgstr ""
+
+#: includes/class.admin.php:292
+msgid "Allocate Teams"
+msgstr ""
+
+#: includes/class.admin.php:305
+msgid "There are no teams available."
+msgstr ""
+
+#: includes/class.admin.php:375
+msgid "Select Team"
+msgstr ""
+
+#: includes/class.admin.php:435
+msgid "Team color"
+msgstr ""
+
+#: includes/class.admin.php:457
+msgid "Team Color"
+msgstr ""
+
+#: includes/class.functions.php:337
+msgid "Project Image"
+msgstr ""
+
+#: includes/class.functions.php:341
+msgid "Upload a Project Image"
+msgstr ""
+
+#: includes/class.functions.php:342
+msgid "Set as Project Image"
+msgstr ""
+
+#: includes/class.functions.php:354 includes/class.profile.php:200
+msgid "Project title"
+msgstr ""
+
+#: includes/class.functions.php:360
+msgid "Enter a project title"
+msgstr ""
+
+#: includes/class.functions.php:361
+msgid "This is the title of the project, the most relevant detail to recognise the project."
+msgstr ""
+
+#: includes/class.functions.php:365
+msgid "Project status"
+msgstr ""
+
+#: includes/class.functions.php:373
+msgid "This is the status of the project"
+msgstr ""
+
+#: includes/class.functions.php:377
+msgid "Project Category"
+msgstr ""
+
+#: includes/class.functions.php:384
+msgid "Select a Project Type"
+msgstr ""
+
+#: includes/class.functions.php:388
+msgid "Detailed Description of the Project"
+msgstr ""
+
+#: includes/class.functions.php:396
+msgid "Enter full description for the Project."
+msgstr ""
+
+#: includes/class.functions.php:400
+msgid "Important aspects of Project."
+msgstr ""
+
+#: includes/class.functions.php:404
+msgid "Project Vitals"
+msgstr ""
+
+#: includes/class.functions.php:407
+msgid "Project Start date"
+msgstr ""
+
+#: includes/class.functions.php:415
+msgid "Date of commence for the Project."
+msgstr ""
+
+#: includes/class.functions.php:419
+msgid "Project End date"
+msgstr ""
+
+#: includes/class.functions.php:427
+msgid "End date for the Project."
+msgstr ""
+
+#: includes/class.functions.php:431
+msgid "Project Progress"
+msgstr ""
+
+#: includes/class.functions.php:439
+msgid "Track project progress based on."
+msgstr ""
+
+#: includes/class.functions.php:441
+msgid "Progress based on Card completion"
+msgstr ""
+
+#: includes/class.functions.php:442
+msgid "Progress based on milestone completion."
+msgstr ""
+
+#: includes/class.functions.php:443
+msgid "Progress based on time elapsed."
+msgstr ""
+
+#: includes/class.functions.php:444
+msgid "Do not track progress."
+msgstr ""
+
+#: includes/class.functions.php:448
+msgid "Activate features for this Project."
+msgstr ""
+
+#: includes/class.functions.php:452
+msgid "Project Features"
+msgstr ""
+
+#: includes/class.functions.php:455
+msgid "Do you need Milestones ? "
+msgstr ""
+
+#: includes/class.functions.php:463
+msgid "Milestones help you plan the project major phases."
+msgstr ""
+
+#: includes/class.functions.php:466
+msgid "Do you need tasks ?"
+msgstr ""
+
+#: includes/class.functions.php:474
+msgid "Tasks clarify smaller steps towards your projects bigger goals."
+msgstr ""
+
+#: includes/class.functions.php:477
+msgid "Default Tasks view"
+msgstr ""
+
+#: includes/class.functions.php:480
+msgid "Kanban"
+msgstr ""
+
+#: includes/class.functions.php:481
+msgid "Timeline"
+msgstr ""
+
+#: includes/class.functions.php:491
+msgid "Enable Task Lists for the Project."
+msgstr ""
+
+#: includes/class.functions.php:510
+msgid "Boards Image"
+msgstr ""
+
+#: includes/class.functions.php:514
+msgid "Upload a Boards Image"
+msgstr ""
+
+#: includes/class.functions.php:515
+msgid "Set as Boards Image"
+msgstr ""
+
+#: includes/class.functions.php:527
+msgid "Boards title"
+msgstr ""
+
+#: includes/class.functions.php:533
+msgid "Enter a board title"
+msgstr ""
+
+#: includes/class.functions.php:534
+msgid "This is the title of the board which is displayed on top of every board"
+msgstr ""
+
+#: includes/class.functions.php:538
+msgid "Boards Category"
+msgstr ""
+
+#: includes/class.functions.php:545
+msgid "Select a Boards Type"
+msgstr ""
+
+#: includes/class.functions.php:549
+msgid "Boards Type"
+msgstr ""
+
+#: includes/class.functions.php:550
+msgid "Private Board "
+msgstr ""
+
+#: includes/class.functions.php:552
+msgid "PUBLIC"
+msgstr ""
+
+#: includes/class.functions.php:552
+msgid "PRIVATE"
+msgstr ""
+
+#: includes/class.functions.php:558
+msgid "Only visible to Board members."
+msgstr ""
+
+#: includes/class.functions.php:562
+msgid "Detailed Description of the Boards"
+msgstr ""
+
+#: includes/class.functions.php:570
+msgid "Enter full description for the Boards."
+msgstr ""
+
+#: includes/class.functions.php:790 includes/class.functions.php:801
+#: includes/widgets/upcomingtasks.php:47
+msgid "Due date"
+msgstr ""
+
+#: includes/class.functions.php:792 includes/class.profile.php:409
+msgid "Overdue"
+msgstr ""
+
+#: includes/class.functions.php:803 includes/class.profile.php:408
+msgid "Upcoming"
+msgstr ""
+
+#: includes/class.functions.php:814 includes/class.functions.php:825
+msgid "Start date"
+msgstr ""
+
+#: includes/class.functions.php:844 includes/class.profile.php:236
+#: includes/class.profile.php:312
+msgid "Milestone"
+msgstr ""
+
+#: includes/class.functions.php:852 includes/class.profile.php:503
+msgid "Card Complete"
+msgstr ""
+
+#: includes/class.functions.php:892
+msgid "Live"
+msgstr ""
+
+#: includes/class.functions.php:893
+msgid "Draft."
+msgstr ""
+
+#: includes/class.functions.php:894
+msgid "Archive."
+msgstr ""
+
+#: includes/class.init.php:65
+msgid "Discussion"
+msgstr ""
+
+#: includes/class.init.php:73
+msgid "Discussion Forums"
+msgstr ""
+
+#: includes/class.init.php:81
+msgid "Enable discussion board for the Project."
+msgstr ""
+
+#: includes/class.mails.php:50
+msgid "Project Updated"
+msgstr ""
+
+#: includes/class.mails.php:51 includes/class.touchpoints.php:437
+#, php-format
+msgid "Project %s updated"
+msgstr ""
+
+#: includes/class.mails.php:52
+#, php-format
+msgid "%s project has been updated by  %s "
+msgstr ""
+
+#: includes/class.mails.php:55
+msgid "New Project Notice"
+msgstr ""
+
+#: includes/class.mails.php:56
+#, php-format
+msgid "New notice in project %s"
+msgstr ""
+
+#: includes/class.mails.php:57
+#, php-format
+msgid "New notice in project %s : %s "
+msgstr ""
+
+#: includes/class.mails.php:60
+msgid "Member Added to Project"
+msgstr ""
+
+#: includes/class.mails.php:61
+#, php-format
+msgid "You are added to the project %s"
+msgstr ""
+
+#: includes/class.mails.php:62
+#, php-format
+msgid "You are now added to the project %s by %s"
+msgstr ""
+
+#: includes/class.mails.php:65
+msgid "Member removed from the Project"
+msgstr ""
+
+#: includes/class.mails.php:66
+#, php-format
+msgid "You are removed to the project %s"
+msgstr ""
+
+#: includes/class.mails.php:67
+#, php-format
+msgid "You are now removed to the project %s by %s"
+msgstr ""
+
+#: includes/class.mails.php:71
+msgid "Project status updated"
+msgstr ""
+
+#: includes/class.mails.php:72
+#, php-format
+msgid "The status of the project %s was updated"
+msgstr ""
+
+#: includes/class.mails.php:73
+#, php-format
+msgid "Project %s status updated to %s"
+msgstr ""
+
+#: includes/class.mails.php:78 includes/class.settings.php:299
+msgid "Invite members to Project"
+msgstr ""
+
+#: includes/class.mails.php:79
+#, php-format
+msgid "Invitation for Project %s"
+msgstr ""
+
+#: includes/class.mails.php:80
+#, php-format
+msgid "%s has sent you an invite to join the project %s as %s under team %s. Click on this link to join. %s"
+msgstr ""
+
+#: includes/class.mails.php:83
+msgid "User site credentials"
+msgstr ""
+
+#: includes/class.mails.php:84
+msgid "Your login details"
+msgstr ""
+
+#: includes/class.mails.php:85
+#, php-format
+msgid "Your login details. Email %s and Password %s"
+msgstr ""
+
+#: includes/class.mails.php:91 includes/class.touchpoints.php:569
+msgid "Card label added"
+msgstr ""
+
+#: includes/class.mails.php:92
+#, php-format
+msgid "Label added by %s in card %s "
+msgstr ""
+
+#: includes/class.mails.php:93 includes/class.touchpoints.php:567
+#, php-format
+msgid "Label %s added by %s in card %s"
+msgstr ""
+
+#: includes/class.mails.php:96 includes/class.touchpoints.php:639
+msgid "Card label removed"
+msgstr ""
+
+#: includes/class.mails.php:97
+#, php-format
+msgid "Label removed by %s in card %s "
+msgstr ""
+
+#: includes/class.mails.php:98
+#, php-format
+msgid "Label %s removed by %s in card %s"
+msgstr ""
+
+#: includes/class.mails.php:101 includes/class.touchpoints.php:225
+#: includes/class.touchpoints.php:697
+msgid "Card checklist updated"
+msgstr ""
+
+#: includes/class.mails.php:102 includes/class.notifications.php:95
+#: includes/class.touchpoints.php:695
+#, php-format
+msgid "Card %s checklist updated by %s"
+msgstr ""
+
+#: includes/class.mails.php:103
+#, php-format
+msgid "Card %s labels updated by %s"
+msgstr ""
+
+#: includes/class.mails.php:106 includes/class.touchpoints.php:236
+#: includes/class.touchpoints.php:746
+msgid "Card due date set"
+msgstr ""
+
+#: includes/class.mails.php:107 includes/class.notifications.php:98
+#, php-format
+msgid "Card %s due date set by %s"
+msgstr ""
+
+#: includes/class.mails.php:108
+#, php-format
+msgid "Due date set to %s by %s in card %s "
+msgstr ""
+
+#: includes/class.mails.php:111
+msgid "Attachment uploded in card"
+msgstr ""
+
+#: includes/class.mails.php:112 includes/class.notifications.php:101
+#, php-format
+msgid "Attachment uploaded in card %s by %s"
+msgstr ""
+
+#: includes/class.mails.php:113 includes/class.touchpoints.php:796
+#, php-format
+msgid "Attachment %s uploaded in card %s by %s"
+msgstr ""
+
+#: includes/class.mails.php:116
+msgid "Card marked complete"
+msgstr ""
+
+#: includes/class.mails.php:121
+msgid "Card marked as milestone for project"
+msgstr ""
+
+#: includes/class.mails.php:122 includes/class.mails.php:123
+#: includes/class.notifications.php:107 includes/class.touchpoints.php:897
+#, php-format
+msgid "Card %s marked as milestone by %s"
+msgstr ""
+
+#: includes/class.mails.php:126 includes/class.touchpoints.php:279
+#: includes/class.touchpoints.php:948
+msgid "Card archived"
+msgstr ""
+
+#: includes/class.mails.php:127 includes/class.mails.php:128
+#: includes/class.notifications.php:110 includes/class.touchpoints.php:946
+#, php-format
+msgid "Card %s archived by %s"
+msgstr ""
+
+#: includes/class.mails.php:131 includes/class.touchpoints.php:302
+msgid "Member added to Card"
+msgstr ""
+
+#: includes/class.mails.php:132
+#, php-format
+msgid "Assigned to Card %s"
+msgstr ""
+
+#: includes/class.mails.php:133
+#, php-format
+msgid "You are assigned to Card %s under project %s by %s"
+msgstr ""
+
+#: includes/class.mails.php:136
+msgid "Member removed to Card"
+msgstr ""
+
+#: includes/class.mails.php:137
+#, php-format
+msgid "Unassigned from Card %s"
+msgstr ""
+
+#: includes/class.mails.php:138
+#, php-format
+msgid "You are un-assigned from the Card %s under project %s by %s"
+msgstr ""
+
+#: includes/class.mails.php:141
+msgid "New Card added "
+msgstr ""
+
+#: includes/class.mails.php:142
+#, php-format
+msgid "New card added to project %s"
+msgstr ""
+
+#: includes/class.mails.php:143
+#, php-format
+msgid "Card %s added to board %s in project %s by %s"
+msgstr ""
+
+#: includes/class.notifications.php:65
+#, php-format
+msgid "Card %s status updated in project %s"
+msgstr ""
+
+#: includes/class.notifications.php:68
+#, php-format
+msgid "New card %s created in project %s"
+msgstr ""
+
+#: includes/class.notifications.php:71
+#, php-format
+msgid "Card %s assigned to you under project %s"
+msgstr ""
+
+#: includes/class.notifications.php:74
+#, php-format
+msgid "Card %s un-assigned from you under project %s"
+msgstr ""
+
+#: includes/class.notifications.php:77
+#, php-format
+msgid "Project %s updated."
+msgstr ""
+
+#: includes/class.notifications.php:80
+#, php-format
+msgid "You are added to the project %s updated."
+msgstr ""
+
+#: includes/class.notifications.php:83
+#, php-format
+msgid "You are removed from the project %s updated."
+msgstr ""
+
+#: includes/class.notifications.php:86
+#, php-format
+msgid "New notification in project %s "
+msgstr ""
+
+#: includes/class.notifications.php:89
+#, php-format
+msgid "Card %s label added by %s"
+msgstr ""
+
+#: includes/class.notifications.php:92
+#, php-format
+msgid "Card %s label removed by %s"
+msgstr ""
+
+#: includes/class.notifications.php:113
+#, php-format
+msgid "Comment added in card %s by %s"
+msgstr ""
+
+#: includes/class.profile.php:66
+msgid "Calendar"
+msgstr ""
+
+#: includes/class.profile.php:193 includes/class.profile.php:398
+#: includes/class.profile.php:416
+msgid "Attachments"
+msgstr ""
+
+#: includes/class.profile.php:195
+msgid "Watchers"
+msgstr ""
+
+#: includes/class.profile.php:199
+msgid "Project image"
+msgstr ""
+
+#: includes/class.profile.php:201
+msgid "Type"
+msgstr ""
+
+#: includes/class.profile.php:202 includes/class.profile.php:235
+#: includes/class.profile.php:389
+msgid "Status"
+msgstr ""
+
+#: includes/class.profile.php:203 includes/class.profile.php:449
+msgid "Progress"
+msgstr ""
+
+#: includes/class.profile.php:204
+msgid "Ends"
+msgstr ""
+
+#: includes/class.profile.php:210
+msgid "Add member to cards"
+msgstr ""
+
+#: includes/class.profile.php:211
+msgid "Remove member from cards"
+msgstr ""
+
+#: includes/class.profile.php:212
+msgid "Add label to cards"
+msgstr ""
+
+#: includes/class.profile.php:213
+msgid "Remove label from cards"
+msgstr ""
+
+#: includes/class.profile.php:214
+msgid "Change status of cards"
+msgstr ""
+
+#: includes/class.profile.php:215
+msgid "Change due date of cards"
+msgstr ""
+
+#: includes/class.profile.php:216
+msgid "Assign card catchers"
+msgstr ""
+
+#: includes/class.profile.php:217
+msgid "Assign Milestone"
+msgstr ""
+
+#: includes/class.profile.php:218 includes/class.profile.php:309
+msgid "Remove Milestone"
+msgstr ""
+
+#: includes/class.profile.php:221
+msgid "Add label"
+msgstr ""
+
+#: includes/class.profile.php:222
+msgid "Remove label"
+msgstr ""
+
+#: includes/class.profile.php:223 includes/class.profile.php:308
+msgid "Change Status"
+msgstr ""
+
+#: includes/class.profile.php:224 includes/class.profile.php:417
+msgid "Move Card"
+msgstr ""
+
+#: includes/class.profile.php:225 includes/class.settings.php:177
+msgid "Complete Card"
+msgstr ""
+
+#: includes/class.profile.php:226
+msgid "Mark as Milestone"
+msgstr ""
+
+#: includes/class.profile.php:227
+msgid "Assign Member"
+msgstr ""
+
+#: includes/class.profile.php:228
+msgid "Remove Member"
+msgstr ""
+
+#: includes/class.profile.php:229
+msgid "Archive Card"
+msgstr ""
+
+#: includes/class.profile.php:232
+msgid "Card title"
+msgstr ""
+
+#: includes/class.profile.php:234
+msgid "Dates"
+msgstr ""
+
+#: includes/class.profile.php:237 includes/class.profile.php:412
+#: includes/class.profile.php:421
+msgid "Labels"
+msgstr ""
+
+#: includes/class.profile.php:242
+msgid "Red"
+msgstr ""
+
+#: includes/class.profile.php:243
+msgid "Green"
+msgstr ""
+
+#: includes/class.profile.php:244
+msgid "Yellow"
+msgstr ""
+
+#: includes/class.profile.php:245
+msgid "Orange"
+msgstr ""
+
+#: includes/class.profile.php:246
+msgid "Blue"
+msgstr ""
+
+#: includes/class.profile.php:247
+msgid "Pink"
+msgstr ""
+
+#: includes/class.profile.php:248
+msgid "black"
+msgstr ""
+
+#: includes/class.profile.php:249
+msgid "Light Green"
+msgstr ""
+
+#: includes/class.profile.php:250
+msgid "Light Pink"
+msgstr ""
+
+#: includes/class.profile.php:251
+msgid "Light Yellow"
+msgstr ""
+
+#: includes/class.profile.php:252
+msgid "Light purple"
+msgstr ""
+
+#: includes/class.profile.php:253
+msgid "Light blue"
+msgstr ""
+
+#: includes/class.profile.php:254
+msgid "Musk"
+msgstr ""
+
+#: includes/class.profile.php:255
+msgid "Shade Pink"
+msgstr ""
+
+#: includes/class.profile.php:256
+msgid "Bright"
+msgstr ""
+
+#: includes/class.profile.php:257
+msgid "Shade Red"
+msgstr ""
+
+#: includes/class.profile.php:258
+msgid "Autumn"
+msgstr ""
+
+#: includes/class.profile.php:259
+msgid "Dark Pink"
+msgstr ""
+
+#: includes/class.profile.php:260
+msgid "Shade Yellow"
+msgstr ""
+
+#: includes/class.profile.php:261
+msgid "Dark Blue"
+msgstr ""
+
+#: includes/class.profile.php:264
+msgid "Overview"
+msgstr ""
+
+#: includes/class.profile.php:275
+msgid "Newly added"
+msgstr ""
+
+#: includes/class.profile.php:276
+msgid "Alphabetical"
+msgstr ""
+
+#: includes/class.profile.php:281
+msgid "year"
+msgstr ""
+
+#: includes/class.profile.php:281
+msgid "years"
+msgstr ""
+
+#: includes/class.profile.php:281
+msgid "Y"
+msgstr ""
+
+#: includes/class.profile.php:283
+msgid "month"
+msgstr ""
+
+#: includes/class.profile.php:283
+msgid "months"
+msgstr ""
+
+#: includes/class.profile.php:283
+msgid "M"
+msgstr ""
+
+#: includes/class.profile.php:284
+msgid "week"
+msgstr ""
+
+#: includes/class.profile.php:284
+msgid "weeks"
+msgstr ""
+
+#: includes/class.profile.php:284
+msgid "W"
+msgstr ""
+
+#: includes/class.profile.php:285
+msgid "day"
+msgstr ""
+
+#: includes/class.profile.php:285
+msgid "days"
+msgstr ""
+
+#: includes/class.profile.php:285
+msgid "d"
+msgstr ""
+
+#: includes/class.profile.php:286
+msgid "hour"
+msgstr ""
+
+#: includes/class.profile.php:286
+msgid "hours"
+msgstr ""
+
+#: includes/class.profile.php:286
+msgid "h"
+msgstr ""
+
+#: includes/class.profile.php:287
+msgid "minute"
+msgstr ""
+
+#: includes/class.profile.php:287
+msgid "minutes"
+msgstr ""
+
+#: includes/class.profile.php:287
+msgid "m"
+msgstr ""
+
+#: includes/class.profile.php:288
+msgid "second"
+msgstr ""
+
+#: includes/class.profile.php:288
+msgid "seconds"
+msgstr ""
+
+#: includes/class.profile.php:288
+msgid "s"
+msgstr ""
+
+#: includes/class.profile.php:291
+msgid "Back to all projects"
+msgstr ""
+
+#: includes/class.profile.php:292
+msgid "Notices"
+msgstr ""
+
+#: includes/class.profile.php:293
+msgid "Add Notice"
+msgstr ""
+
+#: includes/class.profile.php:294
+msgid "Just now"
+msgstr ""
+
+#: includes/class.profile.php:295
+msgid "Select Status"
+msgstr ""
+
+#: includes/class.profile.php:296
+msgid "No projects found"
+msgstr ""
+
+#: includes/class.profile.php:297
+msgid "Favourites"
+msgstr ""
+
+#: includes/class.profile.php:298 includes/class.profile.php:526
+msgid "Yes"
+msgstr ""
+
+#: includes/class.profile.php:299
+msgid "Are you sure you want to delete the board?"
+msgstr ""
+
+#: includes/class.profile.php:300
+msgid "No labels found!"
+msgstr ""
+
+#: includes/class.profile.php:301
+msgid "Copy link"
+msgstr ""
+
+#: includes/class.profile.php:302
+msgid "Watching"
+msgstr ""
+
+#: includes/class.profile.php:303
+msgid "Watch"
+msgstr ""
+
+#: includes/class.profile.php:304
+msgid "Select List"
+msgstr ""
+
+#: includes/class.profile.php:305
+msgid "Select list to move cards"
+msgstr ""
+
+#: includes/class.profile.php:306
+msgid "Send to board"
+msgstr ""
+
+#: includes/class.profile.php:307 includes/class.profile.php:410
+msgid "Archive"
+msgstr ""
+
+#: includes/class.profile.php:310 includes/widgets/cardburndown.php:44
+msgid "Completed"
+msgstr ""
+
+#: includes/class.profile.php:313
+msgid "Total Cards"
+msgstr ""
+
+#: includes/class.profile.php:314
+msgid "Total Milestones"
+msgstr ""
+
+#: includes/class.profile.php:316 includes/widgets/cardburndown.php:46
+#: includes/widgets/myitems.php:42
+msgid "Milestones"
+msgstr ""
+
+#: includes/class.profile.php:317
+msgid "Add Milestones"
+msgstr ""
+
+#: includes/class.profile.php:319
+msgid "All"
+msgstr ""
+
+#: includes/class.profile.php:320
+msgid "Member Types"
+msgstr ""
+
+#: includes/class.profile.php:322
+msgid "Milestones Completed"
+msgstr ""
+
+#: includes/class.profile.php:325
+msgid "Position"
+msgstr ""
+
+#: includes/class.profile.php:326
+msgid "Current"
+msgstr ""
+
+#: includes/class.profile.php:327 includes/class.profile.php:407
+msgid "Move"
+msgstr ""
+
+#: includes/class.profile.php:328
+msgid "Please enter label name"
+msgstr ""
+
+#: includes/class.profile.php:329
+msgid "Invalid email address"
+msgstr ""
+
+#: includes/class.profile.php:330
+msgid "Fields"
+msgstr ""
+
+#: includes/class.profile.php:331
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/class.profile.php:332
+msgid "Please select color"
+msgstr ""
+
+#: includes/class.profile.php:333
+msgid "No labels found"
+msgstr ""
+
+#: includes/class.profile.php:335
+msgid "New Project Type"
+msgstr ""
+
+#: includes/class.profile.php:336
+msgid "Set Project Type"
+msgstr ""
+
+#: includes/class.profile.php:337
+msgid "Administrators"
+msgstr ""
+
+#: includes/class.profile.php:338 includes/class.settings.php:451
+msgid "Add New"
+msgstr ""
+
+#: includes/class.profile.php:339
+msgid "(Delete Project, Associated Boards, Associated Cards and meta)"
+msgstr ""
+
+#: includes/class.profile.php:340 includes/class.settings.php:288
+msgid "Delete Project"
+msgstr ""
+
+#: includes/class.profile.php:341
+msgid "More Members"
+msgstr ""
+
+#: includes/class.profile.php:342
+msgid "Task Boards"
+msgstr ""
+
+#: includes/class.profile.php:344
+msgid "Task Lists"
+msgstr ""
+
+#: includes/class.profile.php:345
+msgid "Delete List"
+msgstr ""
+
+#: includes/class.profile.php:346
+msgid "Default"
+msgstr ""
+
+#: includes/class.profile.php:347
+msgid "Alphabetically Ascending"
+msgstr ""
+
+#: includes/class.profile.php:348
+msgid "Alphabetically Descending"
+msgstr ""
+
+#: includes/class.profile.php:349
+msgid "Older First"
+msgstr ""
+
+#: includes/class.profile.php:350
+msgid "Recently Added"
+msgstr ""
+
+#: includes/class.profile.php:351
+msgid "Move List Cards"
+msgstr ""
+
+#: includes/class.profile.php:352
+msgid "Sort List"
+msgstr ""
+
+#: includes/class.profile.php:353
+msgid "Add Another Card"
+msgstr ""
+
+#: includes/class.profile.php:355
+msgid "See More"
+msgstr ""
+
+#: includes/class.profile.php:356
+msgid "Project Title"
+msgstr ""
+
+#: includes/class.profile.php:357
+msgid "Project Description"
+msgstr ""
+
+#: includes/class.profile.php:358
+msgid "Save Project"
+msgstr ""
+
+#: includes/class.profile.php:359
+msgid "Update Project"
+msgstr ""
+
+#: includes/class.profile.php:360
+msgid "Select Image"
+msgstr ""
+
+#: includes/class.profile.php:361
+msgid "Image exceeds upload limit. Click to re-upload."
+msgstr ""
+
+#: includes/class.profile.php:362
+msgid "Remove User"
+msgstr ""
+
+#: includes/class.profile.php:363
+msgid "Promote to Administrator"
+msgstr ""
+
+#: includes/class.profile.php:364
+msgid "Promote to Moderator"
+msgstr ""
+
+#: includes/class.profile.php:365
+msgid "Demote to Member"
+msgstr ""
+
+#: includes/class.profile.php:366
+msgid "Card Actions"
+msgstr ""
+
+#: includes/class.profile.php:367
+msgid "Cancel"
+msgstr ""
+
+#: includes/class.profile.php:368
+msgid "New Board Title"
+msgstr ""
+
+#: includes/class.profile.php:369
+msgid "New Board Description"
+msgstr ""
+
+#: includes/class.profile.php:370 includes/class.settings.php:113
+msgid "Create Board"
+msgstr ""
+
+#: includes/class.profile.php:371 includes/class.settings.php:115
+msgid "Delete Board"
+msgstr ""
+
+#: includes/class.profile.php:372
+msgid "(Delete Board, Associated Boards, Associated Cards and meta)"
+msgstr ""
+
+#: includes/class.profile.php:373
+msgid "Add Members"
+msgstr ""
+
+#: includes/class.profile.php:375
+msgid "Project Visibility"
+msgstr ""
+
+#: includes/class.profile.php:376
+msgid "Type To Search..."
+msgstr ""
+
+#: includes/class.profile.php:377
+msgid "Enter 3 or More Characters..."
+msgstr ""
+
+#: includes/class.profile.php:378
+msgid "Update Board"
+msgstr ""
+
+#: includes/class.profile.php:379
+msgid "List Name"
+msgstr ""
+
+#: includes/class.profile.php:380
+msgid "in List -"
+msgstr ""
+
+#: includes/class.profile.php:381
+msgid "Archive List & Associated Cards"
+msgstr ""
+
+#: includes/class.profile.php:382
+msgid "Mine"
+msgstr ""
+
+#: includes/class.profile.php:383
+msgid "Quarter Day"
+msgstr ""
+
+#: includes/class.profile.php:384 includes/class.profile.php:385
+#: includes/class.profile.php:386
+msgid "Half Day"
+msgstr ""
+
+#: includes/class.profile.php:387
+msgid "Month"
+msgstr ""
+
+#: includes/class.profile.php:388
+msgid "Year"
+msgstr ""
+
+#: includes/class.profile.php:390
+msgid "Board Visibility"
+msgstr ""
+
+#: includes/class.profile.php:392
+msgid "Card Dates"
+msgstr ""
+
+#: includes/class.profile.php:393
+msgid "Card Title"
+msgstr ""
+
+#: includes/class.profile.php:395
+msgid "Enter Card Title..."
+msgstr ""
+
+#: includes/class.profile.php:397
+msgid "Detailed Description"
+msgstr ""
+
+#: includes/class.profile.php:399 includes/class.settings.php:185
+msgid "Add Attachments"
+msgstr ""
+
+#: includes/class.profile.php:402
+msgid "Save Description"
+msgstr ""
+
+#: includes/class.profile.php:403 includes/class.profile.php:448
+msgid "Actions"
+msgstr ""
+
+#: includes/class.profile.php:404
+msgid "Comment"
+msgstr ""
+
+#: includes/class.profile.php:405
+msgid "Edit"
+msgstr ""
+
+#: includes/class.profile.php:406 includes/class.profile.php:428
+#: includes/class.profile.php:441
+msgid "Delete"
+msgstr ""
+
+#: includes/class.profile.php:411
+msgid "Edit Title"
+msgstr ""
+
+#: includes/class.profile.php:413
+msgid "Checklist"
+msgstr ""
+
+#: includes/class.profile.php:414
+msgid "Add CheckList"
+msgstr ""
+
+#: includes/class.profile.php:415 includes/class.profile.php:464
+msgid "Due Date"
+msgstr ""
+
+#: includes/class.profile.php:418
+msgid "Select Label To Move"
+msgstr ""
+
+#: includes/class.profile.php:419
+msgid "Invite Members"
+msgstr ""
+
+#: includes/class.profile.php:420
+msgid "Create New label"
+msgstr ""
+
+#: includes/class.profile.php:422
+msgid "Search Labels"
+msgstr ""
+
+#: includes/class.profile.php:423
+msgid "Label Name"
+msgstr ""
+
+#: includes/class.profile.php:424
+msgid "Select Color"
+msgstr ""
+
+#: includes/class.profile.php:425
+msgid "Edit label"
+msgstr ""
+
+#: includes/class.profile.php:426
+msgid "Create Label"
+msgstr ""
+
+#: includes/class.profile.php:427 includes/class.profile.php:442
+#: includes/class.profile.php:474
+msgid "Name"
+msgstr ""
+
+#: includes/class.profile.php:429
+msgid "No atachments found."
+msgstr ""
+
+#: includes/class.profile.php:430
+msgid "Edit Labels"
+msgstr ""
+
+#: includes/class.profile.php:431
+msgid "Change Due Date"
+msgstr ""
+
+#: includes/class.profile.php:432
+msgid "Add Task"
+msgstr ""
+
+#: includes/class.profile.php:433
+msgid "Add New Task"
+msgstr ""
+
+#: includes/class.profile.php:434
+msgid "Add"
+msgstr ""
+
+#: includes/class.profile.php:435
+msgid "Save"
+msgstr ""
+
+#: includes/class.profile.php:436
+msgid "Add comment"
+msgstr ""
+
+#: includes/class.profile.php:437
+msgid "Write Comment...."
+msgstr ""
+
+#: includes/class.profile.php:438
+msgid "Checklist Title"
+msgstr ""
+
+#: includes/class.profile.php:439
+msgid "Set Due Date"
+msgstr ""
+
+#: includes/class.profile.php:440
+msgid "Select Date"
+msgstr ""
+
+#: includes/class.profile.php:444
+msgid "Info"
+msgstr ""
+
+#: includes/class.profile.php:445 includes/class.profile.php:517
+msgid "Start Date"
+msgstr ""
+
+#: includes/class.profile.php:446
+msgid "End Date"
+msgstr ""
+
+#: includes/class.profile.php:450
+msgid "Milestone Title"
+msgstr ""
+
+#: includes/class.profile.php:451
+msgid "Milestone Dates"
+msgstr ""
+
+#: includes/class.profile.php:452
+msgid "Add projects to favourites. Click on Heart icon on project to mark it as favourite."
+msgstr ""
+
+#: includes/class.profile.php:453
+msgid "Delete milestone. This would remove the milestone from the project."
+msgstr ""
+
+#: includes/class.profile.php:454
+msgid "Select dependencies"
+msgstr ""
+
+#: includes/class.profile.php:455
+msgid "No Tasks found"
+msgstr ""
+
+#: includes/class.profile.php:456
+msgid "No watchers !"
+msgstr ""
+
+#: includes/class.profile.php:457
+msgid "Show Tasks in Kanban Boards"
+msgstr ""
+
+#: includes/class.profile.php:458
+msgid "Show Tasks in Lists"
+msgstr ""
+
+#: includes/class.profile.php:459
+msgid "Show Tasks in Timeline"
+msgstr ""
+
+#: includes/class.profile.php:460
+msgid "Show Tasks in Calendar"
+msgstr ""
+
+#: includes/class.profile.php:461
+msgid "Wrap Lists"
+msgstr ""
+
+#: includes/class.profile.php:462
+msgid "Show Milestones"
+msgstr ""
+
+#: includes/class.profile.php:463
+msgid "Filter by"
+msgstr ""
+
+#: includes/class.profile.php:465
+msgid "Card Status"
+msgstr ""
+
+#: includes/class.profile.php:466
+msgid "Card label"
+msgstr ""
+
+#: includes/class.profile.php:467
+msgid "Assignees"
+msgstr ""
+
+#: includes/class.profile.php:468 includes/class.profile.php:471
+msgid "Search Tasks"
+msgstr ""
+
+#: includes/class.profile.php:469
+msgid "Perform Bulk Actions"
+msgstr ""
+
+#: includes/class.profile.php:470
+msgid "Show filters"
+msgstr ""
+
+#: includes/class.profile.php:472
+msgid "Send Invites"
+msgstr ""
+
+#: includes/class.profile.php:473
+msgid "Email"
+msgstr ""
+
+#: includes/class.profile.php:475
+msgid "Add Member"
+msgstr ""
+
+#: includes/class.profile.php:476
+msgid "Select Member Type"
+msgstr ""
+
+#: includes/class.profile.php:477
+msgid "Select Member Team"
+msgstr ""
+
+#: includes/class.profile.php:478
+msgid "Select cards"
+msgstr ""
+
+#: includes/class.profile.php:479
+msgid "cards selected"
+msgstr ""
+
+#: includes/class.profile.php:480
+msgid "Add automations"
+msgstr ""
+
+#: includes/class.profile.php:481
+msgid "Apply"
+msgstr ""
+
+#: includes/class.profile.php:482
+msgid "Select milestone"
+msgstr ""
+
+#: includes/class.profile.php:483
+msgid "No milestones found."
+msgstr ""
+
+#: includes/class.profile.php:484
+msgid "Invalid selections or Missing data."
+msgstr ""
+
+#: includes/class.profile.php:485
+msgid "Tasks by lists"
+msgstr ""
+
+#: includes/class.profile.php:486
+msgid "Tasks by labels"
+msgstr ""
+
+#: includes/class.profile.php:488
+msgid "Tasks by members"
+msgstr ""
+
+#: includes/class.profile.php:489
+msgid "Join task."
+msgstr ""
+
+#: includes/class.profile.php:490
+msgid "No automation options available."
+msgstr ""
+
+#: includes/class.profile.php:491
+msgid "Create new automation"
+msgstr ""
+
+#: includes/class.profile.php:492
+msgid "Select automation"
+msgstr ""
+
+#: includes/class.profile.php:493
+msgid "WHEN"
+msgstr ""
+
+#: includes/class.profile.php:494
+msgid "THEN"
+msgstr ""
+
+#: includes/class.profile.php:495
+msgid "Select automation value"
+msgstr ""
+
+#: includes/class.profile.php:496
+msgid "Due Today"
+msgstr ""
+
+#: includes/class.profile.php:497
+msgid "Due Tomorrow"
+msgstr ""
+
+#: includes/class.profile.php:498
+msgid "Due This Month"
+msgstr ""
+
+#: includes/class.profile.php:499
+msgid "Later"
+msgstr ""
+
+#: includes/class.profile.php:500
+msgid "Load more"
+msgstr ""
+
+#: includes/class.profile.php:501
+msgid "Show Completed Tasks"
+msgstr ""
+
+#: includes/class.profile.php:502
+msgid "Hide Completed Tasks"
+msgstr ""
+
+#: includes/class.profile.php:504
+msgid "Task burn down"
+msgstr ""
+
+#: includes/class.profile.php:505
+msgid "Task reports"
+msgstr ""
+
+#: includes/class.profile.php:506
+msgid "Task by Status"
+msgstr ""
+
+#: includes/class.profile.php:507
+msgid "Task Completed"
+msgstr ""
+
+#: includes/class.profile.php:508
+msgid "Task Created"
+msgstr ""
+
+#: includes/class.profile.php:509
+msgid "Net Tasks"
+msgstr ""
+
+#: includes/class.profile.php:510
+msgid "Tasks by Progress"
+msgstr ""
+
+#: includes/class.profile.php:511
+msgid "Tasks by Time"
+msgstr ""
+
+#: includes/class.profile.php:512
+msgid "Automation applied"
+msgstr ""
+
+#: includes/class.profile.php:513
+msgid "Member reports"
+msgstr ""
+
+#: includes/class.profile.php:514
+msgid "Expand tasks"
+msgstr ""
+
+#: includes/class.profile.php:516
+msgid "Unable to create a card without a list."
+msgstr ""
+
+#: includes/class.profile.php:518
+msgid "On Going"
+msgstr ""
+
+#: includes/class.profile.php:519
+msgid "Hide Unlisted Tasks"
+msgstr ""
+
+#: includes/class.profile.php:520
+msgid "Show Unlisted Tasks"
+msgstr ""
+
+#: includes/class.profile.php:521
+msgid "Unlisted"
+msgstr ""
+
+#: includes/class.profile.php:522
+msgid "Notify users"
+msgstr ""
+
+#: includes/class.profile.php:523
+msgid "All users"
+msgstr ""
+
+#: includes/class.profile.php:524
+msgid "Notification for"
+msgstr ""
+
+#: includes/class.profile.php:525
+msgid "Show hide fields"
+msgstr ""
+
+#: includes/class.profile.php:527
+msgid "No"
+msgstr ""
+
+#: includes/class.settings.php:50
+msgid "Projects General Settings"
+msgstr ""
+
+#: includes/class.settings.php:81
+msgid "No default member type"
+msgstr ""
+
+#: includes/class.settings.php:93
+msgid "Task Boards/Lists"
+msgstr ""
+
+#: includes/class.settings.php:98 includes/class.settings.php:157
+msgid "Capabilities"
+msgstr ""
+
+#: includes/class.settings.php:105 includes/class.settings.php:164
+#: includes/class.settings.php:274
+msgid "Member Type"
+msgstr ""
+
+#: includes/class.settings.php:111 includes/class.settings.php:170
+#: includes/class.settings.php:280
+msgid "Select Capabilities"
+msgstr ""
+
+#: includes/class.settings.php:114
+msgid "Create List"
+msgstr ""
+
+#: includes/class.settings.php:116
+msgid "Bulk Board actions"
+msgstr ""
+
+#: includes/class.settings.php:117
+msgid "Board automations"
+msgstr ""
+
+#: includes/class.settings.php:118
+msgid "Board Statistics"
+msgstr ""
+
+#: includes/class.settings.php:122 includes/class.settings.php:304
+msgid "Set Project Hierarcy Levels & Capabilities. You will be able to assign these heirarchy in project members tab."
+msgstr ""
+
+#: includes/class.settings.php:125
+msgid "Custom Board Statuses"
+msgstr ""
+
+#: includes/class.settings.php:132 includes/class.settings.php:240
+#: includes/class.settings.php:354
+msgid "Status slug [text, no space, no number , no special chars]"
+msgstr ""
+
+#: includes/class.settings.php:137 includes/class.settings.php:245
+#: includes/class.settings.php:359
+msgid "Status Label"
+msgstr ""
+
+#: includes/class.settings.php:142 includes/class.settings.php:250
+#: includes/class.settings.php:364
+msgid "Status Color"
+msgstr ""
+
+#: includes/class.settings.php:145
+msgid "Set custom statuses for boards."
+msgstr ""
+
+#: includes/class.settings.php:152
+msgid "Cards or Tasks"
+msgstr ""
+
+#: includes/class.settings.php:172
+msgid "View all Cards"
+msgstr ""
+
+#: includes/class.settings.php:173
+msgid "Move Cards"
+msgstr ""
+
+#: includes/class.settings.php:174
+msgid "Create Cards"
+msgstr ""
+
+#: includes/class.settings.php:175
+msgid "Watch any Card"
+msgstr ""
+
+#: includes/class.settings.php:176
+msgid "Change Card Status"
+msgstr ""
+
+#: includes/class.settings.php:178
+msgid "Delete Card"
+msgstr ""
+
+#: includes/class.settings.php:179
+msgid "Add Card Labels"
+msgstr ""
+
+#: includes/class.settings.php:180
+msgid "Add Card Members"
+msgstr ""
+
+#: includes/class.settings.php:181
+msgid "Set Dates"
+msgstr ""
+
+#: includes/class.settings.php:182
+msgid "Set Workloads"
+msgstr ""
+
+#: includes/class.settings.php:183
+msgid "Add Checklists"
+msgstr ""
+
+#: includes/class.settings.php:184
+msgid "Complete Checklists"
+msgstr ""
+
+#: includes/class.settings.php:189
+msgid "Set Card Capabilities."
+msgstr ""
+
+#: includes/class.settings.php:192
+msgid "Custom Card Fields"
+msgstr ""
+
+#: includes/class.settings.php:200 includes/class.settings.php:315
+msgid "PreLoad"
+msgstr ""
+
+#: includes/class.settings.php:205 includes/class.settings.php:320
+msgid "Key [no spaces, no special chars]"
+msgstr ""
+
+#: includes/class.settings.php:210 includes/class.settings.php:325
+msgid "Add Label"
+msgstr ""
+
+#: includes/class.settings.php:215 includes/class.settings.php:330
+msgid "Type of Field"
+msgstr ""
+
+#: includes/class.settings.php:217 includes/class.settings.php:332
+msgid "Number"
+msgstr ""
+
+#: includes/class.settings.php:218 includes/class.settings.php:333
+msgid "Text"
+msgstr ""
+
+#: includes/class.settings.php:219 includes/class.settings.php:334
+msgid "Checkbox"
+msgstr ""
+
+#: includes/class.settings.php:220 includes/class.settings.php:335
+msgid "Select"
+msgstr ""
+
+#: includes/class.settings.php:221
+msgid "Date"
+msgstr ""
+
+#: includes/class.settings.php:227
+msgid "Default Value, options a=>A|b=>B"
+msgstr ""
+
+#: includes/class.settings.php:230
+msgid "Custom fields for cards creation"
+msgstr ""
+
+#: includes/class.settings.php:233
+msgid "Custom Card Statuses"
+msgstr ""
+
+#: includes/class.settings.php:253
+msgid "Set custom statuses for Cards. Default Statuses : Active,Complete, Archived"
+msgstr ""
+
+#: includes/class.settings.php:262
+msgid "Project Settings"
+msgstr ""
+
+#: includes/class.settings.php:267
+msgid "Project Capabilities"
+msgstr ""
+
+#: includes/class.settings.php:282
+msgid "Create Project"
+msgstr ""
+
+#: includes/class.settings.php:283
+msgid "Update project status"
+msgstr ""
+
+#: includes/class.settings.php:284
+msgid "Create Milestones"
+msgstr ""
+
+#: includes/class.settings.php:285
+msgid "Complete Project"
+msgstr ""
+
+#: includes/class.settings.php:286
+msgid "Complete Milestones"
+msgstr ""
+
+#: includes/class.settings.php:287
+msgid "Delete Milestones"
+msgstr ""
+
+#: includes/class.settings.php:289
+msgid "View project activity"
+msgstr ""
+
+#: includes/class.settings.php:290
+msgid "Post project activity"
+msgstr ""
+
+#: includes/class.settings.php:291
+msgid "View project members"
+msgstr ""
+
+#: includes/class.settings.php:292
+msgid "Add project members"
+msgstr ""
+
+#: includes/class.settings.php:293
+msgid "Add project notice"
+msgstr ""
+
+#: includes/class.settings.php:295
+msgid "View Project Boards/Tasks"
+msgstr ""
+
+#: includes/class.settings.php:296
+msgid "View Project Gantt charts"
+msgstr ""
+
+#: includes/class.settings.php:297
+msgid "view Project Notes"
+msgstr ""
+
+#: includes/class.settings.php:298
+msgid "view Project Reports"
+msgstr ""
+
+#: includes/class.settings.php:300
+msgid "Add Project member"
+msgstr ""
+
+#: includes/class.settings.php:307
+msgid "Custom Project Fields"
+msgstr ""
+
+#: includes/class.settings.php:341
+msgid "Default Value"
+msgstr ""
+
+#: includes/class.settings.php:344
+msgid "Custom fields for project creation"
+msgstr ""
+
+#: includes/class.settings.php:347
+msgid "Custom Project Statuses"
+msgstr ""
+
+#: includes/class.settings.php:367
+msgid "Set custom statuses for projects. Default Statuses : Live, Draft (unsaved)"
+msgstr ""
+
+#: includes/class.touchpoints.php:158
+msgid "Project Created/Updated"
+msgstr ""
+
+#: includes/class.touchpoints.php:170
+msgid "Member added to project"
+msgstr ""
+
+#: includes/class.touchpoints.php:181
+msgid "Member removed from the project"
+msgstr ""
+
+#: includes/class.touchpoints.php:193
+msgid "Notice added to project"
+msgstr ""
+
+#: includes/class.touchpoints.php:204
+msgid "Card labels added"
+msgstr ""
+
+#: includes/class.touchpoints.php:214
+msgid "Card labels removed"
+msgstr ""
+
+#: includes/class.touchpoints.php:247
+msgid "Attachment uploaded to card"
+msgstr ""
+
+#: includes/class.touchpoints.php:258 includes/class.touchpoints.php:850
+msgid "Card marked completed"
+msgstr ""
+
+#: includes/class.touchpoints.php:268
+msgid "Card added as milestone for project"
+msgstr ""
+
+#: includes/class.touchpoints.php:291
+msgid "New Card"
+msgstr ""
+
+#: includes/class.touchpoints.php:312
+msgid "Member removed from Card"
+msgstr ""
+
+#: includes/class.touchpoints.php:323
+msgid "Card status updated [Members + Watchers]"
+msgstr ""
+
+#: includes/class.touchpoints.php:344
+#, php-format
+msgid "You were removed from the project %s "
+msgstr ""
+
+#: includes/class.touchpoints.php:344
+#, php-format
+msgid "You were removed from the project %s by %s"
+msgstr ""
+
+#: includes/class.touchpoints.php:390
+#, php-format
+msgid "You are added to the project %s "
+msgstr ""
+
+#: includes/class.touchpoints.php:390
+#, php-format
+msgid "You were added to the project %s by %s"
+msgstr ""
+
+#: includes/class.touchpoints.php:437
+#, php-format
+msgid "Project %s updated by %s"
+msgstr ""
+
+#: includes/class.touchpoints.php:507
+#, php-format
+msgid "Notice added in project %s"
+msgstr ""
+
+#: includes/class.touchpoints.php:637
+#, php-format
+msgid "Label %s removed by %s from card %s"
+msgstr ""
+
+#: includes/class.touchpoints.php:744
+#, php-format
+msgid "Due date %s set in card %s by %s"
+msgstr ""
+
+#: includes/class.touchpoints.php:798
+msgid "Attachment uploaded in card"
+msgstr ""
+
+#: includes/class.touchpoints.php:848
+#, php-format
+msgid "Card %s marked completed by %s"
+msgstr ""
+
+#: includes/class.touchpoints.php:899
+msgid "Card marked as milestone"
+msgstr ""
+
+#: includes/class.touchpoints.php:1030
+#, php-format
+msgid "New card %s added in board %s in project %s"
+msgstr ""
+
+#: includes/class.touchpoints.php:1032
+msgid "New card added"
+msgstr ""
+
+#: includes/class.touchpoints.php:1075 includes/class.touchpoints.php:1114
+#, php-format
+msgid "Card %s assigned under project %s by %s : %s"
+msgstr ""
+
+#: includes/class.touchpoints.php:1077 includes/class.touchpoints.php:1116
+msgid "Card Assigned"
+msgstr ""
+
+#: includes/class.touchpoints.php:1175
+#, php-format
+msgid "Card %s status updated to %s under project %s by %s : %s"
+msgstr ""
+
+#: includes/class.touchpoints.php:1177
+#, php-format
+msgid "Card %sstatus updaed"
+msgstr ""
+
+#: includes/filters.php:60
+msgid "Member Teams"
+msgstr ""
+
+#: includes/filters.php:81
+msgid "Add To Project"
+msgstr ""
+
+#: includes/filters.php:86
+msgid "Remove from Project"
+msgstr ""
+
+#: includes/filters.php:105
+#, php-format
+msgid "%d members added to %d project"
+msgstr ""
+
+#: includes/filters.php:115
+#, php-format
+msgid "%d members removed from %d project"
+msgstr ""
+
+#: includes/filters.php:124 includes/filters.php:133
+#, php-format
+msgid "%d members added to %d teams."
+msgstr ""
+
+#: includes/filters.php:169
+msgid "Custom fields Project."
+msgstr ""
+
+#: includes/filters.php:173
+msgid "Custom added fields for the Project."
+msgstr ""
+
+#: includes/projects.component.php:36
+msgid "Projects Directory"
+msgstr ""
+
+#: includes/projects.component.php:38
+msgid "Search Projects ..."
+msgstr ""
+
+#: includes/templates/board_templates.php:21
+msgid "Agency Collaboration"
+msgstr ""
+
+#: includes/templates/board_templates.php:24
+msgid "Upcoming work"
+msgstr ""
+
+#: includes/templates/board_templates.php:27
+msgid "Work in Progress"
+msgstr ""
+
+#: includes/templates/board_templates.php:30
+msgid "Planning"
+msgstr ""
+
+#: includes/widgets/cardburndown.php:22 includes/widgets/cardburndown.php:93
+msgid "Card Burndown"
+msgstr ""
+
+#: includes/widgets/cardburndown.php:24
+msgid "DASHBOARD : Cards Burndown"
+msgstr ""
+
+#: includes/widgets/cardburndown.php:43
+msgid "Total"
+msgstr ""
+
+#: includes/widgets/cardburndown.php:47
+#: includes/widgets/incomplete_tasks_by_project.php:46
+#: includes/widgets/project_by_status.php:46
+msgid "No data"
+msgstr ""
+
+#: includes/widgets/cardburndown.php:101
+#: includes/widgets/cardmemberinfo.php:106
+#: includes/widgets/incomplete_tasks_by_project.php:99
+#: includes/widgets/myitems.php:97 includes/widgets/project_by_status.php:99
+#: includes/widgets/upcomingtasks.php:102
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/cardburndown.php:105
+#: includes/widgets/cardmemberinfo.php:120
+#: includes/widgets/incomplete_tasks_by_project.php:103
+#: includes/widgets/myitems.php:101 includes/widgets/project_by_status.php:103
+#: includes/widgets/upcomingtasks.php:106
+msgid "Select Width"
+msgstr ""
+
+#: includes/widgets/cardburndown.php:107
+#: includes/widgets/cardmemberinfo.php:122
+#: includes/widgets/incomplete_tasks_by_project.php:105
+#: includes/widgets/myitems.php:103 includes/widgets/project_by_status.php:105
+#: includes/widgets/upcomingtasks.php:108
+msgid "One Fourth"
+msgstr ""
+
+#: includes/widgets/cardburndown.php:108
+#: includes/widgets/cardmemberinfo.php:123
+#: includes/widgets/incomplete_tasks_by_project.php:106
+#: includes/widgets/myitems.php:104 includes/widgets/project_by_status.php:106
+#: includes/widgets/upcomingtasks.php:109
+msgid "One Third"
+msgstr ""
+
+#: includes/widgets/cardburndown.php:109
+#: includes/widgets/cardmemberinfo.php:124
+#: includes/widgets/incomplete_tasks_by_project.php:107
+#: includes/widgets/myitems.php:105 includes/widgets/project_by_status.php:107
+#: includes/widgets/upcomingtasks.php:110
+msgid "One Half"
+msgstr ""
+
+#: includes/widgets/cardburndown.php:110
+#: includes/widgets/cardmemberinfo.php:125
+#: includes/widgets/incomplete_tasks_by_project.php:108
+#: includes/widgets/myitems.php:106 includes/widgets/project_by_status.php:108
+#: includes/widgets/upcomingtasks.php:111
+msgid "Two Third"
+msgstr ""
+
+#: includes/widgets/cardburndown.php:111
+#: includes/widgets/cardmemberinfo.php:126
+#: includes/widgets/incomplete_tasks_by_project.php:109
+#: includes/widgets/myitems.php:107 includes/widgets/project_by_status.php:109
+#: includes/widgets/upcomingtasks.php:112
+msgid "Three Fourth"
+msgstr ""
+
+#: includes/widgets/cardburndown.php:112
+#: includes/widgets/cardmemberinfo.php:127
+#: includes/widgets/incomplete_tasks_by_project.php:110
+#: includes/widgets/myitems.php:108 includes/widgets/project_by_status.php:110
+#: includes/widgets/upcomingtasks.php:113
+msgid "Full"
+msgstr ""
+
+#: includes/widgets/cardmemberinfo.php:22
+msgid "Member Tasks info"
+msgstr ""
+
+#: includes/widgets/cardmemberinfo.php:24
+msgid "DASHBOARD : Member Tasks info"
+msgstr ""
+
+#: includes/widgets/cardmemberinfo.php:46
+#: includes/widgets/cardmemberinfo.php:113
+msgid "Total Tasks"
+msgstr ""
+
+#: includes/widgets/cardmemberinfo.php:47
+msgid "Incomplete tasks"
+msgstr ""
+
+#: includes/widgets/cardmemberinfo.php:48
+#: includes/widgets/cardmemberinfo.php:115
+msgid "Finished Tasks"
+msgstr ""
+
+#: includes/widgets/cardmemberinfo.php:50
+msgid "N.A"
+msgstr ""
+
+#: includes/widgets/cardmemberinfo.php:110
+msgid "Select Stats"
+msgstr ""
+
+#: includes/widgets/cardmemberinfo.php:114
+#: includes/widgets/incomplete_tasks_by_project.php:45
+msgid "Incomplete Tasks"
+msgstr ""
+
+#: includes/widgets/cardmemberinfo.php:116
+msgid "Projects Running"
+msgstr ""
+
+#: includes/widgets/incomplete_tasks_by_project.php:22
+#: includes/widgets/incomplete_tasks_by_project.php:91
+msgid "Incomplete Tasks by Project"
+msgstr ""
+
+#: includes/widgets/incomplete_tasks_by_project.php:24
+msgid "DASHBOARD : Incomplete Tasks by Project"
+msgstr ""
+
+#: includes/widgets/myitems.php:22
+msgid "My Items"
+msgstr ""
+
+#: includes/widgets/myitems.php:24
+msgid "DASHBOARD : My Items"
+msgstr ""
+
+#: includes/widgets/myitems.php:41
+msgid "Completed Cards"
+msgstr ""
+
+#: includes/widgets/myitems.php:43
+msgid "Completed milestones"
+msgstr ""
+
+#: includes/widgets/myitems.php:89
+msgid "My items"
+msgstr ""
+
+#: includes/widgets/project_by_status.php:22
+#: includes/widgets/project_by_status.php:91
+msgid "Project by Status"
+msgstr ""
+
+#: includes/widgets/project_by_status.php:24
+msgid "DASHBOARD : Project by Status"
+msgstr ""
+
+#: includes/widgets/upcomingtasks.php:22 includes/widgets/upcomingtasks.php:94
+msgid "Upcoming Tasks"
+msgstr ""
+
+#: includes/widgets/upcomingtasks.php:24
+msgid "DASHBOARD : Upcoming Tasks"
+msgstr ""
+
+#: includes/widgets/upcomingtasks.php:46
+msgid "Task name"
+msgstr ""

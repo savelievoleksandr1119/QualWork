@@ -1,0 +1,1319 @@
+{
+    "tour": [
+        {            
+            "post_title": "Check Quiz Submission in Course",
+            "post_name": "check-quiz-submission-in-course",
+            "post_content": "<!-- wp:paragraph -->\n<p><meta charset=\"utf-8\">Learn how to check the course submission in the course.</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "course",
+                "steps": {
+                    "selector": [
+                        ".vibebp_main .course_manage .course_tabs .instructor_tabs span:nth-child(3)",
+                        ".course_tab_content .course_submissions_wrapper .course_submissions_tabs_wrapper a.link:nth-child(2)",
+                        ".course_tab_content .course_submissions_wrapper .course_submissions_tab_conetnt select",
+                        ".course_submissions_wrapper .mycourses_header .mycourses_access_tabs a.button.is-primary",
+                        ".course_submissions_wrapper .student_list .student_item span.tip i.vicon.vicon-write",
+                        ".question_list .question_container .question_score input[type=\"number\"]",
+                        ".course_submissions_wrapper .question_list .total_marks span span.vicon.vicon-pencil",
+                        ".course_submissions_wrapper .remarks_wrapper .remarks textarea",
+                        ".question_list .remarks_wrapper .remarks a.button.is-primary ",
+                        ".course_submissions_wrapper .mycourses_header .mycourses_access_tabs a.link:nth-child(2)"
+                    ],
+                    "title": [
+                        "Submissions",
+                        "Quiz Submissions",
+                        "Quiz Specific Evaluation",
+                        "Pending Quiz Evaluations",
+                        "View Submission",
+                        "Assign Marks for Question",
+                        "Edit the Quiz Marks",
+                        "Give Feedback",
+                        "Update Quiz Submission",
+                        "Completed Quiz Evaluation"
+                    ],
+                    "description": [
+                        "Check all the course-related submissions here.",
+                        "Check the Quiz module to check pending and completed evaluations.",
+                        "Select the Quiz module to check specific pending/complete evaluations.",
+                        "Manage pending quiz evaluations.",
+                        "Check quiz submission here.",
+                        "You can assign the marks for the question from here.",
+                        "Edit the total quiz marks from here.",
+                        "Type your feedback here for the user.",
+                        "Update the quiz submission form here.",
+                        "See all the completed quiz evaluations here."
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ]
+                }
+            },
+        },
+        {
+            
+            "post_title": "Check Course Submission in Course",
+            "post_name": "check-submissions-in-course",
+            "post_content": "<!-- wp:paragraph -->\n<p>Learn how to check the course submission in the course.</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "course",
+                "steps": {
+                    "selector": [
+                        ".vibebp_main .course_manage .course_tabs .instructor_tabs span:nth-child(3)",
+                        ".course_tab_content .course_submissions_wrapper .course_submissions_tabs_wrapper a.button.is-primary",
+                        ".course_submissions_tab_conetnt .course_submissions_wrapper .mycourses_header .mycourses_access_tabs a.button.is-primary ",
+                        ".course_submissions_tab_conetnt .course_submissions_wrapper .student_list .student_item .user_controls span.tip i.vicon.vicon-write",
+                        ".course_submissions_wrapper .course_structure .total_marks span span.vicon.vicon-pencil",
+                        ".course_submissions_tab_conetnt .course_submissions_wrapper .course_structure a.button.is-primary",
+                        ".course_submissions_tab_conetnt .course_submissions_wrapper .mycourses_header .mycourses_access_tabs a.link:nth-child(2)"
+                    ],
+                    "title": [
+                        "Submissions",
+                        "Course Submissions",
+                        "Pending Course Evaluation",
+                        "View Course Submission",
+                        "Edit the Marks",
+                        "Complete course",
+                        "Completed Course Evaluation"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "Check all the course-related submissions here.",
+                        "Check all the course submissions here.",
+                        "All pending courses evaluation are available here.",
+                        "Check course submission.",
+                        "Edit the marks for the student",
+                        "Complete the course for the user with updated marks.",
+                        "All Evaluated Courses are available here."
+                    ]
+                },
+                "tour_role": "edit_posts"
+            },
+        },
+        {
+            
+            "post_title": "Add Bulk students to Course",
+            "post_name": "add-bulk-students-to-course-via-csv",
+            "post_content": "<!-- wp:paragraph -->\n<p>Learn how you can add bulk students to the course </p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "course",
+                "steps": {
+                    "selector": [
+                        "div#course_component a.menu-child.manage_courses",
+                        ".wplms_manage_courses_wrapper .course_instructor_block div",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(1)",
+                        ".course_admin div .bulk_action span.tip:nth-child(6)",
+                        " .upload_csv_actions :nth-child(2)",
+                        ".change_data_wrapper .change_data_content .upload_csv_area label ",
+                        " .upload_csv_actions :nth-child(1)"
+                    ],
+                    "title": [
+                        "Manage Courses",
+                        "Manage This Course",
+                        "Admin Controls",
+                        "Add Student via CSV",
+                        "Download Sample CSV file",
+                        "Select CSV File",
+                        "Upload CSV File"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "Learn how you can manage the course, add or remove students from the course, edit the settings",
+                        "Click to learn how you can manage this entire course in one click.",
+                        "Check the admin controls.",
+                        "From here, you can add students to the course via CSV file.",
+                        "Click here to download the CSV file.",
+                        "Select the CSV file to upload.",
+                        "Upload the Selected CSV file."
+                    ]
+                },
+                "tour_role": "edit_posts"
+            },
+        },
+        {
+            
+            "post_title": "Send Bulk Message to Students",
+            "post_name": "send-bulk-message-to-students",
+            "post_content": "<!-- wp:paragraph -->\n<p>Learn how you can send message to selected/all members at once.</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "course",
+                "steps": {
+                    "selector": [
+                        "div#course_component a.menu-child.manage_courses",
+                        ".wplms_manage_courses_wrapper .course_instructor_block div",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(1)",
+                        ".course_admin div .bulk_action span.tip:nth-child(5)",
+                        ".course_students .course_student div i.vicon.vicon-layout-width-full",
+                        ".bulk_action_single .checkbox label",
+                        ".bulk_action_single input[type=",
+                        ".bulk_action_single textarea",
+                        "div .bulk_action .bulk_action_single .bulk_action_button a.button.is-primary"
+                    ],
+                    "title": [
+                        "Manage Courses",
+                        "Manage This Course",
+                        "Admin Controls",
+                        "Send message to user",
+                        "Select the User",
+                        "Select All Users",
+                        "Enter Title",
+                        "Enter Content",
+                        "Send Message"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "Learn how you can manage the course, add or remove students from the course, edit the settings",
+                        "Click to learn how you can manage this entire course in one click.",
+                        "Check the admin controls.",
+                        "From here, you can send the messages to all users at once.",
+                        "Select the user to whom you want to send the message.",
+                        "If, want to send a message to all the users check this box.",
+                        "Enter the title of the message.",
+                        "Enter the message content here.",
+                        "Click here to send message to selected/all members."
+                    ]
+                },
+                "tour_role": "edit_posts"
+            },
+        },
+        {
+            
+            "post_title": "Change Status for User",
+            "post_name": "change-status-for-user",
+            "post_content": "<!-- wp:paragraph -->\n<p>Click to learn how you can change the status of the course for the users.</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "course",
+                "steps": {
+                    "selector": [
+                        "div#course_component a.menu-child.manage_courses",
+                        ".wplms_manage_courses_wrapper .course_instructor_block div",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(1)",
+                        ".course_admin div .bulk_action span.tip:nth-child(4)",
+                        ".course_students .course_student div i.vicon.vicon-layout-width-full",
+                        "div .bulk_action .bulk_action_single select",
+                        "div .bulk_action .bulk_action_single .bulk_action_button a.button.is-primary"
+                    ],
+                    "title": [
+                        "Manage Courses",
+                        "Manage This Course",
+                        "Admin Controls",
+                        "Change Status for user",
+                        "Select the User",
+                        "Select Course Status",
+                        "Change Status"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "Learn how you can manage the course, add or remove students from the course, edit the settings",
+                        "Click to learn how you can manage this entire course in one click.",
+                        "Check the admin controls.",
+                        "Change course status for the user. if the user has completed the course, can change it to start the course.",
+                        "Select the user to extend the subscription.",
+                        "Select the course status for the user, you want to set.",
+                        "Click here to change the status."
+                    ]
+                },
+                "tour_role": "edit_posts"
+            },
+        },
+        {
+            
+            "post_title": "Extend Subscription for Student",
+            "post_name": "extend-subscription-for-student",
+            "post_content": "<!-- wp:paragraph -->\n<p>Learn how you can extend the subscription </p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "groups",
+                "steps": {
+                    "selector": [
+                        "div#course_component a.menu-child.manage_courses",
+                        ".wplms_manage_courses_wrapper .course_instructor_block div",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(1)",
+                        ".course_admin div .bulk_action span.tip:nth-child(3)",
+                        ".course_students .course_student div i.vicon.vicon-layout-width-full",
+                        "div .bulk_action .bulk_action_single select ",
+                        "div .bulk_action .bulk_action_single input[type=",
+                        "div .bulk_action .bulk_action_single .bulk_action_button a.button.is-primary"
+                    ],
+                    "title": [
+                        "Manage Courses",
+                        "Manage This Course",
+                        "Admin Controls",
+                        "Extend Subscription",
+                        "Select the User",
+                        "Select duration Parameter",
+                        "Enter Subscription Duration",
+                        "Apply subscription"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "Learn how you can manage the course, add or remove students from the course, edit the settings",
+                        "Click to learn how you can manage this entire course in one click.",
+                        "Check the admin controls.",
+                        "Extend subscription to the user. select the duration parameter and enter the amount of time.",
+                        "Select the user to extend the subscription.",
+                        "Select the duration parameter for the subscription.",
+                        "Enter the amount of subscription",
+                        "Click to apply subscription to the user"
+                    ]
+                },
+                "tour_role": "edit_posts"
+            },
+        },
+        {
+            
+            "post_title": "Assign Certificate/Badge to Student",
+            "post_name": "assign-certificate-badge-to-student",
+            "post_content": "<!-- wp:paragraph -->\n<p>Learn how you can assign the certificate/badge to the enrolled students.</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "course",
+                "steps": {
+                    "selector": [
+                        "div#course_component a.menu-child.manage_courses",
+                        ".wplms_manage_courses_wrapper .course_instructor_block div",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(1)",
+                        ".course_admin div .bulk_action span.tip:nth-child(2)",
+                        ".course_students .course_student div i.vicon.vicon-layout-width-full",
+                        ".bulk_action .bulk_action_single select",
+                        "div .bulk_action .bulk_action_single .bulk_action_button a.button.is-primary"
+                    ],
+                    "title": [
+                        "Manage Courses",
+                        "Manage This Course",
+                        "Admin Controls",
+                        "Assign Certificate/Badge",
+                        "Select User",
+                        "Select Badge/Certificate ",
+                        "Assign Selected Certificate/Badge"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "Learn how you can manage the course, add or remove students from the course, edit the settings",
+                        "Click to learn how you can manage this entire course in one click.",
+                        "Click the admin controls.",
+                        "Assign certificates and badges to users. you can select multiple users.",
+                        "Select User/Users to whom you want to reward the certificate/badge.",
+                        "Select the Badge or Certificate that you want to assign.",
+                        "Click to assign selected certificate/badge"
+                    ]
+                }
+            },
+        },
+        {
+            
+            "post_title": "Remove Student from Course",
+            "post_name": "remove-student-from-course",
+            "post_content": "<!-- wp:paragraph -->\n<p>Learn how you can remove student from the course.</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "course",
+                "steps": {
+                    "selector": [
+                        "div#course_component a.menu-child.manage_courses",
+                        ".wplms_manage_courses_wrapper .course_instructor_block div",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(1)",
+                        ".course_students .course_student span.tip:nth-child(3)"
+                    ],
+                    "title": [
+                        "Manage Courses",
+                        "Manage This Course",
+                        "Admin Controls",
+                        "Check Student Stats"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "Learn how you can manage the course, add or remove students from the course, edit the settings",
+                        "Click to learn how you can manage this entire course in one click.",
+                        "Check the admin controls.",
+                        "Click to check student stats for the course."
+                    ]
+                },
+                "tour_role": "edit_posts"
+            },
+        },
+        {
+            
+            "post_title": "Check student stats",
+            "post_name": "check-student-stats",
+            "post_content": "<!-- wp:paragraph -->\n<p>Learn how you can check student stats for the course.</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "course",
+                "steps": {
+                    "selector": [
+                        "div#course_component a.menu-child.manage_courses",
+                        ".wplms_manage_courses_wrapper .course_instructor_block div",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(1)",
+                        ".course_students .course_student span.tip:nth-child(3)"
+                    ],
+                    "title": [
+                        "Manage Courses",
+                        "Manage This Course",
+                        "Admin Controls",
+                        "Check Student Stats"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "Learn how you can manage the course, add or remove students from the course, edit the settings",
+                        "Click to learn how you can manage this entire course in one click.",
+                        "Check the admin controls.",
+                        "Click to check student stats for the course."
+                    ]
+                },
+                "tour_role": "edit_posts"
+            },
+        },
+        {
+            
+            "post_title": "Check Student Activity",
+            "post_name": "check-student-activity",
+            "post_content": "<!-- wp:paragraph -->\n<p>Click to learn how you can check student activities in course.</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "course",
+                "steps": {
+                    "selector": [
+                        "div#course_component a.menu-child.manage_courses",
+                        ".wplms_manage_courses_wrapper .course_instructor_block div",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(1)",
+                        ".course_students .course_student span.tip:nth-child(2)"
+                    ],
+                    "title": [
+                        "Manage Courses",
+                        "Manage This Course",
+                        "Admin Controls",
+                        "See Student Activity"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "Learn how you can manage the course, add or remove students from the course, edit the settings",
+                        "Click to learn how you can manage this entire course in one click.",
+                        "Check the admin controls.",
+                        "Click to see student activity in the course."
+                    ]
+                },
+                "tour_role": "edit_posts"
+            },
+        },
+        {
+            
+            "post_title": "Reset student Course progress",
+            "post_name": "reset-student-course-progress",
+            "post_content": "<!-- wp:paragraph -->\n<p>Learn how you can reset the course progress of the existing user.</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "course",
+                "steps": {
+                    "selector": [
+                        "div#course_component a.menu-child.manage_courses",
+                        ".wplms_manage_courses_wrapper .course_instructor_block div",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(1)",
+                        ".course_students .course_student span.tip:nth-child(1)"
+                    ],
+                    "title": [
+                        "Manage Courses",
+                        "Manage This Course",
+                        "Admin Controls",
+                        "Reset User Progress"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "Learn how you can manage the course, add or remove students from the course, edit the settings",
+                        "Click to learn how you can manage this entire course in one click.",
+                        "Check the admin controls.",
+                        "It will reset the course for the user"
+                    ]
+                },
+                "tour_role": "edit_posts"
+            },
+        },
+        {
+            
+            "post_title": "Add Student to Course",
+            "post_name": "add-student-to-course",
+            "post_content": "<!-- wp:paragraph -->\n<p>Learn how to add students to the course.</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "course",
+                "steps": {
+                    "selector": [
+                        "div#course_component a.menu-child.manage_courses",
+                        ".wplms_manage_courses_wrapper .course_instructor_block div",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(1)",
+                        ".course_admin div .bulk_action span.tip:nth-child(1)",
+                        ".add_student .bulk_action_single.vibebp_form .control.vibebp_form_field input[type=",
+                        ".bulk_action_button a.button.is-primary"
+                    ],
+                    "title": [
+                        "Manage Courses",
+                        "Manage This Course",
+                        "Admin Controls",
+                        "Add Student to Course",
+                        "Search Student",
+                        "Add Student"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "Learn how you can add or remove students from the course.",
+                        "Click to learn how you can manage this entire course in one click.",
+                        "Check the admin controls.",
+                        "Add a student to this course. Search for the student and add it.",
+                        "Search Student, Type at least 4 characters",
+                        "Click here to add students to the course."
+                    ]
+                },
+                "tour_role": "edit_posts"
+            },
+        },
+        {
+            
+            "post_title": "Create Course",
+            "post_name": "create-course",
+            "post_content": "<!-- wp:paragraph -->\n<p>Learn how you can create a course with all settings a</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "course",
+                "steps": {
+                    "selector": [
+                        "a.button.is-primary.new_mail",
+                        ".assign_cat ",
+                        ".field_value .vibe_form_field.post_title input.text_field",
+                        "li.vibe_post_excerpt .field_wrapper.field_textarea .textarea_field textarea#post_excerpt",
+                        ".myeditor .vibe_editor .vibe_editor_elements .vibe_editor_element span.vicon.vicon-text",
+                        ".myeditor .vibe_editor .vibe_editor_elements .vibe_editor_element span.vicon.vicon-image",
+                        ".myeditor .vibe_editor .vibe_editor_elements .vibe_editor_element span.vicon.vicon-layout-column2",
+                        ".myeditor .vibe_editor .vibe_editor_elements .vibe_editor_element span.vicon.vicon-shortcode",
+                        "li.vibe_vibe_duration .course_duration_stick_left .field_wrapper.field_duration",
+                        "li.vibe_vibe_duration .course_duration_stick_left .field_wrapper.field_number",
+                        "li.vibe_vibe_duration .course_duration_stick_left .field_wrapper.field_date",
+                        "li.vibe_vibe_duration .course_duration_stick_left .field_wrapper.field_switch",
+                        "div#create_course .field_wrapper.field_next_button .field_value a.button.major.is-primary",
+                        ".wplms_edit_course_content div#course_settings .course_settings .vibe_field.vibe_vibe_pre_course",
+                        ".wplms_edit_course_content div#course_settings .course_settings .vibe_field.vibe_vibe_course_prev_unit_quiz_lock",
+                        ".wplms_edit_course_content div#course_settings .course_settings .vibe_field.vibe_vibe_course_offline",
+                        ".vibe_field.vibe_vibe_course_offline .field_wrapper.field_switch:nth-child(2) .field_value .switch label.slider::before",
+                        ".vibe_field.vibe_vibe_course_offline .field_wrapper.field_switch:nth-child(3) .field_value .switch label.slider::before",
+                        ".vibe_field.vibe_vibe_course_offline .field_wrapper.field_switch:nth-child(4) .field_value .switch label.slider::before",
+                        ".vibe_field.vibe_vibe_course_offline .field_wrapper.field_switch:nth-child(5) .field_value .switch label.slider::before",
+                        ".vibe_field.vibe_vibe_course_offline .field_wrapper.field_switch:nth-child(6) .field_value .switch label.slider::before",
+                        ".wplms_edit_course_content div#course_settings .course_settings .vibe_field.vibe_vibe_course_drip",
+                        ".field_wrapper.type_conditionalswitch .field_wrapper.field_conditionalswitch ",
+                        ".field_wrapper.type_conditionalswitch .field_wrapper.field_switch:nth-child(2)",
+                        ".field_wrapper.type_conditionalswitch .field_wrapper.field_switch:nth-child(3)",
+                        ".field_wrapper.type_conditionalswitch .field_wrapper.field_reverseconditionalswitch",
+                        ".field_wrapper.type_conditionalswitch .field_wrapper.field_duration",
+                        ".wplms_edit_course_content div#course_settings .course_settings .vibe_field.vibe_vibe_course_certificate",
+                        ".wplms_edit_course_content div#course_settings .course_settings .vibe_field.vibe_vibe_badge",
+                        ".wplms_edit_course_content div#course_settings .course_settings .vibe_field.vibe_vibe_course_retakes",
+                        "div#course_settings .course_settings .vibe_field.vibe_vibe_course_instructions",
+                        "div#course_settings .course_settings .vibe_field.vibe_vibe_course_message ",
+                        ".course_settings .field_wrapper.field_next_button .field_value a.button.major.is-primary",
+                        ".wplms_course_creation_tabs ul li.course_components.active.current",
+                        "div#course_components .field_wrapper.field_next_button .field_value a.button.major.is-primary",
+                        ".wplms_edit_course_content .curriculum_type_wrapper .curriculum_type:nth-child(1)",
+                        ".wplms_edit_course_content .curriculum_type_wrapper .curriculum_type:nth-child(2)",
+                        ".course_upload_wrapper .curriculum_type_wrapper .curriculum_type:nth-child(1)",
+                        ".course_upload_wrapper .curriculum_type_wrapper .curriculum_type:nth-child(2)",
+                        ".course_upload_wrapper .curriculum_type_wrapper .curriculum_type:nth-child(3)",
+                        "input#course_upload_package .upload_package_actions a.button.is-link",
+                        "input#course_upload_package .upload_package_actions a.button.is-primary",
+                        ".course_curriculum_builder_wrapper .course_curriculum_builder > span",
+                        ".course_curriculum_wrapper div .add_curriculum_element a.button.is-primary:nth-child(1)",
+                        ".course_curriculum .curriculum_field_wrapper.course_section .curriculum_field .new_section input.section ",
+                        ".course_curriculum_wrapper div .add_curriculum_element a.button.is-primary:nth-child(2)",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "title": [
+                        "Create A Course",
+                        "Course categories",
+                        "Course Title",
+                        "Short Description",
+                        "Description with Text",
+                        "Description with Image",
+                        "Column Division ",
+                        "Shortcode Embedder",
+                        "Course duration",
+                        "Max Seat ",
+                        "Start date",
+                        "Automatic Evalaution",
+                        "Move to Settings",
+                        "Select Pre-required Course",
+                        "Unit and Quiz lock",
+                        "Enable Offline Course ",
+                        "Full Unit in Curriculum",
+                        "Hide Course Button",
+                        "Show Course Progress",
+                        "Show Time Based Course Progress",
+                        "Post Course Reviews",
+                        "Enable Drip Feed",
+                        "Drip Feed",
+                        "Drip Feed Origin(Starting Point)",
+                        "Drip Type",
+                        "Gap Duration",
+                        "Drip Duration",
+                        "Enable Course Certificate",
+                        "Enable Course Badge",
+                        "Course Retakes",
+                        "Course Instructions",
+                        "Course Completion Message",
+                        "Next Step",
+                        "Add Components",
+                        "Next Step",
+                        "Build Curriculum",
+                        "Upload Package",
+                        "Scorm Package",
+                        "Tincan Package",
+                        "Html Package",
+                        "Select Existing Package",
+                        "Upload Above Package",
+                        "Click Here",
+                        "Add Section",
+                        "Add Section Name",
+                        "Add Unit",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "view",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "view",
+                        "view",
+                        "view",
+                        "view",
+                        "view",
+                        "view",
+                        "view",
+                        "view",
+                        "view",
+                        "view",
+                        "view",
+                        "view",
+                        "view",
+                        "view",
+                        "view",
+                        "view",
+                        "view",
+                        "view",
+                        "view"
+                    ],
+                    "description": [
+                        "Check how you can create a course.",
+                        "Select/Create new course categories.",
+                        "Enter course title will be displayed as course name.",
+                        "Enter course short description, which will be available just below the course title.",
+                        "Enter text detailed description for the course, which will be available in the course content area.",
+                        "Enter image in the description for the course.",
+                        "select column division for course description.",
+                        "Embed videos/ppt/files, use direct Html block, add note, insert tab, and many more here.",
+                        "Enter course duration here. maximum duration in which students can finish the course. set 9999 for unlimited access.",
+                        "Enter the maximum number of seats. set 9999 to infinite and blank to disable.",
+                        "Set the course start date here. before this student can't take the course.",
+                        "Enable this to evaluate the course automatically after course submission.",
+                        "Click here to move on to the settings section",
+                        "A pre-required course which the user needs to complete before subscribing to this course",
+                        "Force previous unit access lock",
+                        "Enable offline course to check more",
+                        "Full Unit content is available for users subscribed to the course, directly from the Course curriculum. Recommended for Offline Courses.",
+                        "Hide the Course button after the user is subscribed to the Course.",
+                        "Display Course progress on Course home page.",
+                        "Automatically calculate progress based on Time elapsed in Course / Total course duration.",
+                        "Enable course subscribed students to post reviews from Course home.",
+                        "Enable Drip Feed to check more.",
+                        "Drip Feed courses, units are released one by one after a certain duration of time.",
+                        "Drip Feed origin, count time from Previous Unit Access Time (default) OR Course starting date/time (if start date not set).",
+                        "Drip Feed type, release units, or sections.",
+                        "The time gap between adjacent Units/Sections release",
+                        "Enter the drip duration for the course in %s. This is the duration after which the next unit/section unlocks for the user after viewing the previous unit/section.",
+                        "Enable the course certificate, select the course certificate template, and set marks to obtain the certificate.",
+                        "Enable Course Badge, upload badge image, set badge title and set marks to obtain the badge.",
+                        "Set number of times a student can re-take the course (0 to disable)",
+                        "Course instructions are displayed when the user starts a course.",
+                        "A completion message is shown to the student when she finishes the course.",
+                        "Click here to move on Components.",
+                        "As soon as you enable BuddyPress components (Groups/Forums/Batches), will be available here, you can create new or select existing ones from here.",
+                        "Click here to create the Course Curriculum.",
+                        "Learn how you can create a curriculum for a course.",
+                        "You can directly upload the course package here.",
+                        "Upload Scorm Package here.",
+                        "Upload Tincan Package here.",
+                        "Upload HTML Package here.",
+                        "Can select an existing package from here.",
+                        "Upload the above-uploaded package.",
+                        "Click here to change the Curriculum type. Learn how you can switch course curriculum type",
+                        "From here you can add a section for the course curriculum",
+                        "Enter section name here.",
+                        "Click to add units in the course curriculum.",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                },
+                "tour_role": "edit_posts"
+            },
+        },
+        {
+            
+            "post_title": "Manage Courses",
+            "post_name": "manage-courses",
+            "post_content": "<!-- wp:paragraph -->\n<p>Learn how you can manage courses/quizzes/assignments</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "course",
+                "steps": {
+                    "selector": [
+                        "div#course_component a.menu-child.manage_courses",
+                        ".wplms_manage_courses_wrapper .course_instructor_block div",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(1)",
+                        ".course_admin div .bulk_action span.tip:nth-child(1)",
+                        ".course_admin div .bulk_action span.tip:nth-child(2)",
+                        ".course_admin div .bulk_action span.tip:nth-child(3)",
+                        ".course_admin div .bulk_action span.tip:nth-child(4)",
+                        ".course_admin div .bulk_action span.tip:nth-child(5)",
+                        ".course_admin div .bulk_action span.tip:nth-child(6)",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(2)",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(3)",
+                        ".course_tab_content .course_submissions_wrapper .course_submissions_tabs_wrapper a.button.is-primary",
+                        ".course_submissions_tab_conetnt .course_submissions_wrapper .mycourses_header .mycourses_access_tabs a.button.is-primary ",
+                        ".course_submissions_tab_conetnt .course_submissions_wrapper .mycourses_header .mycourses_access_tabs a.link:nth-child(2)",
+                        ".course_tab_content .course_submissions_wrapper .course_submissions_tabs_wrapper a.link:nth-child(2)",
+                        ".course_tab_content .course_submissions_wrapper .course_submissions_tab_conetnt select",
+                        ".course_submissions_wrapper .mycourses_header .mycourses_access_tabs a.button.is-primary",
+                        ".course_submissions_wrapper .mycourses_header .mycourses_access_tabs a.link:nth-child(2)",
+                        ".course_tab_content .course_submissions_wrapper .course_submissions_tabs_wrapper a.link:nth-child(3)",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(4)",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(5)",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(6)",
+                        ".questionanswers_wrapper .mycourses_header.vibebp_form .header_tabs a.button.is-primary",
+                        ".questionanswers_wrapper .mycourses_header.vibebp_form .header_tabs a.link:nth-child(2)",
+                        ".questionanswers_wrapper .mycourses_header.vibebp_form .header_tabs a.link:nth-child(3)",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(7)",
+                        ".course_manage .course_tabs .instructor_tabs span:nth-child(8)"
+                    ],
+                    "title": [
+                        "Manage Courses",
+                        "Manage This Course",
+                        "Admin Controls",
+                        "Add Student",
+                        "Assign Certificate/Badge",
+                        "Extend Subscription",
+                        "Change Status for user",
+                        "Send message to user",
+                        "Add Student via CSV",
+                        "Check Activity",
+                        "Course Submissions",
+                        "Course Submissions",
+                        "Pending Course Evaluation",
+                        "Completed Course Evaluation",
+                        "Quiz Submissions",
+                        "Quiz Specific Evaluation",
+                        "Pending Quiz Evaluations",
+                        "Completed Quiz Evaluation",
+                        "Applications",
+                        "Announcement and News",
+                        "Manage Course Reviews",
+                        "Manage Questions/Discussions",
+                        "Pending Questions",
+                        "Answered Questions",
+                        "Course Comments",
+                        "Course Statistics",
+                        "Edit Course"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "Learn how you can manage the course, add or remove students from the course, edit the settings",
+                        "Click to learn how you can manage this entire course in one click.",
+                        "Check the admin controls.",
+                        "Add a student to this course. Search for the student and add it.",
+                        "Assign certificates and badges to users. you can select multiple users.",
+                        "Extend subscription to the user. select the duration parameter and enter the amount of time.",
+                        "Change course status for the user. if the user has completed the course, can change it to start the course.",
+                        "From here you can send the messages to all users at once.",
+                        "From here you can add students to the course via CSV file.",
+                        "Manage course-related activities here. you can delete/post activities and marked them as starred.",
+                        "Check all the course-related submissions here.",
+                        "Check all the course submissions here.",
+                        "All pending courses evaluation are available here.",
+                        "All Evaluated Courses are available here.",
+                        "Check the Quiz module to check pending and completed evaluations.",
+                        "Select the Quiz module to check specific pending/complete evaluations.",
+                        "Manage pending quiz evaluations.",
+                        "See all the completed quiz evaluations here.",
+                        "See all the Application Submissions here.",
+                        "Create announcement/news which will be available to all users.",
+                        "See all the course reviews here.",
+                        "Manage all questions/discussions here raised by users.",
+                        "All the pending questions are available here, Answer the Question and mark them as Answered.",
+                        "All Answered Questions are available here. you can edit the Answer here.",
+                        "Amswer all the course comments here.",
+                        "Generate the course statistics from here. Select the specific Fields and for which kind of users' data you want to generate as Statistics.",
+                        "From here you can edit the course(the same you have created the course!)."
+                    ]
+                },
+                "tour_role": "edit_posts"
+            },
+        },
+        {
+            
+            "post_title": "Check Courses",
+            "post_name": "check-courses",
+            "post_content": "<!-- wp:paragraph -->\n<p>Check your enrolled courses, quizzes, assignments, achievements, etc.</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "course",
+                "steps": {
+                    "selector": [
+                        ".bp-menu.bp-course-nav",
+                        "a.menu-child.course",
+                        "a.menu-child.course-stats",
+                        "a.menu-child.quiz_results",
+                        "a.menu-child.assignment_results ",
+                        "a.menu-child.notes_reviews",
+                        ".all_comments_wrapper .mycourses_header.vibebp_form .header_tabs >:nth-child(1)",
+                        ".all_comments_wrapper .mycourses_header.vibebp_form .header_tabs >:nth-child(2)",
+                        ".all_comments_wrapper .mycourses_header.vibebp_form .header_tabs >:nth-child(3)"
+                    ],
+                    "title": [
+                        "Check Courses/Achievements",
+                        "Enrolled Courses",
+                        "See Your Achievements",
+                        "Check Your Quizzes",
+                        "Check Your Assignments",
+                        "See Notes and Discussion",
+                        "See Your Notes",
+                        "See Discussions",
+                        "See Reviews"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "check all your courses, achievements, etc.",
+                        "Your enrolled active course is available here.",
+                        "Check your achieved badges and certificates.",
+                        "check your Quizzes here.",
+                        "check your assignments here.",
+                        "see the notes and questions you have created/asked in units.",
+                        "see all the notes you created in the units.",
+                        "your questions and comments will appear here.",
+                        "Submitted course reviews are available here."
+                    ]
+                },
+                "tour_role": "read"
+            },
+        },
+        {
+            
+            "post_title": "Woo-commerce Orders",
+            "post_name": "woo-commerce-orders",
+            "post_content": "<!-- wp:paragraph -->\n<p>Check how you can manage orders, change/edit address</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "shop",
+                "steps": {
+                    "selector": [
+                        ".bp-menu.bp-shop-nav",
+                        "a.menu-child.orders ",
+                        "a.menu-child.downloads",
+                        "a.menu-child.edit-address "
+                    ],
+                    "title": [
+                        "See Your Orders",
+                        "Your Orders",
+                        "Downloaded Products",
+                        "Billing/Shipping address"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "Here all your orders are available. you can edit the billing/shipping address too.",
+                        "Your all are visible here. by default completed orders are showing, select the order status to check more.",
+                        "You can download the downloadable product from here, all the downloaded products are available here.",
+                        "You can edit the Billing and Shipping address for your orders."
+                    ]
+                },
+                "tour_role": ""
+            },
+        },
+        {
+            
+            "post_title": "Manage Groups",
+            "post_name": "manage-groups",
+            "post_content": "<!-- wp:paragraph -->\n<p>Learn how you can manage groups/ add members/ create groups</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "groups",
+                "steps": {
+                    "selector": [
+                        ".bp-menu.bp-groups-nav",
+                        ".vibebp_groups .new_group ",
+                        ".group_content .left_side .footer_links a.button.is-primary",
+                        ".group_content .right_side .portal_footer .actions a.button.is-info"
+                    ],
+                    "title": [
+                        "Manage Groups",
+                        "Create Group",
+                        "Post your Update here",
+                        "Add Member"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "Create groups using + icon, add members, etc.",
+                        "Create group, search members, set group status, and invite permissions.",
+                        "This will be available in the group activities.",
+                        "Add member in the Group."
+                    ]
+                },
+                "tour_role": ""
+            },
+        },
+        {
+            
+            "post_title": "Friends",
+            "post_name": "check-friends",
+            "post_content": "<!-- wp:paragraph -->\n<p>Learn how to manage friends</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "friends",
+                "steps": {
+                    "selector": [
+                        ".bp-menu.bp-friends-nav",
+                        "a.menu-child.friends-my-friends ",
+                        "a.menu-child.requests ",
+                        ".portal .portal_header .header_links a.button.is-primary ",
+                        ""
+                    ],
+                    "title": [
+                        "See Friends",
+                        "Your Friends",
+                        "Friend Requests",
+                        "Add Friends",
+                        ""
+                    ],
+                    "action": [
+                        "click",
+                        "view",
+                        "click",
+                        "click",
+                        "view"
+                    ],
+                    "description": [
+                        "Your friends will be available here, check who request you and sends the request to others.",
+                        "All your friends are available here.",
+                        "See who sends you friend requests, you can send friend requests to others and add friends",
+                        "Search the users here to make them your Friends",
+                        ""
+                    ]
+                },
+                "tour_role": ""
+            },
+        },
+        {
+            
+            "post_title": "Check Activity",
+            "post_name": "check-activit",
+            "post_content": "<!-- wp:paragraph -->\n<p>Check your orders, downloaded products.</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "activity",
+                "steps": {
+                    "selector": [
+                        ".bp-menu.bp-activity-nav",
+                        ".vibebp_left_sidebar >.menu-child:nth-child(2)",
+                        ".vibebp_left_sidebar >.menu-child:nth-child(3)",
+                        ".vibebp_left_sidebar >.menu-child:nth-child(4)",
+                        ".vibebp_left_sidebar >.menu-child:nth-child(5)",
+                        ".vibebp_left_sidebar >.menu-child:nth-child(6)",
+                        ".vibebp_left_sidebar >.menu-child:nth-child(7)",
+                        ".portal.activity_post .portal_footer .footer_links a.button.is-primary "
+                    ],
+                    "title": [
+                        "See Activity",
+                        "Personal Activity",
+                        "Mention Activity",
+                        "Favorite Activities",
+                        "Friends Activites",
+                        "Course Activities",
+                        "Site Activity",
+                        "Post your update"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "view",
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                },
+                "tour_role": ""
+            },
+        },
+        {
+            
+            "post_title": "Check Messages",
+            "post_name": "check-messages",
+            "post_content": "<!-- wp:paragraph -->\n<p>Check your all messages here</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "messages",
+                "steps": {
+                    "selector": [
+                        ".bp-menu.bp-messages-nav ",
+                        "a.menu-child.inbox",
+                        "a.menu-child.starred",
+                        "a.menu-child.sentbox ",
+                        "a.button.is-primary.new_mail ",
+                        ".labels .labels_title a.link",
+                        ".message_actions .message_buttons a.button.is-primary "
+                    ],
+                    "title": [
+                        "Show Messages",
+                        "Check Inbox",
+                        "Starred Messages",
+                        "Sent Messages",
+                        "Create Message",
+                        "Create New Label",
+                        "Send message"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "It will display all the messages here.",
+                        "Check all messages here.",
+                        "It will show all the starred messages if any.",
+                        "Check all your sent messages.",
+                        "Create a new message to send.",
+                        "Create new labels for messages.",
+                        "Will send the message to the recipient."
+                    ]
+                },
+                "tour_role": ""
+            },
+        },
+        {
+            
+            "post_title": "Check Your Notifications",
+            "post_name": "check-your-notifications",
+            "post_content": "<!-- wp:paragraph -->\n<p>Check your personal notifications based on your activities</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "notifications",
+                "steps": {
+                    "selector": [
+                        ".bp-menu.bp-notifications-nav ",
+                        "a.menu-child.notifications-my-notifications ",
+                        "a.menu-child.read "
+                    ],
+                    "title": [
+                        "Check Notification",
+                        "Unread Notifications ",
+                        "Read Notifications"
+                    ],
+                    "action": [
+                        "click",
+                        "click",
+                        "view"
+                    ],
+                    "description": [
+                        "From here you can see all your notifications.",
+                        "From here you can see all your unread notifications.",
+                        "Your all read notifications available here."
+                    ]
+                },
+                "tour_role": ""
+            },
+        },
+        {
+            
+            "post_title": "Check Settings",
+            "post_name": "check-settings",
+            "post_content": "<!-- wp:paragraph -->\n<p>Take a tour of how you can manage all settings</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "settings",
+                "steps": {
+                    "selector": [
+                        ".bp-menu.bp-settings-nav ",
+                        "a.button.is-primary.make_new_export_request "
+                    ],
+                    "title": [
+                        "Open Setting",
+                        "Request Export data"
+                    ],
+                    "description": [
+                        "Check settings for profile",
+                        "Make a request for data export"
+                    ],
+                    "action": [
+                        "click",
+                        "click"
+                    ]
+                }
+            },
+        },
+        {
+            
+            "post_title": "Manage Profile",
+            "post_name": "manage-profile",
+            "post_content": "<!-- wp:paragraph -->\n<p>Learn how to change your name, photo &amp; other fields.</p>\n<!-- /wp:paragraph -->",
+            "meta": {
+                "tour_component": "xprofile",
+                "steps": {
+                    "selector": [
+                        ".bp-profile-nav",
+                        ".vibebp_left_sidebar > .menu-child:first-child",
+                        ".vibebp_left_sidebar > .menu-child:nth-child(2)",
+                        ".vibebp_left_sidebar > .menu-child:nth-child(3)"
+                    ],
+                    "title": [
+                        "Open profile",
+                        "View Profile",
+                        "Edit profile fields",
+                        "Change profile photo"
+                    ],
+                    "action": [
+                        "click",
+                        "view",
+                        "click",
+                        "click"
+                    ],
+                    "description": [
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                }
+            },
+        }
+    ]
+}

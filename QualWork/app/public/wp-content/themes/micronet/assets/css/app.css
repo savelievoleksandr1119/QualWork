@@ -1,0 +1,204 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "root.css";
+@import "generic.css";
+@import "nav.css";
+@import "login.css";
+@import "post.css";
+@import "misc.css";
+@import "minimal.css";
+@import "woocommerce.css";
+@import "bbpress.css";
+
+body{
+    overflow-x: hidden;
+    width: 100vw;
+}
+img.custom-logo {
+    width: 120px;
+}
+
+.mobile_navigation li>a {
+    padding: 0.5rem 0;
+    display: flex;
+}
+
+.hide{display: none;}
+
+.primary-color,.has-primary-color{
+    color: var(--bg-primary);
+    a{color: var(--bg-primary);}
+}
+.has-secondary-color{
+    color: var(--secondary-color);
+}
+.has-white-color{
+    color: #fff;
+}
+.bg-primary{
+    background: var(--bg-primary);
+    color: var(--color-primary);
+    a{color: var(--color-primary);}
+}
+.primary-border{
+    border:1px solid var(--bg-primary);
+}
+.swiper-button-prev, .swiper-button-next {
+    opacity: 0;
+    transition:all 0.2s;
+}.disabled_swiper_button {
+    display: none;
+}
+.sub-menu .sidebar .widget{
+    border:none;
+    background:none;
+}
+.swiper:hover .swiper-button-prev,.swiper:hover .swiper-button-next {
+    opacity: 1;
+}
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+.wp-block-columns{
+    margin-bottom: 0px;
+}
+.w-vw,.w-vw img{
+    width:100vw;
+}
+
+
+.react_portal_modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & > span {
+        z-index: 1;
+        background: var(--border);
+        width: 100;
+    }
+
+    .ve_modal-content {
+        max-width: 800px;
+        max-height: 90vh;
+        background: var(--highlight);
+        padding: 1rem;
+        border-radius: 5px;
+        z-index: 99;
+        overflow: auto;
+        border: 1px solid var(--border);
+        box-shadow: 0 2px 10px var(--shadow);
+        .ve_modal-header {
+        display: flex;
+            justify-content: space-between;
+        }
+        .gif_wrap {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 1rem;
+            .input_field_wrapper {
+                border: 1px solid var(--border);
+                padding: 5px;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                input {
+                    flex: 1;
+                    border: none;
+                }
+            }
+            
+            .gif_wrapper {
+                display: flex;
+                gap: 5px;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+
+
+
+.widget_bp_core_whos_online_widget img{width:32px;height:32px;border-radius:50%}
+
+.moving_bg{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+img.attachment-post-thumbnail {
+    border-radius: 1rem;
+}
+
+
+
+.rotating-text {
+  font-weight: 600;
+  font-size: 1em;
+  transform: translateX(-80px);
+  p {
+    display: inline-flex;
+    margin: 0;
+    vertical-align: top;
+
+    .word {
+      position: absolute;
+      display: flex;
+      opacity: 0;
+
+      .letter {
+        transform-origin: center center 0.67em;
+
+        &.out {
+          transform: rotateX(90deg);
+          transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
+        }
+        &.in {
+          transition: 0.38s ease;
+        }
+        &.behind {
+          transform: rotateX(-90deg);
+        }
+      }
+    }
+  }
+}
+.alizarin {
+  color: #e74c3c;
+}
+
+.wisteria {
+  color: #8e44ad;
+}
+
+.peter-river {
+  color: #3498db;
+}
+
+.emerald {
+  color: #2ecc71;
+}
+
+.sun-flower {
+  color: #f1c40f;
+}

@@ -1,0 +1,2502 @@
+* 1.9.9.7.6
+* admin checks for vibebp vulnerability
+* editor media not showing file name to add or select fix
+* 1.9.9.7.5
+* editor fix
+* 1.9.9.7.4
+* chekc nonemoty
+* removing this since we are already processing quiz unit different way
+* 1.9.9.7.3
+* vibebp bp setting not saving fix
+* migrator fix
+* remove migrator
+* turkish lang po mo
+* external_new_tab_link
+* user role not assigning on signup fix
+* 1.9.9.7.2
+* package lock change install regenerater runtime
+* singinpopup register fix
+* regenerated login
+* handle upload
+* minimised fixes
+* 1.9.9.7.1
+* password not working in vibebp signup fix
+* 1.9.9.7
+* login issue fix vibebp  import 'regenerator-runtime/runtime';
+* cache not updated from firebase fix
+* course layout api fix
+* email not migrating fix
+* signin fix
+* match question vibe_question_answer is an array
+* do not cache xapi
+* fix for course featured image
+* media export
+* media fixes
+* parse media in exporter
+* export attachments
+* match options process
+* quiz duration fix
+* php err fix
+* course export fix and delete zip file before generating it
+* hide save button
+* add steps
+* saas export complete
+* open login popup when social login redirection
+* tags and course product migration
+* php err fix
+* course export
+* export questions and quizzes
+* parse math
+* migrate units and assignments
+* units csv build done
+* group join button fix
+* saas migrator init
+* mathjax url form cdn
+* php err fix
+* translation issue fix
+* dounce changed to 750ms
+* changed dbounce to 300ms
+* border bottom on title field
+* load mathjax for each editor
+* window load event
+* appointments bug fix
+* translation issue fix
+* show error message on failing the social login
+* mathjax fix
+* login check box message
+* profile field bug fix
+* change mathjax
+* 1.9.9.5.3
+* reduce debounce time limit
+* increase debounce duration
+* cart listen events on remove item update icon count
+* php err fix
+* radio filed not saving
+* build files
+* php err fix
+* cart fixes
+* php err fix
+* 1.9.9.5.2
+* 1.9.9.5.2
+* Debounce in editor fix
+* select field dropdown for custom register option
+* changelog
+* 1.9.5.5.1
+* 1.9.9.5.1
+* Sanitise sort param
+* body type in att
+* 1.9.9.5
+* login terms html fix
+* sanitize Labels, validated from existing labels
+* Fix debounce editor on changes
+* Vul #2 : Sanitize group id for avatar
+* Vul#1 : Get role from form settings
+* php err fix
+* multiselect field fix
+* profile upload type field fixes
+* email setting not saving with sw
+* filter for custom validation at social login
+* 1.9.9.4.1
+* app page err fix
+* 1.9.9.4
+* registeration formn not working fix
+* all members err fix
+* group tab event for home to unmount for others
+* avatar api fix
+* groupname
+* build file
+* groups issue fix
+* show minimise sidebar in all cases
+* edge case avatars API was hit
+* flatpickr lang fix
+* firebase login fix
+* err in csv members upload
+* bug after firebase account creation
+* captcha not working fix
+* email login trim
+* editor for math
+* bp 12 compability fixes
+* login issues
+* members map api key issue
+* space between name and comma
+* domain fixes for warnings
+* 1.9.9.2
+* compatibility BP 12
+* carousel count bug fix
+* 1.9.9.1
+* cartjs price  fix
+* 1.9.9
+* edit course error fix or php error fix when firebase stale requests updated
+* external process tus upload user id in filter
+* WC Events sync on cart page
+* php err fix
+* php err fix
+* build files
+* 1.9.8.9
+* new addons added
+* Function comments fixes
+* member popup overflow and height
+* parse time
+* timer option
+* timeer option
+* registration form shortcode bug fix
+* cart issues
+* media modal force upload
+* fixed tool bar in group desc
+* cartjs fixes
+* include coinstructors in speed accelerator
+* php err fix
+* loginjs error fix
+* check
+* Sorter check
+* default return warning message
+* default image for users fix
+* select drop down background color fix in app
+* spelling correction
+* build file
+* bulk action and all member member type creation fixes
+* fixes in csv import for member creation
+* 1.9.8.8
+* provision to add AI prompts for Editor
+* AI tools in editor
+* ai content gen
+* AI content gen
+* Validate token via IP option
+* subbnav calls going unnecessarily on each profile tab
+* ipaddress filter
+* 1.9.8.7.3
+* vibe_search shortcode
+* editor for extenal calls
+* Revert "plyrjs updated"
+* dashboard widget fixes
+* default component for third party themes
+* carousel block fixes
+* fixes
+* editor event.
+* php err fixes
+* read me updated
+* updated readme
+* ajax button fix
+* readme
+* disable nonce check from WC api
+* 1.9.8.7.2
+* client ID & IP verification in tokens with shortlived regenerate tokens
+* validate client ID in token
+* logout when token returns 401
+* client ID in token
+* 1.9.8.7.1
+* social login IP validation
+* enqueu_editor for third party
+* chabgeog
+* 1.9.8.7
+* tour role check
+* debounce added in fields
+* helpdesk kb in accelerator
+* editor change event trigger in 500ms debounce
+* vibe_search shortcode
+* plyrjs updated
+* ip address validation in generate & validate token
+* get user from token unified function
+* ip address in data
+* accelerator for forums & kb
+* misc
+* changes
+* editor params
+* editor fixes
+* expanded
+* decompile
+* multiuserselect field
+* trim email in login
+* wrong password remove wp error message
+* 1.9.8.6
+* profile fixes
+* editor fixes
+* touchpoint edit email fix
+* await added in mathJax
+* rename checkboxes to checkbox in the sample data improt
+* wallet
+* login rtl css fixes
+* editor fixes
+* grid_minimise
+* plyr mark not working fix
+* editor min
+* wallet class
+* measure performance to avoid caching
+* editor fixes
+* wallet class
+* editor js update
+* console log removed in login.js
+* break all in editor
+* min
+* firebase account creation stopped working for email users.
+* PDF view fixes
+* force enable application passwords
+* comment out global search new brnach
+* gobal search component
+* Fix profile field groups in registration shortcode
+* “complete progress” design update
+* optimised images
+* 1.9.8.5
+* phone number fix
+* editor fixed
+* editor
+* remove bp warning
+* remove select2
+* settings
+* token required for activity
+* setup wizard fix
+* changes
+* general
+* filter to add firebase
+* sw bug fixes
+* mified
+* member action button guten fix
+* field fix
+* editor changes for forms
+* global search component
+* profile completeness fix
+* cartjs woocommerce price
+* dashboard styling issues fixed
+* recaptcha not showing in vibebp forms fix
+* esc_attr layouts
+* esc_attr
+* firebase general
+* app general
+* 'vibebp/loader.php' for appointments
+* 1.9.8.4.1
+* setting change fix
+* disable public profile not working fix
+* member type dashboards
+* warning on mail import
+* post member action warning
+* offline page setting fix
+* 1.9.8.4
+* editor fixes
+* re-init disabled
+* PDF in courses
+* sw fixes
+* cart fixes
+* fixes
+* word break issue
+* cartjs bug fix
+* registration page styling
+* group card public permission
+* 1.9.8.3.3
+* settings filter incorrect
+* social signup filter to enable disable registration via social logins
+* swiper-container  misspelled
+* filter change
+* questions generator added for improved AI queries
+* remove app conversion
+* 1.9.8.3.2
+* course card call missing wc and pmpro
+* avatars hit
+* get_setting
+* 1.9.3.1
+* special cahracters in user tags
+* member types in member detail should pick labels not slugs
+* profile fixes
+* move to firebase
+* fixes
+* 1.9.8.3.1
+* performance queries
+* pot updated
+* global login seting fallback
+* default acceleerator version
+* finalising
+* doc and accelelrator
+* app page speed up
+* 1.9.8.3
+* login reverted
+* fixed
+* default sub removed
+* removing global
+* global_login and firebase fallbacks added
+* global login and firebse setting fallback
+* save settings
+* save settings bug fix
+* 1.9.8.2
+* remove multiple userLoaded event
+* version
+* 1.9.8.1
+* 1.9.8.1
+* addon block styles
+* result when object cache enabled
+* carousel style fix
+* merge fixes
+* messages
+* vibe chat in addons
+* global script fix
+* AI settings
+* slider fixes
+* default featured styles added
+* carousel bug fix
+* swiper added
+* now searching all members
+* firebase not defined error fix
+*  multiselected
+* post action for chat
+* minified scripts
+* simolke skin
+* multiselect & schema sleect field types
+* php erorr fix
+* session lock fix
+* profile action setting
+* custom actions
+* accelerator loading
+* remove firebase messages
+* profile actions filter
+* wplms api calls
+* message recipient conflicitng with editor
+* default member type fix
+* bp dependency
+* fixes
+* performance upgrade
+* missing semi-coln
+* simple theme
+* only for pages
+* 1.9.8
+* filter name change
+* 1.9.8
+* microlearning element fixes
+* custom registration forms tyling fixes
+* taxonomy term select
+* 1.9.7.6
+* featured style
+* add to cart
+* carousel fixes
+* minified files
+* performance
+* member actions
+* translation updated
+* changes in settings
+* cart changes
+* phone number blur
+* default country flag
+* new addons
+* design shortcodes
+* email change in settings not working
+* group data not showing if index is 0
+* performance ugrade
+* General settings sub-divided
+* vibebp_get_setting
+* setting changes
+* adding rating to course block
+* settings restructure
+* tax shortcode fixes
+* setup reinit
+* minified profile scripts
+* taxonomy carousel
+* razorpayouts license key
+* padding
+* stripe payouts
+* gallery fix
+* transaltion err fixx
+* pdf not rendering bug fix
+* upload type field check
+* Tours not working fixes
+* search not working without full name in all members panel fix
+* load all members of group
+* woocommerce purchase credits credit
+* 1.9.7.5
+* comment out performance upgrades for future updates
+* remove redundant api call
+* remove editor console.log
+* performance improvement file
+* missing wp execution check
+* play youtube video
+* math jax fix
+* setup wizard fixes
+* spelling fix
+* login fixes
+* 1.9.7.4
+* minified scripts
+* video player selector for gutenberg
+* math url fix
+* mathjs script error fix
+* 1.9.7.3
+* php error fix
+* remove user activated hook
+* cart icon show only WC detection
+* Drag to refresh changed to icon
+* minor styling fixes
+* php err fix
+* search and embed in text editor
+* editorJS setup
+* preprocess math remove mathjax CDN dependency
+* more popup when member panel loaded
+* bug fixes
+* fixes
+* video player fixes
+* editor commit
+* Activated user redirect
+* Carousel block bug fix
+* Carousel columns fix
+* blank editor fix
+* Message bug fixes
+* wall can post for logged in user not working fix
+* minor fixes
+* profile missed trigger fix
+* firebase function exists check
+* tip bottom
+* timeout fix
+* swiper enque
+* 1.9.7.2
+* group layout not working for group type fix
+* error mesage capture from wp_autneticate fx
+* gallery block fix and hide remove notice widget fron sitewide notice
+* chat for vibe chat
+* create member taxonomies feature added
+* groups_forums fixes
+* updated translations
+* 1.9.7.1
+* hidden group fix
+*  hidden group fix
+* stop hidden groups
+* Location field fixes
+* fatal error fix
+* refrsh count on member add
+* group forum
+* minor fixes
+* for collab editor
+* esc_attr & admin check in administration screen
+* blank return for duplicate profile content in templates
+* link warning in php 8.2
+* build files
+* empty checks for time data bp_core_time_since
+* custom Group fields resetting feilds & name fix
+* whatsapp
+* custom div fix
+* dashboard empty fix
+* do not show blank notifications
+* remove notification
+* remove notification when viewed
+* provision of custom div in header
+* php error fix
+* wc depraction fix
+* 1.9.7
+* field fixes
+* phone number field attempted flag display
+* minor fixes
+* custom actions support in Bulk Actions all members
+* php 8.2 warning fixes
+* tip css fix
+* css fixes
+* grid control removed
+* elementor fixes
+* warning fixes
+* elementor deprecation messages
+* 1.9.6
+* fixes
+* fixed tool bar in messages
+* remove data from store
+* markable icon help option in service worker settings
+* php 8.2
+* media modal popup active
+* button group fix
+* member type in user object token
+* location in members directory
+* php error fix for wplms gutenberg theme
+* minified profile
+* location in members directory
+* php 8 warning fix
+* Location field fix
+* directory block fix
+* group custom field checkbox field issue fix
+* profile fields not saving properly fix
+* function exists check
+* repeatable field issue fix
+* activity controller fix
+* css location field fix
+* pdf view js height fix
+* hidden group not showing to user to self
+* profile subnav controller
+* vibebp installer update
+* webpack update for node 9
+* custom registration form fx
+* 1.9.5.1
+* woocommerce checkout error issue fix
+* pdf default width set to device width in mobile and desktop.
+* activitiies component with filter
+* 1.9.5
+* build files
+* cart.js build
+* continue shopping link
+* social login not working fix
+* setting $vibebp->init->user_id for appointents shortcodes
+* order not working in member directorty fix
+* editor data to function for external usage
+* profile css build
+* remove margin add gap
+* remove !important on buttons
+* min widht on button
+* group field display check
+* firebase check
+* empty check
+* checkout page vibebp login force login to wp for checkout page
+* 1.9.4
+* tutorly check
+* function exists check
+* layouts fix
+* build files
+* double content in theme
+* Elementor header builder / avada etc
+* warning message fix when no messages
+* function exists check on did_filter
+* warning message on invalid field check
+* warning fix
+* Render profile content with any theme
+* WPML members directory filters translations
+* updated preset
+* gitignore updated
+* PDF fix
+* Linkedin Login
+* Firebase autheticated used setup when login from WP admin
+* fixes to notifications count.
+* profile field value not appearing properly fix
+* minox fix
+* translations updated
+* 1.9.3
+* compiled and webpack updated
+* css fixes
+* warning message fixes
+* few fixes
+* double image displayed in gallery
+* removing !important
+* gutenberg script enqueue
+* carousel number
+* scroll bar styling
+* array chekbox field value
+* 1.9.2.1
+* editor loading bug fix
+* deletion fixes in save settings
+* version 1.9.2
+* 1.9.2
+* Mathjax issue fixed
+* custom_page post menu icons
+* vibebp editor scipts
+* 1.9.1
+* translation issue fix
+* login message in fogrot password fix
+* empty check
+* message label height
+* translation fix
+* profile completeness bug fix
+* invite status and video in group desc not working fix
+* messaging js upated
+* 1.9.0.1
+* vibebp save settings
+* better error message in login
+* video tag not working messages fix
+* provision to redirect forgot password to wp lost password url
+* info appear twice in all member stats
+* notifications sorting not working fix
+* 1.9.0
+* user slug management
+* build files
+* cart error fix
+* messa ge reply not showing fix
+* 1.8.9.2
+* all members -> edit any member changing logged in user's avatar fix
+* Groups and fixes
+* 1.8.9.1
+* groupdata
+* gruop detail fixes
+* group tab conflict fix
+* hide profile field checking visibility settings
+* console.log removed
+* comma and space between name corrected.
+* profile
+* set product & price
+* random string to open unached version of cart
+* Enable Group product pricing
+* register swiper for enqueue in other plugins
+* Group gallery updated
+* bug fix
+* group ID correct identification
+* cart icon color change
+* 1.8.9
+* group info
+* group info
+* important fixes
+* compiled
+* fixes
+* custom fields
+* fixes
+* build files
+* fix for manifest and sw url in multisite
+* notice fixes
+* group dir build file
+* instructor privacy at backend
+* groups layouts elementor block value not working fix
+* group type shown filtered on group directory group_type page
+* group custom fields in directory
+* group fields in elementor block settings and localize
+* product
+* forgot password email not migrating fix
+* check en language since flatpickr already in en lang
+* not eneueue flatpickr lang when lang is english
+* ?force in shop orders
+* 1.8.8.7
+* group fields shortcode
+* group fields fix
+* member card not loading issue fix
+* login build files
+* Group fields
+* remove redundant
+* login loading keeps loading fix
+* fields not showing in create gorup
+* yesno field fix
+* error fix in custom fields groups front end
+* build files
+* custom fields in groups
+* max width on sleect
+* execute shortcodes in Widget
+* flatpickr language
+* delete account
+* bug fix
+* excerpt
+* change log update
+* field order setting
+* 1.8.8.6
+* message sent notification
+* message modal fix
+* login issue with firebase and do not sanitize password field to authenticate function wp
+* credits option in the WooCommerce product
+* appointments price
+* object check
+* warning fix
+* fix fields issue in member type registration
+* php error fix
+* changelog
+* php error fix
+* prnt
+* 1.8.8.5
+* field type gallery fixs
+* style not applied from customizer
+* minor fixes
+* slide improvements and gallery support in profile field shortcode
+* login issue when firebase dont authenticate
+* member directory card fix
+* 1.8.8.4
+* activation template
+* Save items
+* 1.8.8.3
+* view password css fix
+* login three dots fixes
+* filter added for invite codes
+* For extending registration codes
+* bug fixx
+* bug fix
+* changelog
+* 1.8.8
+* check if menu exits warning
+* minified scripts
+* commented out code removed
+* login fixes
+* message not sending action button fix
+* font end wall css in front.css profile.css removed from profiles
+* apply  filter on get setting
+* force script load in footer
+* vicon shortcode
+* appointments caps fix
+* register izitoastt script for other addons to use
+* selectcpt added in vibebp api
+* translation files updated
+* Embed message tag
+* select field
+* #carouse;
+* auro-height
+* autoheight fix
+* autoheight in carousel
+* array keys
+* minor css fixes
+* flag cdn
+* passing of swiper id
+* w3c fixes 1
+* filter display correction
+* to display flag on profiles
+* for flag formatting
+* important fix
+* plyr mask feature
+* wall
+* compiled
+* css fixes
+* menu icon function
+* profile field shortcode
+* fix for invite codes
+* invitation code ux changes
+* upload_attachment bug fix
+* menu icon function
+* balance products continues loading fix
+* translation files updated
+* 1.8.7.2
+* default break point
+* version in table fields
+* bug fix
+* field names for better import of fields
+* import meta descriptions
+* login fix when firebase auth does not work
+* slider fixes
+* 1.8.7.1
+* attachment query fix with privacy
+* inst media privacy not working fix
+* php error fix
+* php error fix in tus upload
+* fix for wall post
+* notice fixes
+* fixes
+* avatar id fix for item_id
+* default card selection
+* enqueue directory
+* profile field shortcode for gutenberg profiles
+* 1.8.7
+* _register_controls to register_controls
+* attachments in messages
+* css fixes
+* cart fixes
+* instructor content privacy fix
+* followers fixes
+* 6.0 beta tested
+* invite code validation
+* invitation code feature added
+* field description
+* one session per user
+* setupwizard to pick external css for necessary installation
+* fetch location after filter to set the language for multilingual plugins
+* fixes to profile fields
+* fields filter checked fixes
+* carousel fix
+* 1.8.7
+* compiled
+* cart in vibebp
+* checkbox field type not saving properly
+* add filter with user param for caps
+* cart changes
+* waiting for did_filter to be added in wp_core
+* 1.8.6.1
+* swiper to vibebp-swiper
+* country field options return
+* cartJS changes
+* coursel ID updated
+* list style fix
+* php error fix
+* cart items
+* cart api and blocks
+* default carousel type
+* new_blocks css js shifted
+* country field not showing value selected in admin edit user .
+* message search issue fix
+* member type check in profile field visibility settings
+* line break issue in textarea field fix
+* send message button not working fix
+* 1.8.6
+* default member type in registration forms
+* import user using csv in add members
+* no message
+* move new blocks
+* new blocks js and css
+* avatar component fixes
+* wallet position updated
+* attempted fix when gutenberg active, turns out gutenberg has a bug
+* adding cart api
+* swiper enabled
+* member and group type removed from vibebp-> buddypress
+* 1.8.5.3
+* profile not loading fix
+* elementor error fix
+* php error fix
+* admin to show all groups
+* some fixes
+* carousel gutenberg
+* instructor check for touchpoints
+* gutenberg carousel
+* load user profile
+* page template fix
+* avatars in notifications
+* logout when storage is cleared
+* 1.8.5.2
+* avatar fixes
+* block carousel
+* v3 google captcha in vibbp for standard bp registration form
+* fixes to carousel
+* save light_dark in localstorage
+* php error fix
+* important fix
+* wall component remove
+* credits update erorr fix
+* 1.8.5.1
+* pmpro api not working fix
+* group side
+* acknowledge changed to consume since acknowledge is not available on window.getDigitalGoodsService
+* google play walllet settings
+* search fix
+* search user in balance tab
+* activity styling
+* wallet balance update and list and history.
+* wallet product settings
+* 1.8.5
+* pdf js fix on switching tabs
+* wallet add transactions completed
+* mobile align
+* wallet init
+* 1.8.4
+* member_car public permission for course inst card
+* fixes
+* 1.8.3
+* 1.8.3
+* load script check
+* css fix
+* embed pdf using pdfjs
+* fixes
+* pdf embed in mobile try 1
+* firebase notifications removed
+* abortcontroller in avatar
+* carousels
+* progressbar in scrollbar
+* group avatar upload fixes
+* no wplms should also enable member tags
+* group avatar upload fix
+* SwiperJS in Vibe Carousel
+* swiperjs featured blocks
+* broadcaster on hold
+* wall svg fix
+* svg fix
+* some block indication in backend for wall
+* wall block added to gutenberg
+* some member card changes
+* editor in group description
+* member type count shortcode
+* report activity added
+* wall settings
+* wall post completed with post permissions
+* token checks for actions
+* user wall init
+* some cs changes for reactions overview
+* change log
+* registration fixes
+* build file
+* update reaction overview on reaction
+* fallback in permissions
+* register cause
+* client_id to be passed in all fields
+* reactions overview and details
+* build file
+* media comments and popup in wall
+* 1.8.2
+* thorottle field save controller fix
+* 1.8.1
+* notice fixes with array
+* remove drag and packery
+* assign user role to member type
+* fix for register as member type crashing
+* activity public for wall
+* 1.8
+* 1.8
+* activity time issue fix in safari
+* svg icons
+* remove ajax url removal
+* re-minify files
+* natural orientation
+* remove print
+* reset password im popup itself
+* register as option
+* register as (not completed)
+* permission function change
+* re-adding functions
+* gutenberg live preview
+* abort controller in field save
+* check in array
+* fix last acitivty user field
+* prepare for activity block in future
+* activity reactions
+* remove console
+* giphy styling fixes and consistency
+* giphy in editor
+* spaced style in gutenberg profile fields
+* block fixes for gutenberg
+* giphy added
+* fixes in gallery to support non-images
+* gallery and types
+* gallery profile field fix
+* warning fix on tags
+* profile and group layout default selection
+* updated default layouts
+* notice fix
+* remove ipstack location fetch
+* search media not working fix
+* repeatable bug fix
+* 1.7.2
+* fixes in modify bp
+* modify core BP functionalities
+* empty settings warning fix for php8
+* profile field fix
+* 1.7.1
+* woocommerce shop orders fix
+* warning fixes
+* translations
+* forgotpassword custom link provision
+* 1.7
+* menu fix
+* menu icons fix
+* dequeue wplms reg form script
+* merge categories warning
+* menu icon improvements
+* new registration improvements
+* activity post loading issue fix in groups
+* groups controller php 8 error fix
+* menu icons for profile menu
+* text alignment added in editor
+* updated gallery block
+* empty order check in woocommerce orders
+* minor css fixes
+* group invites call fix
+* menu item alignment issues
+* avatar fixes
+* checkbox fixes
+* permissions fix
+* avatars component
+* avatars component
+* restore avatar
+* minified
+* range slider
+* gallery api changed
+* styles in repeatable
+* multiple avatar id calls fix
+* repeatbale styles
+* Repeatable field fix
+* register flatpickr with vibebp-flatpickr as well
+* flatpickr css
+* repeatable field enhancements
+* return false
+* avatar bugs
+* allow search with partial names , emails
+* messages api stale request update for deleted messages
+* messages fixes
+* default switch in WP admin
+* node & npm updated
+* node version update
+* table css fixes
+* avatar handling
+* table field fixes
+* table field fix
+* php error fix
+* php error fix
+* registration forms in vibebp
+* vibebp touch points for notification callback register component and declare notification callback function
+* vibebp touch points added
+* 1.6.5.3
+* error for latex parsing
+* handle ghost api calls which are not completing in sync , add to post_data only when not already added ,remove on success at any time with given args
+* implemeted post_data check in browser since bg sync is not reliable
+* media modal force
+* set max width for vibebp_member for other themes
+* build file
+* remove firebase modules
+* periodic sync for post data retry
+* profile sync fix with buddypress profile
+* all groups page error fix
+* Tabs & Editor fixes
+* click activate tab
+* tab content css
+* build editor with hotspot check
+* 1.6.5.2
+* major messages fixes
+* profile field fix
+* profile.js build
+* getpost?force
+* apple login icon added
+* Revert "1.6.4.2"
+* 1.6.4.2
+* hotspot with textarea added
+* force on crop and upload & cover
+* 1.6.5.1
+* update stale req on field update
+* profile fields not showing data fix
+* slick theme css
+* slick theme css fix
+* 1.6.5
+* safari svg icon issue fix
+* 1.6.4.2
+* dashboard repetitive widget fix
+* dashboard widget fixes
+* widget error when options not provided fix
+* css fix
+* view membership button in all groups and view as public button in membership added
+* admin to show in members
+* join/leave button all groups popup
+* logout on invalidate token
+* groups dir in pwa changes
+* shift profile script
+* multiple changes & fixes
+* 1.6.4.1
+* css .content conflict issue fix
+* build files
+* 5 minutes setting in token duration for ultra security
+* reset password only for non-admins
+* classroom enable check added
+* groups dir changes
+* token not regenrating fix
+* scripts updated
+* member tag fix
+* json check on strings
+* registration force
+* changelog
+* 1.6.4
+* group button css fixes
+* join leave in FullGroup component
+* show group
+* all groups in groups menu
+* goups dir in groups menu
+* member type and announcement slider added
+* show loading indicate while singwithRedirect social login
+* gallary upload added
+* corousel component added
+* gallary component added
+* annuncements added
+* term_ids data type issue fixed
+* announcement added
+* remove active token on logout
+* active sessions fixes
+* login fixes
+* editor form search added
+* unified widgets call for dashboard
+* escape like
+* max-width removed on login image
+* os name in my sessions in settings
+* build file
+* my login sessions
+* minor editor changes
+* improved can access
+* pwabuilder sw js checked removed
+* margin-top fixed in vibebp sidebars
+* default splash image added
+* drag to reload added in members
+* access control check function changed
+* refresh token implemented
+* login refresh token (not working when user logs in)
+* sanitization checks
+* sanitizing
+* set_id fixed build added
+* function name change
+* scratch card fix
+* group can access api added
+* user_id warning fix
+* register props added
+* user register async fixed
+* unable to add members filter
+* groups add member showing while member is being added fix
+* php 8 error fix
+* sw changes for export
+* css fixes
+* translation POT updated
+* 1.6.3
+* 512 app icon fix
+* 512 icon fix
+* pwabuilder fix
+* activities reloading on thier own fix
+* csv to users register added
+* csv parse init
+* editor fixed for content change
+* directory blocks make work live in elementor editor
+* filter name change
+* elementor preview of directory not showing
+* add_to_group
+* changelog
+* Tour fixes
+* fixes
+* csv for upload api added
+* create user form added
+* editor note css consistency
+* styling fixes in member details
+* pass proper props for loading / editing profiles
+* math multi-trigger fix
+* warnings in activity
+* onChange edit in tours
+* css fixes
+* 1.6.2
+* css fixes
+* Tours import
+* build files
+* math & styling fixes
+* added animation in tour title
+* provision to change storename dynamically in service worker
+* check for field details if field is actually present
+* cache members details added
+* css fixes
+* bug fix & css fix
+* build flles
+* pagenow
+* tag creation,message added
+* activity, change image, sorter added
+* tags filter ,view fixed
+* member profile view and edit added
+* member page added
+* tags taxonomy component init
+* added tous json file and capabilities setting in tour
+* fixes for wpml addon
+* added tour live search
+* tour importer
+* better tour animation
+* tours fixed
+* php 8 error fix
+* editor render event handled
+* check for not empty post
+* css fixes for login screen
+* editor build added
+* the content filter fixed for questions
+* vimeo key fixed
+* minor css fixes
+* fixing tours in mobile
+* 1.6.1.1
+* css fixes in profile header
+* css fixes in profile header
+* updated pot
+* drag to refresh for mobile
+* improved drag to refresh
+* 1.6.1
+* php 8 error fix
+* login screen fix for millieseconds
+* dasbboard drag drop and scroll issue fix
+* temp login screen fixed
+* media modal plyr loading
+* build added
+* fetch issue in dashboard
+* shop component for tours
+* default component fixed
+* new message post args added
+* editor in messaging added
+* check for profile component
+* removed unused
+* build added
+* saving to table fixed
+* table change storing data added
+* fields render in profile field added
+* saving to db and rendering added
+* field selection added
+* table creation added
+* columns field creation added
+* profile field type table init
+* card classes
+* the content latex parse check added
+* instructor privacy for media added
+* tours steps added
+* current step check added
+* tours state updated as global
+* pro widgets not loading on layouts fix
+* post types for regex added
+* vibebp_the_content added
+* the content latex parse check added
+* notice & warning fixes
+* regex check for mathjax init
+* bug : Time since should be returned
+* icon class changed to icon style
+* improved style
+* added cover in vibebp bp theme
+* php 8 fixes
+* instructor privacy for media added
+* fetch_media search and sort not working fix
+* app display mode setting added
+* drive label and member class
+* empty check on attachment
+* php 8 fix
+* drive icon for drive files added
+* removed unused
+* Tour fixes
+* dlete transient fix
+* build added
+* saving to table fixed
+* table change storing data added
+* fields render in profile field added
+* saving to db and rendering added
+* Tour fixes
+* app template fixes
+* tours fixes
+* field selection added
+* table creation added
+* php 8 fix
+* columns field creation added
+* profile field type table init
+* Tours component
+* groups directory added in gutenberg
+* vibebp app template for sites which do not ahve anay template
+* login stuck at firebase fail fix
+* groups directory fix
+* group layout php 8 fixes
+* 1.6.0.5
+* empty check on value
+* remove Elementor and BBPress from recommended
+* rtl fix for slick dashboard theme
+* members directory and groups php 8 fixes
+* new dashboard theme rtl fix
+* provision to change profile link
+* php 8 fixes
+* 1.6.0.4
+* safari icons fix
+* editor fix for ppt , doc files
+* php 8 warning fixes
+* 1.6.0.3
+* Math file loaded locally
+* chat not trigger-ring on page load fix
+* fix assign default member type to existing users
+* fix to login white screen
+* 1.6.0.2
+* login issue without firebase
+* refreshing logic fix
+* 1.6.0.1
+* white space after login fixed
+* login bug fix
+* upload_media_stream url fixed for ?upload
+* compiled files
+* wordpress xnonce headers
+* regenerate sw on plugin upgrades
+* notice on Cache first service not works with sync
+* set false xnonce if not set
+* stale_Requests fix
+* resetting stale_requests on regenerate sw
+* login css fix
+* translations updated
+* remove force before url getItem sw
+* mobile css fixes
+* 1.6.0
+* service worker fixes
+* updateed service worker for full cache support
+* WordPress is logged in user Check
+* css issue with selected element
+* add xapi nonce
+* changing logic for title check adding details|courses
+* default attachment data
+* adding parseInt for compare id
+* new structure for titles and other things in cache
+* notifications sync
+* overflow bug fix
+* friend sync
+* fixes to mobile heading in components
+* menu fixes in mobile view
+* mobile profile menu items
+* fixes
+*  sidebar api
+* sw  fixes
+* sw error fix
+* method post and get follow same code for wp-json urls
+* load dashboard only when component is not dashboard
+* updated service worker
+* some more fix
+* cache_request fix
+* change stale_request logic to save url encoded
+* notification for live reload
+* 1.6.0
+* build login
+* check document sw
+* notificaiton for stale data added
+* userloaded event fixes
+* stale message fix
+* updating groups stale requests on member added
+* draggability dashboards
+* max height on slick
+* nocache in api
+* currDate should be dynamic
+* missing var in sw fix
+* pointer cursor
+* sync completed
+* service worker store vibebp_timestamp in each request and match with stale reqs
+* resolve when setting not enabled
+* firebase present check
+* login.js fix
+* avatar fetching cache
+* vibbep handlers
+* firebase admin_token transient fix
+* service worker check wp-json with vibe, wplms,vbp
+* bug fix in stale request handler
+* service worker with firebase realtime updating.
+* updated service worker with firebase updating
+* repetitive loop in fields
+* build files
+* slick theme fixes
+* simultaneous logins
+* service worker wp-json get requests cache fix
+* removing last_request prefix since we are using a new database now
+* dispatch reload event not working fix
+* promise for last_request fix
+* adding component event back in
+* toast changes back
+* service worker fixes
+* some error fixes in dashboard
+* clear last requests changed from one array to a new indexeddb database
+* setComponent not working
+* session_lock logout all fix
+* force logout
+* remove redundant var in Sw
+* notice fix
+* safari icon fix
+* dispatch component
+* load only one time on a page
+* add cache first check
+* vibebp_media_tab event dispatch fixed
+* async curls
+* class to cache tokens in single call
+* private key saving and working
+* iziToast icon iconUrl, backgroundColor, textColor provision
+* login fixes
+* SW CACHE FIRST & CACHE REQUEST
+* z-index fix
+* generate firebase token
+* gutenberg widget preview attempt
+* reload_nav force on profile
+* notice fixes
+* sync login
+* compiled files
+* scroll to current message on click
+* reload profile menu on settings.
+* reload group tabs on refresh
+* set html on widgets
+* nocache on validate and token generation
+* labels fixes
+* video/webm type video added
+* force not working in sw fix
+* service worker changes
+* css
+* tested upto wp 5.8 version
+* fix for chillpay and others
+* force network first even in cache first check added
+* force & cache first with network fallback added in sW
+* new group addition
+* cache requests
+* force logout firebase
+* groupd ID variable correction in mod emails
+* updated service worker 1
+* slick theme fix
+* fixes
+* show admin all groups
+* check icl_object_id for bp_single_page
+* messages sroting live
+* 1.5.9
+* grid header css fix
+* full message vibebp member
+* build files
+* userlinks removed from messages pwa
+* reload fixes
+* messages show names
+* css fix on login popup
+* check session from functions
+* logout from firebase on vibebp logout
+* tabs overflow fix
+* firebase admin sdk & token
+* message fixes
+* pagination in reload
+* logout trigger
+* updated drag to refresh
+* styling fixes
+* force reload fix
+* fullproject changes
+* font end login screen in slick theme
+* default profile vcomponent is view
+* drag to reload
+* changes in theme
+* merge
+* slick theme
+* draggable drag to refresh
+* cache first setting in json data
+* flatpicker langauge selection enque disabled
+* svg in single -line fixed
+* icons
+* compiled
+* Drag Refresh
+* slick theme
+* Microsoft login
+* css fixes memorygame
+* card stack added
+* css fixes
+* ppt,docs,xlsx,memory game css updated
+* plyrjs updated v3.6.8
+* Update member_types.php
+* Update member_types.php
+* Update member_types.php
+* Filter string for translation added
+* Default member type selection
+* Dashboard widgets packery
+* cloned not defined error fix
+* nocache check
+* Slick style
+* service worker Cache first
+* strong password restriction
+* escaping upload_media_stream url from servicer worker
+* $is_html4 warning
+* slick profile skin
+* message clear enter key press fixed
+* 1.5.8.1
+* service worker fixes for GET requests
+* service worker scope fix
+* customizer controls
+* servicer worker error fixes
+* 1.5.8
+* dashboard width change and reset button
+* compiled js
+* trigger Editor events on login pages
+* dashboard widgets grid flex
+* check cover support
+* iziToast loop fix
+* group cover added
+* cover upload in profile added (not working in groups in api)
+* network site url in forgot passwrod for correct link
+* iziToast working on all pages where login.js included
+* iziToast style
+* responsive vid css
+* sanitize_text_field aadded
+* avatar crop bug fix
+* show profile links
+* forget password allow username as well
+* remove console
+* member actions not working on paginate fix
+* update notification prop read:true when seen
+* izitoast added
+* restructure editor microlearning elements
+* fixed
+* follow removed from friends member block
+* fixing Pwa icon issue in notification bar
+* popup in gallery
+* video and gallery fields added
+* verify false after event dispatch . Split second delay leads to login display.
+* video filed added with youtube vimeo support
+* css fixes
+* inlineTex Math support
+* inbuilt plugins plugin-utils still required
+* notice fix
+* flatpickr language param
+* path
+* divider & anchor plugin
+* Promo added
+* periodic sync setting
+* wrap in mobile
+* video and gallery fields init
+* app theme color setting added
+* unfollow member action not working fix
+* profile action button fixes
+* delay in member card load so parent can keep up with its setstate
+* remove unnecessary folder
+* 1.5.6
+* vibebp_register_user_args_signup
+* default_component
+* facebook brand icon added
+* signinWithRedirect for mobiles fix for fb browser login not working
+* a.button color issue fix
+* upload field support in traditional bp registeration
+* support upload type field in custom reg forms old and new with validations and required .
+* upload type field in profile.js
+* accept request membership group added fixed
+* on forgot password message show added
+* filter for search member modification
+* file rename space in js file
+* profile styling not appearing fine fix
+* alert removed
+* traslations updated
+* 1.5.5
+* hotspots
+* safari backface css added
+* chnage profile photo not appearing when bp single page is active issue fix
+* remove back and front at same time added
+* lock updated
+* css changes
+* heading enter wrap fix
+* remove medium draft
+* css fixes
+* css fixes
+* allowing user to view his profile of other users when bp single page is active
+* editor fixes and question options not showing editor fix
+* email going wrong in js resulting in wrong validation of email fix
+* vibebp_upload_capability filter to allow upload to custom capability
+* who can upload setting added
+* file not uploading with same name fix
+* editor fixes
+* Improved grid size and css for flashcards.
+* SVG added for shortcodes
+* editor css highlight fix
+* text alignment attempt
+* fixes
+* php 8 warning fixes
+* textarea new line not working fix
+* reload,img height fixed
+* html saving optimized
+* tag changed
+* columns select added
+* console log removed
+* on edit fixed
+* remove image fixed
+* Memory game initialized
+* Delete control
+* editor initialized in hotspot
+* box show on edit added
+* translation fixed
+* hotspot added
+* html support fixed
+* Generate content structure added
+* GenerateContent component added
+* notification content check
+* 1.5.4
+* anchor new tab
+* hotspots initialized
+* plyr js updated 3.6.4 to solve vimeo video issue
+* css fixes
+* Using cocoen js for image reveal
+* conflicts resolved with singleprofile
+* messages error fix
+* scratch occure on diffrent image fixed
+* scratch card css fixed
+* editor fixes for html
+* editor html check added
+* shortcode closing tag fixed
+* scratch-card initialized
+* 1.5.3.6
+* mediamodal inline should show only images to embed
+* login firebase error
+* 1.5.3.5
+* editor build
+* warning message fix
+* raw check editor
+* logout event different and before logout to capture things
+* one session online setting added
+* merge error fixed
+* check online status one session online setting
+* pdf handle in editor
+* s3
+* admin panel unit support added in editor
+* flashcard image css fixed
+* youtube vimeo svg fixed
+* youtube and vimeo embed added
+* flashcard css fixed
+* css fixed
+* update content fixed
+* background image and editor added
+* flash-card create added
+* check online status one session online setting
+* php8 fixes
+* pdf handle in editor
+* s3
+* editor fixes for s3
+* fix tooltip for end
+* revert previous commit and scope to root settings vibebp
+* login.js loading even when global login is not enabled
+* PHP 8 warning fix
+* php8 warning
+* gitigonore
+* 1.5.3.4
+* 1.5.3.3
+* editor fixes cant type fix
+* 1.5.3.1
+* editor text not appearing issue fix
+* check for login text
+* check empty member type
+* Divi showing shortcodes
+* 1.5.3
+* 1.5.3
+* is_singular unit check
+* syntax error fix
+* translations updated
+* 1.5.2
+* profile completion wizard
+* login build
+* bp admin navigation fix
+* signin email tripple dot issue
+* add widget id as class to uniquely identify
+* chat option should not be visible to youself
+* profile build file
+* enable disable notification
+* profile completeness
+* offline status in button
+* build
+* enter key to post message
+* chat not triggering in profiles
+* remove admin notice
+* only remove content from quiz and units
+* onboarding
+* service worker hook to write custom code
+* multiselect field in profile edit
+* 1.5.1
+* service worker font files issue fix
+* notices
+* wpml bug we’re fixing
+* profile field edit save display fixes
+* html process in menu
+* send notification to administrator when account registered via social login
+* min-height removed
+* sidebar class check in profile
+* portrait added in sw
+* app builder video
+* 1.5.0.3
+* media not loading in editor
+* Editor content resolve in js
+* wpml ready
+* setting for precache file not saving fix
+* 1.5.0.2
+* profile grid
+* tabs
+* adde vibeblog in adodns
+* 1.5.0.1
+* editor tabs space converted into p tag bug
+* enable gutnberg in profile and cards
+* updated translations
+* 1.5
+* firebase auth user
+* firebase current User record
+* pass error message from wordpress
+* margi top in case of admin-bar
+*  attachment data get in complete stream
+* Refresh token
+* editor fixes
+* validate token from function
+* loggedin profile in no wplms
+* sub tab value
+* blocks rebuild
+* migration of vibebp member type group type to buddypress
+* groups block done
+* actions , bp avatar ,  groups member
+* friends and user data
+* wp sync not working fix
+* field block
+* field block and avatar blocks
+* got blocks starting on bulma with css errors
+* dependancies
+* 1.4.9.2
+* dashboard version removed
+* portal for login wrapper
+* highlight color added
+* register login scripts
+* 1.4.9.1
+* fixes
+* translations
+* multi-editor fix
+* images & media working in editor
+* save tempalte button hide on recursive editor
+* remove on confirmation
+* delte activity fix
+* editor changes
+* fixes
+* toolbarxs
+* editor
+* more fixes attempted
+* editor changes
+* editor fixes
+* 1
+* editor
+* French and Spanish translations
+* Current Editor check
+* orders timelines
+* orders fixed
+* translations updated
+* 1.4.9
+* media to support third party
+* editor fixes
+* profile fixes
+* bulk delete notifications
+* login fixes
+* Leave group
+* RTL fixes
+* edit s3 embed fix
+* PWA icon missing fix
+* remove markdown from editor
+* service worker not loading fonts.
+* 1.4.8
+* 1.4.8
+* Save content tempalte init
+* fixes
+* editor fixes
+* Math in Editor
+* code blocks
+* Math fixes in editor
+* editor fixes
+* Icons missing fix
+* session storage for BP Single page
+* fixes
+* setting in elementor to load popup js
+* css changes
+* 1.4.7.1
+* group invitations
+* Email label missing in login
+* check url
+* 1.4.7
+* correct sidebar for students & Admins
+* vibebp sidebar only if active
+* enable registration fields
+* single groups
+* notice on BP singlepage
+* warning notice fix on bop single page
+* init
+* Revert "media support added"
+* media support added
+* remove single member view script
+* member profile view
+* minified scripts
+* 1.4.6
+* function added
+* actions file fixed
+* fallback layout query added
+* Group creation issues fixed
+* group to support requests
+* member actions fixed
+* group button action triggers
+* Join and leave buttons for groups
+* Switches added
+* stop request from running multiple times.
+* group actions fix
+* live notifications not removing bug.
+* 1.4.5
+* redundant setting came again
+* build files
+* minor fixes
+* reload_nav also on single page
+* build files
+* changes
+* console removed
+* parse error handled
+* saving  to db from raw
+* video plugin to be use
+* plyr update
+* bp single page login
+* sync logins
+* build files
+* changes
+* console removed
+* fixed
+* error fixed
+* functions fixed
+* saving  to db from raw
+* notes fixed
+* video plugin to be use
+* styling fixes
+* login fixes
+* api call getting redirected by pmpro fix
+* removed warning message
+* version 1.4.5
+* group actions
+* group_button
+* groups data - group butto
+* group layout not saving
+* groups desc fix
+* changes
+* array check added
+* warning fix
+* build files
+* colors
+* 1.4.3
+* Login by username added
+* Administrator Widgets
+* Enqueu chatJs default
+* Administrator Widgets
+* shift profile specific scripts to profile area
+* minify js code
+* send message in card fixes
+* sales stats added
+* total sales and payment count query added
+* sales widget initialized
+* dynamic filed can be added
+* users report widget added
+* users reports widget initialized
+* server-stats widget added
+* widget showing on dashboard
+* class.widgets.php added for multiple widget
+* server-stats widget initialized
+* updated translation files
+* message box css added
+* flicker issue in profile menu with expanded menu
+* 1.4.3
+* time_since resolved
+* show default login via Email option
+* set player colors
+* trigger when all members loaded in the directory
+* email login first screen
+* RTL support for elegance
+* load login menu once
+* trigger chat handle
+* Trigger live chat option added
+* fixed login issues
+* Actions in VibeBP Members
+* country field in registration form
+* empty check
+* date field fix
+* trim unused caps to reduce token size
+* 1.4.2
+* Notifications fixed
+* PWA icon issue not appearing
+* Android app support
+* 1.4.1.1
+* manifest color and icons
+* login bug fix
+* update translations
+* select color aschemes
+* PWA generate_apps
+* fix for admin referrer in setup wizard
+* manifest moved to site root
+* version 1.4
+* bettter error messages
+* Mobile app builder code
+* css profile fixes
+* css fixes in dark mode
+* editor fixes
+* filter on nav
+* notes fixed
+* styling fixes
+* color fixes dark mode
+* icons support for elengance
+* build
+* export fixed and build file added
+* export data api initialized
+* Group forum bug fix
+* better hide sidebar
+* group forums
+* Fatal bug resolved in Editor
+* Porilfe layout and cards resetting when elementor saved
+* dark style colors not applying
+* Default dark style
+* Math in EDitor and Image resizing
+* permanenet expanded menu
+* woocommerce order in dark menu
+* filter change
+* filter for adding more profile data
+* math in editor
+* RTL Firebase
+* login css
+* add theme style on profile
+* Max timeout on login verification to avoid … issue
+* warning on login and registration checkbox
+* registration checkbox bug
+* vibebp carousel
+* VibeBP Grid
+* Elegance theme
+* Generate toekn function
+* check user_caps
+* vibebp theme style
+* dark mode and other icons added
+* warning message on dashboard
+* stop query logic added
+* 1.3.1
+* wait for user loaded to trigger for firebase
+* live notifications tab in firebase not working
+* logged in menu call only once
+* loader in groups
+* enqueu live after login file
+* group creation fixed
+* notification messages not appearing
+* Notifications not working
+* Live not working fix
+* Token issue and uploading fix
+* group forums and member control
+* group id misisng in layout
+* member card showing other user info fix
+* checkbox field filter fix in members directory
+* wp_filter_no_html_kses to wp_filter_nohtml_kses fix
+* removing console
+* price of addons
+* fixed
+* 1.3
+* icon issue resolved in PWA
+* login to support html
+* chat tab fix
+* card option added
+* addons added
+* icon fix
+* HTML in login heading. Add your site logo in login
+* pagination reset on fillter pplied
+* Member and Group cards supported
+* member type and group type cards
+* group card request
+* Custom Profile layouts for Members
+* show only fields which are assigned to member type
+* levels age issue fix
+* search columns should include display_name as well
+* change user_nicename to email to support cryllic characters
+* provision for first load added but not active.
+* search in groups
+* mobile field for phone auth
+* some css fixes
+* 1.2.1
+* member type dashboard
+* profile field block showing all content
+* 1.2.0
+* login redirect working
+* Usermenu bug fixed
+* fallback for transients as security plugins remove transients.
+* dashboard widget css fixes
+* shop orders showing all orders
+* Site activity filter for adminstrator
+* click on toggle not working resolve
+* directories in PRofile area
+* user not registered then no token return
+* directories in PWA
+* firebase live conditional
+* add menu for not-defined items
+* menuID incorrect passed
+* phone auth provision
+* merge fixes
+* fixes in live chat
+* disbale live on site front end fix
+* live chat working
+* missing coln
+* profile based menu
+* live chat fixes
+* sessionStorage now saved user login status
+* 1.1.9
+* Updated Translations
+* Login and registration checkboxes added
+* Login terms and Registration terms
+* Social Login validate via firebase token
+* social login fix
+* social login security
+* recapture firebase public key every 15 minutes.
+* Login now sends firebase ID Token for validation
+* JWT validation
+* send idToken for firebase validation
+* acces token verify
+* updates on admin_init
+* retain formatting
+* removed not required code
+* on open chat setmessage to blank
+* timer component fixed
+* custom event added
+* Expadn token is now a function to be used in plugins.
+* Last activity time not properrly recorded in buddypress for user.
+* Setting Token issue fix
+* issue on accept not working
+* console removed
+* 1.1.8
+* external link support in menus add external_link class
+* jquery ajax removed to xhr
+* login without reload
+* external link support in profile and menu, external_link class on menu item
+* multiple time firebase query run fixe
+* exit add new chat fixed
+* expertise added in samepl data improt
+* 1.1.7
+* translation files updated
+* build files
+* group name not appearing in search
+* tablet width fix
+* color fixes.
+* fixes
+* repeatable field type
+* elementor styles not appluing in member profile
+* some check if firebase return unexpected data
+* changelog
+* removed force logout
+* 1.1.6
+* notification fixed on accept
+* password not setting issue fix
+* 1.1.5
+* avoided invite if already member
+* filter in attachments
+* trigger login from outside
+* tus upload issue
+* media modal pagination oissue
+* fixed issue with notification
+* mark all read fixed with status  = 1
+* invited issue fixed
+* signin working.
+* notification bug fixed
+* Activate user fix
+* var added in XHR request
+* var missing in XHR
+* error message not showing at registration
+* 1.1.4
+* button fix
+* 1.1.3
+* button colors fix
+* pot files updated
+* wplms  to vibebp
+* fixes
+* tab open fixed,debugger remove ,online members undefined issue fixed
+* token keyword set to token again.
+* changelog
+* 1.1.1
+* translations updated
+* force remove default views
+* completed
+* default logout
+* pmpro memberships
+* login via enter key press
+* settings js
+* force logout from wordpress
+* changes logout trigger added
+* class exists check
+* styling fixes
+* text shadow removed
+* icon font overwrite issue fixed
+* email template file fix for emails not working
+* course avatar aupport added
+* pmpro check added
+* fixes
+* empty nav warning
+* supported end points for woocommerce in bp
+* flex1 removed from vicon in login
+* automatically enabled left isdebr minimise on mobile
+* stop propagation
+* force login on pmpro pages
+* pmpro profile
+* group create not showing fix
+* updated pot
+* edit media momdal close fix
+* Refresh BuddyPress Nav added
+* key from wplms_purchase code
+* fixes in live
+* open filters by default
+* set guid for page
+* notice fixes
+* 1.1
+* upadted styling
+* check if members directory is already imported
+* login terms
+* cursor pointer
+* hide panel
+* scroll in chat online mebers
+* hook for registered members
+* memebrs directory and last child in mobile screen
+* custom payment gateway conflict
+* groups restrictions added
+* styling fixes
+* signin added
+* groups tabs
+* removing from localized data
+* forgot pwd email bug
+* translations updated
+* 1.007
+* minified scripts
+* brand icons provision
+* add active component class on body
+* email exists check & user can
+* transparent header fix
+* brand icons
+* woocommerce auto login
+* change group tabs conditional hanlding
+* Option for multiple profiles and Group layouts
+* gorup tabs with group id and user id to check capability
+* chat menu fix
+* fix
+* trigger login from evnet
+* forgot password email tempalte
+* remove redundant files
+* 1.006
+* login should trigger on all classes
+* better arrows for minimise detection
+* bp_is_active check
+* directories pagaination refined
+* force localforage enqueue in login.js
+* disable transform as it adds flicker
+* removed old changelog.log
+* editor inline css
+* 1.005
+* packed
+* translations
+* styling fixes
+* mobile sticky bottom menu
+* overlapping buttons
+* draftjs editor controls z-index issue
+* social login security check for cached pages.
+* bug fix, for reload_nav
+* saving transient correctly
+* enable registration options
+* plyr ref added
+* On add close modal added
+* video,audio fixed,embed added
+* translations
+* 1.004
+* udpated pot
+* add filter in profile field saving
+* client id instead of security key
+* 1.003
+* bug fixes
+* visibility and email settings fixed
+* translations
+* 1.002
+* better reload nav handling
+* enable registration options
+* login fixes
+* warning fix
+* fix
+* 1.01
+* hide title
+* login heading and message
+* version should not apply on fonts
+* multisite fix
+* sw fix
+* notice fixes
+* notices fixes
+* minified scripts
+* translations updated
+* version1.0
+* autoupdate complete
+* rtl header z index issue fix
+* font end buttons
+* overflowvisible on pusher
+* default options
+* profile fixes
+* setup wizard typo fix
+* minified
+* translatiosn updated
+* profile and css compiled
+* function eixsts check
+* rtl mobile css
+* group card fix
+* do not set pages automatically for existing wplms
+* wizard completion
+* tougher security filter
+* members directory fixes
+* responsive fixes
+* notice fixes
+* translations
+* setup
+* mobile css changes
+* complete
+* setup wizard menu fix
+* setupwizard and more
+* fixes
+* profile
+* font css updated
+* wp login sync
+* switching between components
+* fixes
+* notices fix
+* version
+* rtl css 2
+* rtl css
+* chages
+* setup wizard
+* customizer colors
+* accessibility
+* service worker final
+* chat
+* setup wizard complete
+* service worker
+* fixes
+* fixes
+* black image fixed but preview not working
+* fixes
+* context
+* cropper attempt
+* star message fixed bulk actions added
+* vibebp_final
+* avatar and croppers
+* message fixes
+* message fixes
+* login sync
+* Login sync and Token duration
+* groups notifications activitiy issue fixes
+* message styling fixes
+* external upload
+* start unstar message added, activity labels removed
+* bug fixes
+* bug fixes
+* elementor field fixes
+* super bug
+* changes for finale
+* directories complete.
+* dashboard stackable.
+* elementor blocks
+* version
+* tus implemented
+* fixes
+* bug fixes
+* fixes
+* version
+* dashboard
+* finalise
+* signin loading
+* reset service worker
+* media stream
+* styling fixes
+* widget drag issue fix
+* token update
+* caps added in token
+* verify fbase keys
+* chat & colors
+* widgets width fixed
+* edit issue in question options and assignment
+* finalizing
+* cache busting in service worker
+* styling fixes
+* message fixes
+* notification s & messages css changes
+* styling fixes
+* style changes
+* new vars
+* profile avatar not from token from api
+* minified
+* edito complete
+* editor bugs
+* avatar image upload fix
+* editor fixes
+* manifest
+* working live chat
+* service worker path
+* working pwa
+* improvements in pwa
+* custom settings in profile settings
+* fixes in service worker
+* dynamic service worker
+* service worker
+* syntax error fixed
+* serup wizard react
+* service worker and manifest
+* splice issue fixed
+* form fixed
+* vibeform component used
+* debounce added in search
+* form fetching added
+* form shortcode initialized
+* backend settings
+* tab css issue
+* css fixed
+* tab css issue
+* tab initialized
+* accordion remove added
+* accordion added
+* accordion new section create added
+* accordion initialized
+* function for header part
+* console removed
+* style applied to editor
+* note added in editor
+* error  fixed
+* css changes
+* appearing modal
+* changes
+* shortocde
+* shortcodes
+* note modal initialized
+* add note button added
+* fixes
+* disabling mathjax temporarily
+* editor fix
+* installer
+* fixes
+* setup wizard init
+* sw
+* setup wizard init.
+* setup wizar dinit
+* manifest file
+* service worker
+* service worker
+* editor now supports single instance
+* realtime notificaitons now working
+* firebase notifications & groups
+* uploader
+* pickers
+* fixes
+* finalising version 1.0
+* login
+* change button
+* fixes
+* login options
+* finalised
+* dashboard fixes
+* batch by default removed
+* Tabs in groups
+* load firebase dynamically, avoid script overlap
+* login
+* shortcode
+* shortcodes
+* style changes in activity
+* modal css
+* inline editor
+* editor changes
+* math
+* d
+* editor
+* updated git ignore
+* css
+* forgot password and card creator
+* service worker cache and test
+* sw_enabled switch
+* enabled setting
+* remove post
+* labels code moved
+* service worker
+* friends and followers fixes
+* field fixes
+* messaging
+* restructuring
+* settings and multiselect
+* caps and roles added in vibebp
+* customizable dashboard with drag and drop and remove.
+* console log removed
+* registration
+* customizable dashboard with drag and drop and remove.
+* filter fixed
+* translations and login settings
+* groups activity fix
+* fixes
+* sla count function moved to help-desk
+* help desk code moved to help desk repo
+* save form fixed
+* labels creation form js added
+* assign label added in user page
+* label support added
+* helpdesk extracted
+* bbpress removed
+* extracted helpdesk into a new plugin
+* kb extracted into plugin
+* kb extracted
+* addons css in admin
+* agents dynamic labels added jquery
+* sla caculation for topic id function added
+* form fixed for tab
+* fix for get_object_vars is fetching empty value
+* profile grid css
+* styling fixes and finalizing
+* updated profile
+* sidebars with position sticky
+* updated css
+* state.data error.
+* wrapper added
+* elementor updated
+* onSubscribe calls bug fix
+* onsubscribe calls
+* infinite loggedinmenu calls fix
+* body selector
+* fb social login fixes
+* different login options
+* default login fixes
+* login fixes
+* firebase auth
+* no idtoken
+* Login update
+* login
+* updated config
+* git ignore
+* Calendar setting
+* styling bug fix
+* editor sass
+* initiating calendar
+* articles and wiki removed for testing
+* Restructuring 2
+* restructuring
+* bug fix in firebase modules
+* template_Stack fix
+* updated script paths
+* updated webpack and files
+* bp
+* KB & Editor
+* wiki/kb added
+* WC exists
+* article s & wiki
+* shop and wiki
+* BBPress in profile
+* BBPress forums
+* members map
+* member grid
+* vibebp live modules
+* api & chat
+* firebase login fixed
+* followers
+* firebase login
+* plguin description & other bugs
+* followers
+* followers init
+* following
+* bp followers and likes
+* vibebp member filters
+* Google maps location object
+* location & geocode
+* google maps api key
+* new custom profile fields.
+* profile data
+* buddypress profile data
+* profile loading for other users.
+* Profile data
+* restrucutre
+* groups and member directories
+* groups directory
+* member types and group types
+* elementor groups
+* profile avatar settings
+* directory & Filters in elementor
+* fixes in groups component and meta for custom blocks.
+* message attachments complete
+* post & avatar
+* vibebp profile builder
+* enable elementor for layouts
+* field_loaded event
+* edit profile
+* edit profile
+* profile - settings
+* friends actions
+* remove friend
+* Friends
+* message component CSS
+* group members
+* groups
+* groups members
+* controller & uploader
+* group-members
+* groups
+* groups
+* fullgroup
+* full group
+* uploader create group
+* group creation
+* new
+* new group
+* store changes
+* avatar uploader and cropper
+* group creation
+* new Group
+* groups
+* starting groups
+* add labels in messages
+* new message working
+* BuddyPRess messages nearing completion
+* full message
+* new message
+* css fixes
+* activities block
+* messages & filters
+* messages with search and searchbox
+* messages and notifications
+* notifications start
+* activity module
+* activity post
+* commiting
+* activity in final
+* removed bp_set_nav
+* activity module
+* profile and buddypress
+* MENU
+* login wtih redux
+* fix for html showing in profile field .
+* login and profile
+* buddypress template overrides
+* profile link
+* jwt authentication complete
+* Add to appointments api
+* public friends block
+* carousel script and default avatar image path changed
+* restructuring
+* layout and reg forms in settings
+* default bp blocks with typography controls
+* typography contols
+* added toolbar and typography controls over
+* icon changes and blocks removed
+* field style
+* gitignore
+* merging
+* some fixes
+* lastactive
+* include templates class
+* overridden buddypress templates
+* init
+* layouts gutenblocks
+* working with xprofile field
+* profile api initialized
+* email-notification setting api added
+* favorite activity pagination added
+* notification and activity api added
+* notification api initialized
+* message component api initialized
+* fetch group members api added
+* join and leave group api added
+* groups and members api using buddypress function
+* response and friend component added
+* buddypress api added
+* some fixes for messages
+* change log added
+* exception fixed
+* genrate and validation token api added
+* readme text file added
+* Plugin initialize

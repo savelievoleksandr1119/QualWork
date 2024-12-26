@@ -1,0 +1,598 @@
+[09-Nov-2024 18:07:51 UTC] PHP Warning:  Undefined property: stdClass::$domain in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibe-zoom/includes/class.init.php on line 105
+[09-Nov-2024 18:07:51 UTC] PHP Warning:  Undefined property: stdClass::$domain in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibe-zoom/includes/class.init.php on line 114
+[09-Nov-2024 18:07:51 UTC] PHP Warning:  Undefined property: stdClass::$domain in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibe-zoom/includes/class.init.php on line 124
+[09-Nov-2024 18:08:03 UTC] PHP Warning:  Undefined property: stdClass::$domain in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibe-zoom/includes/class.init.php on line 105
+[09-Nov-2024 18:08:03 UTC] PHP Warning:  Undefined property: stdClass::$domain in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibe-zoom/includes/class.init.php on line 114
+[09-Nov-2024 18:08:03 UTC] PHP Warning:  Undefined property: stdClass::$domain in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibe-zoom/includes/class.init.php on line 124
+[09-Nov-2024 18:36:00 UTC] PHP Fatal error:  Uncaught TypeError: intval(): Argument #2 ($base) must be of type int, WP_Customize_Setting given in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): intval('4', Object(WP_Customize_Setting))
+#1 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('4', Array)
+#2 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', '4', Object(WP_Customize_Setting))
+#3 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2381): WP_Customize_Setting->sanitize('4')
+#4 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2786): WP_Customize_Manager->validate_setting_values(Array, Array)
+#5 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2530): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->save('')
+#7 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_customi...')
+#10 {main}
+  thrown in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php on line 324
+[09-Nov-2024 18:36:05 UTC] PHP Fatal error:  Uncaught TypeError: intval(): Argument #2 ($base) must be of type int, WP_Customize_Setting given in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): intval('4-20', Object(WP_Customize_Setting))
+#1 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('4-20', Array)
+#2 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', '4-20', Object(WP_Customize_Setting))
+#3 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2381): WP_Customize_Setting->sanitize('4-20')
+#4 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2786): WP_Customize_Manager->validate_setting_values(Array, Array)
+#5 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2530): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->save('')
+#7 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_customi...')
+#10 {main}
+  thrown in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php on line 324
+[09-Nov-2024 18:36:18 UTC] PHP Fatal error:  Uncaught TypeError: intval(): Argument #2 ($base) must be of type int, WP_Customize_Setting given in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): intval('', Object(WP_Customize_Setting))
+#1 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#2 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', '', Object(WP_Customize_Setting))
+#3 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2381): WP_Customize_Setting->sanitize('')
+#4 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2786): WP_Customize_Manager->validate_setting_values(Array, Array)
+#5 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2530): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->save('')
+#7 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_customi...')
+#10 {main}
+  thrown in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php on line 324
+[09-Nov-2024 18:36:22 UTC] PHP Fatal error:  Uncaught TypeError: intval(): Argument #2 ($base) must be of type int, WP_Customize_Setting given in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): intval('', Object(WP_Customize_Setting))
+#1 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#2 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', '', Object(WP_Customize_Setting))
+#3 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(1847): WP_Customize_Setting->sanitize('')
+#4 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#6 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(951): WP_Customize_Setting->preview()
+#7 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#8 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-settings.php(722): do_action('wp_loaded')
+#11 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-config.php(103): require_once('/Users/oleksand...')
+#12 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-load.php(50): require_once('/Users/oleksand...')
+#13 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/oleksand...')
+#14 {main}
+  thrown in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php on line 324
+[09-Nov-2024 18:36:26 UTC] PHP Fatal error:  Uncaught TypeError: intval(): Argument #2 ($base) must be of type int, WP_Customize_Setting given in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): intval('', Object(WP_Customize_Setting))
+#1 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#2 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', '', Object(WP_Customize_Setting))
+#3 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2381): WP_Customize_Setting->sanitize('')
+#4 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2786): WP_Customize_Manager->validate_setting_values(Array, Array)
+#5 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2530): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->save('')
+#7 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_customi...')
+#10 {main}
+  thrown in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php on line 324
+[09-Nov-2024 18:37:04 UTC] PHP Fatal error:  Uncaught TypeError: intval(): Argument #2 ($base) must be of type int, WP_Customize_Setting given in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): intval('', Object(WP_Customize_Setting))
+#1 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#2 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', '', Object(WP_Customize_Setting))
+#3 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2381): WP_Customize_Setting->sanitize('')
+#4 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2786): WP_Customize_Manager->validate_setting_values(Array, Array)
+#5 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2530): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->save('')
+#7 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_customi...')
+#10 {main}
+  thrown in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php on line 324
+[09-Nov-2024 18:37:24 UTC] PHP Fatal error:  Uncaught TypeError: intval(): Argument #2 ($base) must be of type int, WP_Customize_Setting given in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): intval('', Object(WP_Customize_Setting))
+#1 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#2 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', '', Object(WP_Customize_Setting))
+#3 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(1847): WP_Customize_Setting->sanitize('')
+#4 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#6 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(951): WP_Customize_Setting->preview()
+#7 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#8 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-settings.php(722): do_action('wp_loaded')
+#11 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-config.php(103): require_once('/Users/oleksand...')
+#12 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-load.php(50): require_once('/Users/oleksand...')
+#13 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-blog-header.php(13): require_once('/Users/oleksand...')
+#14 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/index.php(17): require('/Users/oleksand...')
+#15 {main}
+  thrown in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php on line 324
+[09-Nov-2024 18:37:26 UTC] PHP Fatal error:  Uncaught TypeError: intval(): Argument #2 ($base) must be of type int, WP_Customize_Setting given in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): intval('', Object(WP_Customize_Setting))
+#1 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#2 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', '', Object(WP_Customize_Setting))
+#3 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2381): WP_Customize_Setting->sanitize('')
+#4 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2786): WP_Customize_Manager->validate_setting_values(Array, Array)
+#5 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2530): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->save('')
+#7 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_customi...')
+#10 {main}
+  thrown in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php on line 324
+[09-Nov-2024 18:37:28 UTC] PHP Fatal error:  Uncaught TypeError: intval(): Argument #2 ($base) must be of type int, WP_Customize_Setting given in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): intval('', Object(WP_Customize_Setting))
+#1 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#2 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', '', Object(WP_Customize_Setting))
+#3 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(1847): WP_Customize_Setting->sanitize('')
+#4 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#6 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(951): WP_Customize_Setting->preview()
+#7 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#8 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-settings.php(722): do_action('wp_loaded')
+#11 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-config.php(103): require_once('/Users/oleksand...')
+#12 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-load.php(50): require_once('/Users/oleksand...')
+#13 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-blog-header.php(13): require_once('/Users/oleksand...')
+#14 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/index.php(17): require('/Users/oleksand...')
+#15 {main}
+  thrown in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php on line 324
+[09-Nov-2024 18:37:41 UTC] PHP Fatal error:  Uncaught TypeError: intval(): Argument #2 ($base) must be of type int, WP_Customize_Setting given in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): intval('', Object(WP_Customize_Setting))
+#1 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#2 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', '', Object(WP_Customize_Setting))
+#3 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(1847): WP_Customize_Setting->sanitize('')
+#4 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#6 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(951): WP_Customize_Setting->preview()
+#7 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#8 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-settings.php(722): do_action('wp_loaded')
+#11 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-config.php(103): require_once('/Users/oleksand...')
+#12 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-load.php(50): require_once('/Users/oleksand...')
+#13 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-blog-header.php(13): require_once('/Users/oleksand...')
+#14 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/index.php(17): require('/Users/oleksand...')
+#15 {main}
+  thrown in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php on line 324
+[09-Nov-2024 18:37:47 UTC] PHP Fatal error:  Uncaught TypeError: intval(): Argument #2 ($base) must be of type int, WP_Customize_Setting given in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): intval('', Object(WP_Customize_Setting))
+#1 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#2 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', '', Object(WP_Customize_Setting))
+#3 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(1847): WP_Customize_Setting->sanitize('')
+#4 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#6 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(951): WP_Customize_Setting->preview()
+#7 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#8 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-settings.php(722): do_action('wp_loaded')
+#11 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-config.php(103): require_once('/Users/oleksand...')
+#12 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-load.php(50): require_once('/Users/oleksand...')
+#13 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-blog-header.php(13): require_once('/Users/oleksand...')
+#14 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/index.php(17): require('/Users/oleksand...')
+#15 {main}
+  thrown in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php on line 324
+[09-Nov-2024 18:37:58 UTC] PHP Fatal error:  Uncaught TypeError: intval(): Argument #2 ($base) must be of type int, WP_Customize_Setting given in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): intval('', Object(WP_Customize_Setting))
+#1 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#2 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', '', Object(WP_Customize_Setting))
+#3 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2381): WP_Customize_Setting->sanitize('')
+#4 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2786): WP_Customize_Manager->validate_setting_values(Array, Array)
+#5 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(2530): WP_Customize_Manager->save_changeset_post(Array)
+#6 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->save('')
+#7 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_customi...')
+#10 {main}
+  thrown in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php on line 324
+[09-Nov-2024 18:38:00 UTC] PHP Fatal error:  Uncaught TypeError: intval(): Argument #2 ($base) must be of type int, WP_Customize_Setting given in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): intval('', Object(WP_Customize_Setting))
+#1 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#2 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', '', Object(WP_Customize_Setting))
+#3 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(1847): WP_Customize_Setting->sanitize('')
+#4 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#6 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(951): WP_Customize_Setting->preview()
+#7 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#8 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-settings.php(722): do_action('wp_loaded')
+#11 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-config.php(103): require_once('/Users/oleksand...')
+#12 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-load.php(50): require_once('/Users/oleksand...')
+#13 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-blog-header.php(13): require_once('/Users/oleksand...')
+#14 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/index.php(17): require('/Users/oleksand...')
+#15 {main}
+  thrown in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php on line 324
+[09-Nov-2024 18:38:03 UTC] PHP Fatal error:  Uncaught TypeError: intval(): Argument #2 ($base) must be of type int, WP_Customize_Setting given in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): intval('', Object(WP_Customize_Setting))
+#1 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#2 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', '', Object(WP_Customize_Setting))
+#3 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(1847): WP_Customize_Setting->sanitize('')
+#4 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#6 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(951): WP_Customize_Setting->preview()
+#7 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#8 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-settings.php(722): do_action('wp_loaded')
+#11 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-config.php(103): require_once('/Users/oleksand...')
+#12 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-load.php(50): require_once('/Users/oleksand...')
+#13 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-blog-header.php(13): require_once('/Users/oleksand...')
+#14 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/index.php(17): require('/Users/oleksand...')
+#15 {main}
+  thrown in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php on line 324
+[09-Nov-2024 18:38:06 UTC] PHP Fatal error:  Uncaught TypeError: intval(): Argument #2 ($base) must be of type int, WP_Customize_Setting given in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): intval('', Object(WP_Customize_Setting))
+#1 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#2 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(576): apply_filters('customize_sanit...', '', Object(WP_Customize_Setting))
+#3 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(1847): WP_Customize_Setting->sanitize('')
+#4 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(555): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-setting.php(340): WP_Customize_Setting->post_value(Object(stdClass))
+#6 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-customize-manager.php(951): WP_Customize_Setting->preview()
+#7 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#8 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-settings.php(722): do_action('wp_loaded')
+#11 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-config.php(103): require_once('/Users/oleksand...')
+#12 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-load.php(50): require_once('/Users/oleksand...')
+#13 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-blog-header.php(13): require_once('/Users/oleksand...')
+#14 /Users/oleksandrsaveliev/Local Sites/micronet/app/public/index.php(17): require('/Users/oleksand...')
+#15 {main}
+  thrown in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-includes/class-wp-hook.php on line 324
+[09-Nov-2024 18:40:52 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4 for query 
+                    SELECT post_id
+                    FROM  wp_postmeta 
+                    WHERE meta_key = 'vibe_card_project' 
+                    AND meta_value = 270 AND post_id NOT IN ()
+                     made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Boards_API->get_full_board
+[09-Nov-2024 18:45:53 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[09-Nov-2024 18:45:53 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Nov-2024 18:45:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Nov-2024 18:46:04 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[09-Nov-2024 18:46:04 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Nov-2024 18:46:04 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Nov-2024 18:46:08 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[09-Nov-2024 18:46:08 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Nov-2024 18:46:08 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Nov-2024 18:46:16 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[09-Nov-2024 18:46:16 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Nov-2024 18:46:16 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Nov-2024 18:53:05 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[09-Nov-2024 18:53:05 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[09-Nov-2024 18:53:15 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[09-Nov-2024 18:53:15 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[09-Nov-2024 18:53:43 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[09-Nov-2024 18:53:43 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Nov-2024 18:53:43 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Nov-2024 18:53:49 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[09-Nov-2024 18:53:49 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Nov-2024 18:53:49 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Nov-2024 18:54:31 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[09-Nov-2024 18:54:31 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Nov-2024 18:54:31 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Nov-2024 18:54:33 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[09-Nov-2024 18:54:33 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Nov-2024 18:54:33 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Nov-2024 18:56:22 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4 for query 
+                    SELECT post_id
+                    FROM  wp_postmeta 
+                    WHERE meta_key = 'vibe_card_project' 
+                    AND meta_value = 60 AND post_id NOT IN ()
+                     made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Boards_API->get_full_board
+[09-Nov-2024 18:57:38 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[09-Nov-2024 18:57:38 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[09-Nov-2024 19:26:53 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[09-Nov-2024 19:26:53 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[09-Nov-2024 19:27:06 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[09-Nov-2024 19:27:06 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[10-Nov-2024 00:20:16 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[10-Nov-2024 00:25:12 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[10-Nov-2024 00:25:12 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[15-Nov-2024 17:21:21 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[15-Nov-2024 17:21:21 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:21:21 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:21:47 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[15-Nov-2024 17:21:47 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:21:47 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:24:12 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[15-Nov-2024 17:24:12 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:24:12 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:25:28 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4 for query 
+                    SELECT post_id
+                    FROM  wp_postmeta 
+                    WHERE meta_key = 'vibe_card_project' 
+                    AND meta_value = 293 AND post_id NOT IN ()
+                     made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Boards_API->get_full_board
+[15-Nov-2024 17:29:35 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 293 AND m.meta_value = 293 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[15-Nov-2024 17:29:35 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 293 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:29:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 293 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:29:54 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 293 AND m.meta_value = 293 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[15-Nov-2024 17:29:54 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 293 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:29:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 293 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:30:08 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[15-Nov-2024 17:30:08 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:30:08 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:30:26 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[15-Nov-2024 17:30:26 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:30:26 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:30:44 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[15-Nov-2024 17:30:44 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:30:44 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:31:29 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[15-Nov-2024 17:31:29 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:31:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:32:52 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[15-Nov-2024 17:32:52 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:32:52 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:32:58 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 293 AND m.meta_value = 293 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[15-Nov-2024 17:32:58 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 293 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:32:58 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 293 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:38:08 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[15-Nov-2024 17:38:08 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:38:08 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:39:10 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[15-Nov-2024 17:39:10 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 17:39:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 21:53:50 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 293 AND m.meta_value = 293 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[15-Nov-2024 21:53:50 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 293 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 21:53:50 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 293 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 21:54:49 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[15-Nov-2024 21:54:49 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 21:54:49 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 21:55:13 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[15-Nov-2024 21:55:13 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[15-Nov-2024 21:55:13 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[17-Nov-2024 22:23:34 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[17-Nov-2024 22:23:41 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[17-Nov-2024 22:23:41 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[17-Nov-2024 22:23:41 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[17-Nov-2024 22:23:43 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[17-Nov-2024 22:23:43 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[17-Nov-2024 22:23:43 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[17-Nov-2024 22:24:27 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 293 AND m.meta_value = 293 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[17-Nov-2024 22:24:27 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 293 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[17-Nov-2024 22:24:27 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 293 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[28-Nov-2024 17:45:50 UTC] WordPress database error Unknown column 'm1.meta_vaue' in 'where clause' for query 
+		SELECT m.post_id
+		FROM  wp_postmeta as m LEFT JOIN wp_postmeta as m1 ON m.post_id = m1.post_id
+		WHERE m.meta_key = 'vibe_card_complete' AND m1.meta_vaue = 'vibe_card_project' AND m1.meta_value = 270 AND m.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_progress, vibe_projects_get_completed_cards
+[28-Nov-2024 17:45:50 UTC] WordPress database error Unknown column 'm1.meta_value' in 'where clause' for query 
+                SELECT post_id
+                FROM wp_postmeta
+                WHERE meta_key = 'vibe_card_project' 
+                AND m1.meta_value = 270 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[28-Nov-2024 17:45:50 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND type = 'card_completed' at line 1 for query SELECT secondary_item_id as card_id,date_recorded FROM wp_bp_activity WHERE component = 'vibe_projects' AND item_id = 270 AND secondary_item_id IN () AND type = 'card_completed made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Projects_Reports_API->task_report, Vibe_Projects_Reports_API->get_cards_time
+[09-Dec-2024 11:24:34 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[09-Dec-2024 11:24:34 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[09-Dec-2024 11:26:47 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[09-Dec-2024 11:26:47 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[09-Dec-2024 13:06:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4 for query 
+                    SELECT post_id
+                    FROM  wp_postmeta 
+                    WHERE meta_key = 'vibe_card_project' 
+                    AND meta_value = 270 AND post_id NOT IN ()
+                     made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Boards_API->get_full_board
+[09-Dec-2024 13:06:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4 for query 
+                    SELECT post_id
+                    FROM  wp_postmeta 
+                    WHERE meta_key = 'vibe_card_project' 
+                    AND meta_value = 270 AND post_id NOT IN ()
+                     made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Boards_API->get_full_board
+[09-Dec-2024 13:06:47 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4 for query 
+                    SELECT post_id
+                    FROM  wp_postmeta 
+                    WHERE meta_key = 'vibe_card_project' 
+                    AND meta_value = 270 AND post_id NOT IN ()
+                     made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Boards_API->get_full_board
+[09-Dec-2024 13:23:33 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[09-Dec-2024 13:23:33 UTC] PHP Warning:  Undefined array key "text_color" in /Users/oleksandrsaveliev/Local Sites/micronet/app/public/wp-content/plugins/vibebp/includes/elementor/profile/field.php on line 195
+[10-Dec-2024 12:30:30 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[11-Dec-2024 13:23:16 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4 for query 
+                    SELECT post_id
+                    FROM  wp_postmeta 
+                    WHERE meta_key = 'vibe_card_project' 
+                    AND meta_value = 293 AND post_id NOT IN ()
+                     made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, Vibe_Boards_API->get_full_board

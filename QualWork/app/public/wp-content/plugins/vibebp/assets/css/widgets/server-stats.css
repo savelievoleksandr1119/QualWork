@@ -1,0 +1,7 @@
+.server_stats_widget .server_stats_data > div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--border);
+  margin-bottom: 5px;
+  padding: 5px; }
+
